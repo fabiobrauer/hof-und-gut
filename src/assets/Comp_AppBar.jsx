@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import PositionedMenu from './Comp_Menu';
 import { Link } from 'react-router-dom';
 import CustomizedMenus from './Comp_Menu2';
 
@@ -39,8 +38,7 @@ export default function ProminentAppBar() {
             aria-label="open drawer"
             sx={{ mr: 2 }}
           >
-            <PositionedMenu></PositionedMenu>
-
+            <CustomizedMenus></CustomizedMenus>
 
           </IconButton> 
         </StyledToolbar>

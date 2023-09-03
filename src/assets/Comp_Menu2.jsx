@@ -3,12 +3,9 @@ import { styled, alpha } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import EditIcon from '@mui/icons-material/Edit';
-import Divider from '@mui/material/Divider';
-import ArchiveIcon from '@mui/icons-material/Archive';
-import FileCopyIcon from '@mui/icons-material/FileCopy';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import { Link } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
+import './Comp_Menu.css'
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -21,6 +18,7 @@ const StyledMenu = styled((props) => (
       vertical: 'top',
       horizontal: 'right',
     }}
+ 
     {...props}
   />
 ))(({ theme }) => ({
@@ -28,8 +26,9 @@ const StyledMenu = styled((props) => (
     borderRadius: 6,
     marginTop: theme.spacing(1),
     minWidth: 180,
+    backgroundColor:'rgb(80, 140, 103)',
     color:
-      theme.palette.mode === 'dark' ? 'rgb(55, 255, 81)' : theme.palette.grey[300],
+      theme.palette.mode === 'light' ? 'rgb(55, 65, 81)' : theme.palette.grey[300],
     boxShadow:
       'rgb(255, 255, 255) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
     '& .MuiMenu-list': {
@@ -43,8 +42,8 @@ const StyledMenu = styled((props) => (
       },
       '&:active': {
         backgroundColor: alpha(
-          theme.palette.primary.dark,
-          theme.palette.action.selectedOpacity, 
+          theme.palette.primary.main,
+          theme.palette.action.selectedOpacity,
         ),
       },
     },
@@ -71,9 +70,8 @@ export default function CustomizedMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        endIcon={<KeyboardArrowDownIcon />}
       >
-        Options
+        <MenuIcon sx={{fontSize: "5em", color: 'white'}} />
       </Button>
       <StyledMenu
         id="demo-customized-menu"
@@ -84,23 +82,18 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose} disableRipple>
-          <EditIcon />
-          Edit
-        </MenuItem>
-        <MenuItem onClick={handleClose} disableRipple>
-          <FileCopyIcon />
-          Duplicate
-        </MenuItem>
-        <Divider sx={{ my: 0.5 }} />
-        <MenuItem onClick={handleClose} disableRipple>
-          <ArchiveIcon />
-          Archive
-        </MenuItem>
-        <MenuItem onClick={handleClose} disableRipple>
-          <MoreHorizIcon />
-          More
-        </MenuItem>
+        <Link to={'/'} className='Link'><MenuItem onClick={handleClose} >Homepage</MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} >Kontakt / Anfahrt</MenuItem></Link>
+        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
+        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} >Links</MenuItem></Link>
+        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >ÖkologischeLandwirtschaft</MenuItem></Link>
+        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} >Presse</MenuItem></Link>
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} >Reiten</MenuItem></Link>
+        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} >Speisen Am Hof</MenuItem></Link>
+        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} >Übernachten Am Hof</MenuItem></Link>
+        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} >Stellenangebote</MenuItem></Link>
+        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} >Teamtraining Und Firmenevents</MenuItem></Link>
+        <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} >Veranstaltungen Kunst & Kultur</MenuItem></Link>
       </StyledMenu>
     </div>
   );
