@@ -5,6 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import './Comp_Menu.css'
+import styled from '@emotion/styled';
 
 
 
@@ -43,20 +44,22 @@ export default function PositionedMenu() {
           vertical: 'top',
           horizontal: 'left',
         }}
+        sx={{backgroundColor:'transparent'}}
+        
 
       >
-        <Link to={'/'} className='Link'><MenuItem onClick={handleClose} >Homepage</MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose}>Kontakt / Anfahrt</MenuItem></Link>
-        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose}>Gebäude</MenuItem></Link>
-        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose}>Links</MenuItem></Link>
-        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose}>ÖkologischeLandwirtschaft</MenuItem></Link>
-        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose}>Presse</MenuItem></Link>
-        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose}>Reiten</MenuItem></Link>
-        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose}>Speisen Am Hof</MenuItem></Link>
-        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose}>Übernachten Am Hof</MenuItem></Link>
-        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose}>Stellenangebote</MenuItem></Link>
-        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose}>Teamtraining Und Firmenevents</MenuItem></Link>
-        <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose}>Veranstaltungen Kunst & Kultur</MenuItem></Link>
+        <Link to={'/'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Homepage</MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Kontakt / Anfahrt</MenuItem></Link>
+        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Gebäude</MenuItem></Link>
+        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Links</MenuItem></Link>
+        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>ÖkologischeLandwirtschaft</MenuItem></Link>
+        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Presse</MenuItem></Link>
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Reiten</MenuItem></Link>
+        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Speisen Am Hof</MenuItem></Link>
+        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Übernachten Am Hof</MenuItem></Link>
+        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Stellenangebote</MenuItem></Link>
+        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Teamtraining Und Firmenevents</MenuItem></Link>
+        <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.dark'}}>Veranstaltungen Kunst & Kultur</MenuItem></Link>
       </Menu>
     </div>
   );
