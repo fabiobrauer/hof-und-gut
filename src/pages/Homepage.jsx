@@ -14,10 +14,11 @@ export default function Homepage() {
     <>
 
     <ActionAreaCard></ActionAreaCard>
-    <ArchitkturBauernhaus></ArchitkturBauernhaus>
+    
     <SpeisenAmHof></SpeisenAmHof>
     <ReitenBasicGrid></ReitenBasicGrid>
     <Hoffest></Hoffest>
+    <ArchitkturBauernhaus></ArchitkturBauernhaus>
 
 
     </>
