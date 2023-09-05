@@ -35,7 +35,7 @@ export default function EmtyGrid() {
                           />
                               <Grid container spacing={2} mt={'10px'}>
                                   <Grid xs={12} lg={6} >
-                                        <Item sx={{backgroundColor:"primary.light"}}>
+                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
                                             <CardContent>
                                               <Typography fontSize={'xx-large'}>
                                                 Auszubildende/r Koch/in
@@ -50,7 +50,7 @@ export default function EmtyGrid() {
 
 
                                   <Grid xs={12} lg={6}>
-                                        <Item sx={{backgroundColor:"primary.light"}}>
+                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
                                           <CardContent>
                                             <Typography fontSize={'xx-large'}>
                                               Koch/in oder Küchenhelfer/in
@@ -83,7 +83,7 @@ export default function EmtyGrid() {
                           />
                               <Grid container spacing={2} mt={'10px'}>
                                   <Grid xs={12} lg={6} >
-                                        <Item sx={{backgroundColor:"primary.light"}}>
+                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
                                             <CardContent>
                                               <Typography fontSize={'xx-large'}>
                                               Auszubildende/r im Restaurantfach 
@@ -97,7 +97,7 @@ export default function EmtyGrid() {
 
 
                                   <Grid xs={12} lg={6}>
-                                        <Item sx={{backgroundColor:"primary.light"}}>
+                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
                                           <CardContent>
                                             <Typography fontSize={'xx-large'}>
                                               Servicekraft

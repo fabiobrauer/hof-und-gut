@@ -6,9 +6,12 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Comp_Menu.css'
+import SvgIconChildren from './SVGIcon';
+import { SvgIcon } from '@mui/material';
 import DirectionsIcon from '@mui/icons-material/Directions';
 import { Box } from '@mui/material';
-import AgricultureIcon from '@mui/icons-material/Agriculture';
+
+
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -53,7 +56,7 @@ const StyledMenu = styled((props) => (
   },
 }));
 
-export default function CustomizedMenus() {
+export default function ReitenMenus() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -73,10 +76,10 @@ export default function CustomizedMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px'}}
-
+        sx={{display:'flex', flexDirection:'column', paddingTop:'30px', justifyContent:'space-between', width:'200px', height:'107px'}}
       >
-        <AgricultureIcon sx={{fontSize: "4em"}} />Landwirtschat & Hof
+
+        <SvgIconChildren />Reiten
       </Button>
       <StyledMenu
         id="demo-customized-menu"
@@ -87,13 +90,8 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
-        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
-        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >ÖkologischeLandwirtschaft</MenuItem></Link>
-        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} >Links</MenuItem></Link>
-        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} >Presse</MenuItem></Link>
-        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} >Teamtraining Und Firmenevents</MenuItem></Link>
-        <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} >Veranstaltungen Kunst & Kultur</MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} >Reit Angebot</MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)', ml:'50px'}}/></MenuItem></Link>
       </StyledMenu>
     </Box>
   );

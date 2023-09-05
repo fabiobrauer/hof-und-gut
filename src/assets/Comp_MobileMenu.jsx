@@ -8,7 +8,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import './Comp_Menu.css'
 import DirectionsIcon from '@mui/icons-material/Directions';
 import { Box } from '@mui/material';
-import AgricultureIcon from '@mui/icons-material/Agriculture';
+import SvgIconChildren from './SVGIcon';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
+import LocalHotelIcon from '@mui/icons-material/LocalHotel';
+import HailIcon from '@mui/icons-material/Hail';
+
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -53,7 +57,7 @@ const StyledMenu = styled((props) => (
   },
 }));
 
-export default function CustomizedMenus() {
+export default function MobileMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -64,7 +68,7 @@ export default function CustomizedMenus() {
   };
 
   return (
-    <Box  sx={{display: { xs:'none', lg:'block'}}}>
+    <Box  sx={{display: { xs:'block', lg:'none'}}}>
       <Button
         id="demo-customized-button"
         aria-controls={open ? 'demo-customized-menu' : undefined}
@@ -73,10 +77,10 @@ export default function CustomizedMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px'}}
+        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}
 
       >
-        <AgricultureIcon sx={{fontSize: "4em"}} />Landwirtschat & Hof
+        <MenuIcon sx={{fontSize: "4em"}} />Menu
       </Button>
       <StyledMenu
         id="demo-customized-menu"
@@ -87,13 +91,30 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
+
+        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}} >Stellenangebote<HailIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+
+
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}> Reit Angebot<SvgIconChildren sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+
+
         <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
         <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >ÖkologischeLandwirtschaft</MenuItem></Link>
+
+
+
+
         <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} >Links</MenuItem></Link>
         <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} >Presse</MenuItem></Link>
         <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} >Teamtraining Und Firmenevents</MenuItem></Link>
         <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} >Veranstaltungen Kunst & Kultur</MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+
+
+
+
       </StyledMenu>
     </Box>
   );

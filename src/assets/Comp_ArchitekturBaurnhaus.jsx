@@ -36,6 +36,7 @@ export default function ArchitkturBauernhaus() {
             <Typography fontSize='x-large'> 
             Hof&Gut ist ausgewählter Ort 2012 der Architektenkammer Niedersachsen
             Gute Architektur ist nicht nur eine Frage des Preises, sondern insbesondere der Phantasie und des Könnens der Architekten, die Wünsche und Anforderungen ihrer Bauherren optimal umzusetzen. Architekturqualität lohnt sich überall und an jedem Ort. Daher freut es uns umso mehr, dass Hof&Gut als ausgewählter Ort nominiert wurde:
+            <br></br><a href="https://www.aknds.de/architektur_tda2012.html">www.aknds.de/architektur</a>
           </Typography>
           </Item>
         </Grid>
