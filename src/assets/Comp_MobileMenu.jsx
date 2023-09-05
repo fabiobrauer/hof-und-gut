@@ -92,13 +92,13 @@ export default function MobileMenu() {
         onClose={handleClose}
       >
 
-        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
-        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
-        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}} >Stellenangebote<HailIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large'}}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}} >Stellenangebote<HailIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
 
 
-        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}> Reit Angebot<SvgIconChildren sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}}> Reit Angebot<SvgIconChildren sx={{transform:'scale(3)'}}/></MenuItem></Link>
 
 
         <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
