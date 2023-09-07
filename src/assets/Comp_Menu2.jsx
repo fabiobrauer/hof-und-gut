@@ -88,7 +88,7 @@ export default function CustomizedMenus() {
         onClose={handleClose}
       >
         <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
-        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >ÖkologischeLandwirtschaft</MenuItem></Link>
+        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >Ökologische Landwirtschaft</MenuItem></Link>
         <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} >Links</MenuItem></Link>
         <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} >Presse</MenuItem></Link>
         <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} >Teamtraining Und Firmenevents</MenuItem></Link>

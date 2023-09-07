@@ -14,6 +14,7 @@ import TeamtrainingUndFirmenevents from './pages/TeamtrainingUndFirmenevents'
 import ÜbernachtenAmHof from './pages/ÜbernachtenAmHof'
 import VeranstaltungenKunstKultur from './pages/VeranstaltungenKunstKultur'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Footer from './assets/Footer'
 
 const theme = createTheme({
   palette: {
@@ -56,6 +57,7 @@ function App() {
         <Route path='ÜbernachtenAmHof' element={<ÜbernachtenAmHof></ÜbernachtenAmHof>}></Route>
         <Route path='VeranstaltungenKunstKultur' element={<VeranstaltungenKunstKultur></VeranstaltungenKunstKultur>}></Route>
       </Routes>
+      <Footer></Footer>
       </ThemeProvider>
     </>
   )

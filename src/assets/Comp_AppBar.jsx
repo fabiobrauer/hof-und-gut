@@ -4,7 +4,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import CustomizedMenus from './Comp_Menu2';
 import ReitenMenus from './Comp_Menu';
@@ -12,7 +11,7 @@ import RestaurantUnterkunftMenus from './Comp_Menu3';
 import { Button } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import MobileMenu from './Comp_MobileMenu';
-import { Margin } from '@mui/icons-material';
+
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: 'flex-start',

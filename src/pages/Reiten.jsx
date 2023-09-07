@@ -7,9 +7,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import ReitenBasicGrid from '../assets/Comp_Reiten';
 import ReitenCustomImageList from '../assets/Comp_ImageListReiten';
+import { Button } from '@mui/material';
 
 
-/* hier noch download links einfügen */
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -36,11 +36,13 @@ export default function EmtyGrid() {
                 </Item>
                 <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
                   <Typography fontSize={'xx-large'}>Unser wöchentliches Angebot</Typography>
-                    <Typography fontSize={'x-large'}>
-                          Longenunterricht<br></br>
-                          Reitanfängergruppen ab dem 5. Lebensjahr<br></br>
-                          Ponykindergarten regelmäßig samstags<br></br>
-                          Fortgeschrittenengruppen
+                    <Typography fontSize={'x-large'}>Fortgeschrittenengruppen <br></br>
+                    Longenunterricht<br></br>
+                      Reitanfängergruppen ab dem 5. Lebensjahr<br></br>
+                      Ponykindergarten regelmäßig samstags und sonntags<br></br>
+                      <a href="https://doodle.com/meeting/participate/id/aOPWkxgb"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px'}} >Hier Buchen</Button></a><br></br> 
+                      <a href="https://doodle.com/meeting/participate/id/b4zlwZ2e"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px'}}>Geführte Waldausritte</Button></a><br></br>
+                      
                     </Typography>
                 </Item>
             <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >

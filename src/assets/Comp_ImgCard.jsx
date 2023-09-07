@@ -4,8 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import DirectionsIcon from '@mui/icons-material/Directions';
-import Button from '@mui/material/Button';
+
 
 
 export default function ActionAreaCard() {
@@ -16,7 +15,7 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="640"
-          image="20230720_115823_resized.jpg"
+          image="Banner.gif"
           alt="Bauernhaus"
         />
         <CardContent sx={{ display:{ xs:'none', xl:'block'}}}>
