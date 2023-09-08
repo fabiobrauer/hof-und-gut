@@ -1,18 +1,19 @@
 import './App.css'
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import ProminentAppBar from './assets/Comp_AppBar'
 import Homepage from './pages/Homepage'
-import Gebäude from './pages/Gebäude'
-import Kontakt from './pages/Kontakt'
-import Links from './pages/Links'
-import ÖkologischeLandwirtschaft from './pages/ÖkologischeLandwirtschaft'
-import Presse from './pages/Presse'
-import Reiten from './pages/Reiten'
-import SpeisenAmHof from './pages/SpeisenAmHof'
-import Stellenangebote from './pages/Stellenangebote'
-import TeamtrainingUndFirmenevents from './pages/TeamtrainingUndFirmenevents'
-import ÜbernachtenAmHof from './pages/ÜbernachtenAmHof'
-import VeranstaltungenKunstKultur from './pages/VeranstaltungenKunstKultur'
+const LazyGebäude = React.lazy(() => import('./pages/Gebäude'))
+const LazyKontakt = React.lazy(() => import('./pages/Kontakt'))
+const LazyLinks = React.lazy(() => import('./pages/Links'))
+const LazyÖkologischeLandwirtschaft = React.lazy(() => import('./pages/ÖkologischeLandwirtschaft'))
+const LazyPresse = React.lazy(() => import('./pages/Presse'))
+const LazyReiten = React.lazy(() => import('./pages/Reiten'))
+const LazySpeisenAmHof = React.lazy(() => import('./pages/SpeisenAmHof'))
+const LazyStellenangebote = React.lazy(() => import('./pages/Stellenangebote'))
+const LazyTeamtrainingUndFirmenevents = React.lazy(() => import('./pages/TeamtrainingUndFirmenevents'))
+const LazyÜbernachtenAmHof = React.lazy(() => import('./pages/ÜbernachtenAmHof'))
+const LazyVeranstaltungenKunstKultur = React.lazy(() => import('./pages/VeranstaltungenKunstKultur'))
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Footer from './assets/Footer'
 
@@ -45,17 +46,17 @@ function App() {
     <ProminentAppBar></ProminentAppBar>
       <Routes>
         <Route path='/' element={<Homepage></Homepage>}></Route>
-        <Route path='Gebäude' element={<Gebäude></Gebäude>}></Route>
-        <Route path='Kontakt' element={<Kontakt></Kontakt>}></Route>
-        <Route path='Links' element={<Links></Links>}></Route>
-        <Route path='ÖkologischeLandwirtschaft' element={<ÖkologischeLandwirtschaft></ÖkologischeLandwirtschaft>}></Route>
-        <Route path='Presse' element={<Presse></Presse>}></Route>
-        <Route path='Reiten' element={<Reiten></Reiten>}></Route>
-        <Route path='SpeisenAmHof' element={<SpeisenAmHof></SpeisenAmHof>}></Route>
-        <Route path='Stellenangebote' element={<Stellenangebote></Stellenangebote>}></Route>
-        <Route path='TeamtrainingUndFirmenevents' element={<TeamtrainingUndFirmenevents></TeamtrainingUndFirmenevents>}></Route>
-        <Route path='ÜbernachtenAmHof' element={<ÜbernachtenAmHof></ÜbernachtenAmHof>}></Route>
-        <Route path='VeranstaltungenKunstKultur' element={<VeranstaltungenKunstKultur></VeranstaltungenKunstKultur>}></Route>
+        <Route path='Gebäude' element={<React.Suspense fallback='Loading...'><LazyGebäude></LazyGebäude></React.Suspense>}></Route>
+        <Route path='Kontakt' element={<React.Suspense fallback='Loading...'><LazyKontakt></LazyKontakt></React.Suspense>}></Route>
+        <Route path='Links' element={<React.Suspense fallback='Loading...'><LazyLinks></LazyLinks></React.Suspense>}></Route>
+        <Route path='ÖkologischeLandwirtschaft' element={<React.Suspense fallback='Loading...'><LazyÖkologischeLandwirtschaft></LazyÖkologischeLandwirtschaft></React.Suspense>}></Route>
+        <Route path='Presse' element={<React.Suspense fallback='Loading...'><LazyPresse></LazyPresse></React.Suspense>}></Route>
+        <Route path='Reiten' element={<React.Suspense fallback='Loading...'><LazyReiten></LazyReiten></React.Suspense>}></Route>
+        <Route path='SpeisenAmHof' element={<React.Suspense fallback='Loading...'><LazySpeisenAmHof></LazySpeisenAmHof></React.Suspense>}></Route>
+        <Route path='Stellenangebote' element={<React.Suspense fallback='Loading...'><LazyStellenangebote></LazyStellenangebote></React.Suspense>}></Route>
+        <Route path='TeamtrainingUndFirmenevents' element={<React.Suspense fallback='Loading...'><LazyTeamtrainingUndFirmenevents></LazyTeamtrainingUndFirmenevents></React.Suspense>}></Route>
+        <Route path='ÜbernachtenAmHof' element={<React.Suspense fallback='Loading...'><LazyÜbernachtenAmHof></LazyÜbernachtenAmHof></React.Suspense>}></Route>
+        <Route path='VeranstaltungenKunstKultur' element={<React.Suspense fallback='Loading...'><LazyVeranstaltungenKunstKultur></LazyVeranstaltungenKunstKultur></React.Suspense>}></Route>
       </Routes>
       <Footer></Footer>
       </ThemeProvider>
