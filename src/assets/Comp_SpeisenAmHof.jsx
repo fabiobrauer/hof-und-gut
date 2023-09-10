@@ -9,6 +9,7 @@ import { Button } from '@mui/material';
 
 
 
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -23,7 +24,8 @@ const Item = styled(Paper)(({ theme }) => ({
         var js, rjs = d.getElementsByTagName(s)[0];     
             js = d.createElement(s);     
             js.src = "//static.resmio.com/static/de/button.js";     
-            js.async = true;    rjs.parentNode.insertBefore(js, rjs);
+            js.async = true;    
+            rjs.parentNode.insertBefore(js, rjs);
                   }(document, "script")   );
                     
 
@@ -54,7 +56,25 @@ export default function Comp_SpeisenAmHof() {
                 </Typography>
 
                     <a href='Speisekarte07.09.2023.pdf' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:"30px"}} >Aktuelle Speisekarte</Button></a>
-                    <script type="text/javascript" data-resmio-button="hof-gut-jesteburg" data-resmio-fontsize="14px" data-resmio-fontcolor="%23FFFFFF" data-resmio-buttontext="Jetzt%20reservieren" data-resmio-bordercolor="%23FFFFFF" data-resmio-borderwidth="0" data-resmio-buttoncolor="%23c41500" data-resmio-buttonshadow="true" data-resmio-widget-color="%23555555" data-resmio-widget-width="275" data-resmio-widget-height="400" data-resmio-widget-fontsize="14px" data-resmio-widget-facebooklogin="true" data-resmio-widget-backgroundcolor="%23ffffff" data-resmio-widget-commentsdisabled="false" data-resmio-widget-newslettersignup="true" data-resmio-widget-linkbackgroundcolor="%23c40e07"> 
+                    <script 
+                    type="text/javascript" 
+                    data-resmio-button="hof-gut-jesteburg" 
+                    data-resmio-fontsize="14px" 
+                    data-resmio-fontcolor="%23FFFFFF" 
+                    data-resmio-buttontext="Jetzt%20reservieren" 
+                    data-resmio-bordercolor="%23FFFFFF" 
+                    data-resmio-borderwidth="0" 
+                    data-resmio-buttoncolor="%23c41500" 
+                    data-resmio-buttonshadow="true" 
+                    data-resmio-widget-color="%23555555" 
+                    data-resmio-widget-width="275" 
+                    data-resmio-widget-height="400" 
+                    data-resmio-widget-fontsize="14px" 
+                    data-resmio-widget-facebooklogin="true" 
+                    data-resmio-widget-backgroundcolor="%23ffffff" 
+                    data-resmio-widget-commentsdisabled="false" 
+                    data-resmio-widget-newslettersignup="true" 
+                    data-resmio-widget-linkbackgroundcolor="%23c40e07"> 
                     </script >
 
           </Item>

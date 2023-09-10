@@ -87,13 +87,13 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
-        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
+        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.main'}}>Gebäude</MenuItem></Link>
         <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >Ökologische Landwirtschaft</MenuItem></Link>
-        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} >Links</MenuItem></Link>
+        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.main'}}>Links</MenuItem></Link>
         <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} >Presse</MenuItem></Link>
-        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} >Teamtraining Und Firmenevents</MenuItem></Link>
+        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} sx={{backgroundColor:'primary.main'}}>Teamtraining Und Firmenevents</MenuItem></Link>
         <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} >Veranstaltungen Kunst & Kultur</MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',backgroundColor:'primary.main'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
       </StyledMenu>
     </Box>
   );

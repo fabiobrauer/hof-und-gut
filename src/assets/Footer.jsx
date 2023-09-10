@@ -7,7 +7,7 @@ export default function Footer() {
     
     <footer className='Footer'>
 
-      <Link to={'/'}><img src="SVGLogo.svg" alt="Logo" width={'130px'} height={'100%'} className='Logo'/></Link>
+      <Link to={'/'}><img src="SVGLogo3.svg" alt="Logo" width={'230px'} height={'100%'} className='Logo'/></Link>
       
     </footer>
   )
