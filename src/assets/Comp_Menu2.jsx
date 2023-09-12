@@ -73,7 +73,7 @@ export default function CustomizedMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px'}}
+        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px', backgroundColor:'transparent'}}
 
       >
         <AgricultureIcon sx={{fontSize: "4em"}} /> Hof & Gut und Landwirtschat 

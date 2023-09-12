@@ -77,7 +77,7 @@ export default function MobileMenu() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between'}}
+        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', backgroundColor:'transparent'}}
 
       >
         <MenuIcon sx={{fontSize: "4em"}} />Menu

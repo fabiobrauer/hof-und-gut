@@ -76,7 +76,7 @@ export default function ReitenMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', paddingTop:'30px', justifyContent:'space-between', width:'200px', height:'107px'}}
+        sx={{display:'flex', flexDirection:'column', paddingTop:'30px', justifyContent:'space-between', width:'200px', height:'107px', backgroundColor:'transparent'}}
       >
 
         <SvgIconChildren />Reiten

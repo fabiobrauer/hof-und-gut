@@ -26,9 +26,9 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 export default function ProminentAppBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="sticky" sx={{backgroundColor: 'rgb(80, 179, 103)'}}>
-        <StyledToolbar sx={{display:'flex', justifyContent:'space-between', paddingTop:'30px' }}>
-         <Link to={'/'}><img src="SVGLogo3.svg" alt="Logo" width={'240px'} height={'100%'}/></Link>
+      <AppBar position="sticky" sx={{backgroundColor: 'rgb(80, 179, 103)', border:'1px solid black'}}>
+        <StyledToolbar sx={{display:'flex', justifyContent:'space-between', paddingTop:'30px'}}>
+         <Link to={'/'}><img src="SVGLogo3.svg" alt="Logo" width={'210px'} height={'100%'}/></Link>
 
           <IconButton
             size="large"
@@ -38,7 +38,7 @@ export default function ProminentAppBar() {
             sx={{ mr: 2}}
             
           >
-            <Button variant='Contained' sx={{color:'primary.contrastText', fontSize:'large',  flexDirection:'column', backgroundColor:'primary.main', height:'107px', display: { xs:'none', lg:'flex'}}} href='/'><HomeIcon sx={{fontSize:'3em'}}/>Home</Button>
+            <Button variant='Contained' sx={{color:'primary.contrastText', fontSize:'large',  flexDirection:'column',  height:'107px', display: { xs:'none', lg:'flex'}}} href='/'><HomeIcon sx={{fontSize:'3em'}}/>Home</Button>
             <RestaurantUnterkunftMenus></RestaurantUnterkunftMenus>
             <CustomizedMenus></CustomizedMenus>
             <ReitenMenus></ReitenMenus>

@@ -75,7 +75,7 @@ export default function RestaurantUnterkunftMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px'}}
+        sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px', backgroundColor:'transparent'}}
       >
         <RestaurantMenuIcon sx={{fontSize: "4em"}}></RestaurantMenuIcon>
         Restaurant & Unterkunft
