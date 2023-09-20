@@ -1,5 +1,5 @@
 :root {
-  --BgColor: rgb(112, 147, 77);
+  --BgColor: rgb(137, 160, 138);
   --BrightGreen: rgb(80, 140, 103);
   --TextColor: rgb(255, 255, 255);
   --ButtonColor: rgb(181, 81, 81);
@@ -11,12 +11,3 @@ body{
   background-color: var(--BgColor);
 }
 
-
-
-
-
-/* 
-
-.css-6hp17o-MuiList-root-MuiMenu-list {
-  background-color: var(--BrightGreen);
-} */

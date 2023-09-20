@@ -92,24 +92,24 @@ export default function MobileMenu() {
         onClose={handleClose}
       >
 
-        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large'}}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
-        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
-        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}} >Stellenangebote<HailIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}} >Stellenangebote<HailIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
 
 
-        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large'}}}> Reit Angebot<SvgIconChildren sx={{transform:'scale(3)'}}/></MenuItem></Link>
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}> Reit Angebot<SvgIconChildren sx={{transform:'scale(3)'}}/></MenuItem></Link>
 
 
-        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} >Gebäude</MenuItem></Link>
-        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} >ÖkologischeLandwirtschaft</MenuItem></Link>
+        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Gebäude</MenuItem></Link>
+        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>ÖkologischeLandwirtschaft</MenuItem></Link>
 
 
 
 
-        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} >Links</MenuItem></Link>
-        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} >Presse</MenuItem></Link>
-        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} >Teamtraining Und Firmenevents</MenuItem></Link>
+        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Links</MenuItem></Link>
+        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Presse</MenuItem></Link>
+        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Teamtraining Und Firmenevents</MenuItem></Link>
         <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} >Veranstaltungen Kunst & Kultur</MenuItem></Link>
 
 

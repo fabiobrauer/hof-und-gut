@@ -89,9 +89,9 @@ export default function RestaurantUnterkunftMenus() {
         open={open}
         onClose={handleClose}
       >
-        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', backgroundColor:'primary.main'}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
-        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
-        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', backgroundColor:'primary.main'}} >Stellenangebote<HailIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', borderBottom:'1px solid'}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', borderBottom:'1px solid'}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
+        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', borderBottom:'1px solid'}} >Stellenangebote<HailIcon sx={{transform:'scale(3)', ml:'100px'}}/></MenuItem></Link>
         <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
 
       </StyledMenu>
