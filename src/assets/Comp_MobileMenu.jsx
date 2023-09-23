@@ -12,6 +12,7 @@ import SvgIconChildren from './SVGIcon';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LocalHotelIcon from '@mui/icons-material/LocalHotel';
 import HailIcon from '@mui/icons-material/Hail';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 const StyledMenu = styled((props) => (
@@ -92,6 +93,7 @@ export default function MobileMenu() {
         onClose={handleClose}
       >
 
+        <Link to={'/'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Startseite<HomeIcon sx={{transform:'scale(3)', color:'white'}}/></MenuItem></Link>
         <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
         <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>
         <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}} >Stellenangebote<HailIcon sx={{transform:'scale(3)'}}/></MenuItem></Link>

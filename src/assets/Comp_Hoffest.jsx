@@ -41,12 +41,12 @@ export default function Hoffest() {
         </Grid>
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark", height:'650px'}}>
-                    <Typography fontSize={'xx-large'} m={'30px'}>
+                    <Typography fontSize={'xx-large'} m={"5px"}>
                         Ökologische landwirtschaft
                     </Typography>
                     <CardMedia
                               component="img"
-                              height={520}
+                              height={"80%"}
                               image="Diewackerenvier.jpg"
                               alt="Vier Kälber"
                     /> 

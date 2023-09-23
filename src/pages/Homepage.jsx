@@ -5,6 +5,8 @@ import ArchitkturBauernhaus from '../assets/Comp_ArchitekturBaurnhaus'
 import ReitenBasicGrid from '../assets/Comp_Reiten'
 import SpeisenAmHof from '../assets/Comp_SpeisenAmHof'
 import Hoffest from '../assets/Comp_Hoffest'
+import Comp_shop from '../assets/Comp_shop'
+import Comp_Swiper from '../assets/Comp_shop2'
 
 
 
@@ -16,6 +18,8 @@ export default function Homepage() {
     <ActionAreaCard></ActionAreaCard>
     
     <SpeisenAmHof></SpeisenAmHof>
+    <Comp_Swiper></Comp_Swiper>
+{/*     <Comp_shop></Comp_shop> */}
     <ReitenBasicGrid></ReitenBasicGrid>
     <Hoffest></Hoffest>
     <ArchitkturBauernhaus></ArchitkturBauernhaus>

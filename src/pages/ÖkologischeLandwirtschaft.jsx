@@ -22,15 +22,15 @@ export default function ÖkologischeLandwirtschaft() {
     <Grid container spacing={2} direction={'row-reverse'}>
                 <Grid xs={12} lg={9}>
                             <Item sx={{backgroundColor:"primary.dark"}}>
-                                <Typography fontSize={'xx-large'} m={'30px'}>
+                                <Typography fontSize={'xx-large'}>
                                     Ökologische landwirtschaft
                                 </Typography>
-                                <CardMedia
+                       {         <CardMedia
                                           component="img"
                                           height={520}
                                           image="Diewackerenvier.jpg"
                                           alt="Vier Kälber"
-                                /> 
+                                /> }
                             </Item>
 
 
@@ -42,7 +42,7 @@ export default function ÖkologischeLandwirtschaft() {
                           </Item>
                           <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
                       <Typography fontSize={'x-large'}>
-                        Philosophie
+                        Philosophie:<br></br>
                           Unser Ziel ist es, mit Hof&Gut einen Kreislauf (wieder)herzustellen, der Menschen in Lohn und Brot bringt und alle Tiere des Hofes ernährt. Außerdem soll sich die historische Hofstelle zu einem Ort der Begegnung entwickeln, an dem Kinder und Erwachsene als Gäste gerne verweilen, miteinander ihre Freizeit verbringen und einen historischen Bauernhof erleben. Die Hofstelle umfaßt eine Gesamtfläche von 85 Hektar, je hälftig Forst- und Ackerflächen. Die Ackerflächen werden seit 2007 biologisch bewirtschaftet und jährlich vom Ökokontrollverein in Karlsruhe zertifiziert. Die zum Hof gehörenden Rinder stehen durch die extensiven Grünflächen auf eigener Futtergrundlage.</Typography>
                     </Item>
                 </Grid>

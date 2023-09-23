@@ -11,3 +11,32 @@ body{
   background-color: var(--BgColor);
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 1.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.swiper-button-prev::after{
+  display: none;
+}
+.swiper-button-next::after{
+  display: none;
+}

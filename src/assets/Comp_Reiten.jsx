@@ -28,7 +28,7 @@ export default function ReitenBasicGrid() {
                             Hier findet Ihr alle Angebote der Reitschule, einfach anklicken:
                         </Typography>
                             <Typography fontSize='x-large'>
-                                      <a href="Tages.Ponyferien.Information.AKTUELL.pdf">Tages.Ponyferien.Information</a> <br></br>
+                                      <a href="Tages.Ponyferien.Information.AKTUELL.pdf">Tages.Ponyferien</a> <br></br>
                                         <a href="Jahresprogramm-05.2023.pdf">Jahresprogramm 05.2023</a> <br></br>
                                         <a href="Reitschulvertrag01.23.pdf">Reitschulvertrag01.23</a> <br></br>
                                        <a href="Info.Ponygeburtstagsfeiern.pdf">Ponygeburtstagsfeier.pdf</a><br></br>

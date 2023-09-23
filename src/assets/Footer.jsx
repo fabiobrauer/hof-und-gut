@@ -16,7 +16,7 @@ import Comp_LogoBanner from './LogoSVG2';
 export default function Footer() {
   return (
     
-    <Box sx={{backgroundColor: "rgb(80, 160, 103)", border: "1px solid black", mt: "10px", display:'flex', justifyContent:'center'}} >
+    <Box sx={{backgroundColor: "rgb(80, 160, 103)", border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between'}} >
 
       <Box sx={{display:{xs:'none', lg:'block'}}}>
           <Link to={'/'}><Comp_LogoBanner ></Comp_LogoBanner></Link>
@@ -27,13 +27,13 @@ export default function Footer() {
       <Box sx={{justifyItems:'center'}}>
         <Typography fontSize={"xx-large"}>Hof & Gut Jesteburg GmbH & Co. Kg</Typography>
         <Typography fontSize={"x-large"}>Handelsregisternummer: HRB 736947</Typography>
-        <Typography fontSize={"x-large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Disclaimer/Haftungsausschuss</a></Typography>
+        <Typography fontSize={"x-large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschuss</a></Typography>
         
       </Box>
       <Box>
         <Typography fontSize={"xx-large"} sx={{wordWrap:'break-word'}}>Kontaktinformationen</Typography>
         <Typography fontSize={"x-large"}>E-Mail: <a href="mailto:">buchhaltung@hof-und-gut.de</a></Typography>
-        <Typography fontSize={"x-large"}>Tel.: <a href="tel:+">04183 9759994</a> </Typography>
+        <Typography fontSize={"x-large"}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
       </Box>
 
         <Box sx={{display:'flex', flexDirection:'column' }}>
