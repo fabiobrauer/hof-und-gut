@@ -11,13 +11,13 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
 }));
 
 export default function EmtyGrid() {
   return (
-    <Box sx={{ flexGrow: 1, mt:'10px'}}>
+    <Box sx={{ flexGrow: 1, mt:'15px'}}>
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark"}}>

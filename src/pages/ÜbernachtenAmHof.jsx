@@ -17,16 +17,16 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
 }));
 
 export default function EmtyGrid() {
   return (
-    <Box sx={{ flexGrow: 1, mt:'10px'}}>
+    <Box sx={{ flexGrow: 1, mt:'15px'}}>
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark"}}>
+                <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
                   <Typography fontSize={'xx-large'}>Erholung im Schlaf unterm Reetdach!</Typography> 
                   <Typography fontSize={'x-large'}>Alle Zimmer sind mit einem Fernseher ausgestattet, aber noch schöner ist der Blick aus dem Fenster! Internetzugang über Hotspot ist kostenlos verfügbar. 
                             Anreise täglich ab 16 Uhr, am Wochenende ab 14 Uhr möglich. Bei früh oder später Anreise nach 22 Uhr bitte anrufen unter 04181 9199500 oder mobil 0176 070671532.
@@ -38,7 +38,7 @@ export default function EmtyGrid() {
                 </Item>
         </Grid>
 
-        <Grid xs={12} lg={4}>
+        <Grid xs={12} lg={4} display={'flex'} flexDirection={'column'} justifyContent={'space-between'} gap={'10px'}>
           <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}>Preise</Typography>
             <Typography fontSize={'x-large'}>
@@ -50,7 +50,7 @@ export default function EmtyGrid() {
           </Item>
         
           
-              <Grid xs={12} lg={4} sx={{backgroundColor:"primary.dark", mt:'10px', display: 'flex', justifyContent:'space-between', alignItems:'center'}}>
+              <Grid xs={12} lg={4} sx={{backgroundColor:"primary.dark", mt:'10px', display: 'flex', justifyContent:'space-between', alignItems:'center', borderRadius:'5px', height:'100%'}}>
                     <CardContent>
                       <Typography fontSize={'x-large'} sx={{wordBreak:'break-word'}}>
                           Wir sind ein Nichtraucherhaus!
@@ -75,7 +75,7 @@ export default function EmtyGrid() {
 
 
                 <Grid xs={12} lg={4}>
-                    <Item sx={{backgroundColor:"primary.dark"}}>
+                    <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
                               <Typography fontSize={'xx-large'}>
                                 Hof-Frühstück
                               </Typography>

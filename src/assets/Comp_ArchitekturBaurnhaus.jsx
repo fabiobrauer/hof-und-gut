@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
 }));
 
@@ -29,8 +29,8 @@ export default function ArchitkturBauernhaus() {
       <Grid container spacing={2} >
 
         <Grid xs={12} lg={7}>
-          <Item sx={{backgroundColor:"primary.dark", minHeight:'650px', lineHeight:'2rem'}}>
-            <Typography fontSize={'xx-large'} sx={{ m:'30px'}}>
+          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
+            <Typography fontSize={'xx-large'}>
                 Architektur
             </Typography>
             <Typography fontSize='x-large'> 
@@ -41,11 +41,10 @@ export default function ArchitkturBauernhaus() {
           </Item>
         </Grid>
         <Grid xs={12} lg={5}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
+          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
                                 <CardMedia
                                 component="img"
                                 image="20230720_115731_resized.jpg"
-                                height='650'
                                 alt="Bauernhaus"
                                 />
           </Item>

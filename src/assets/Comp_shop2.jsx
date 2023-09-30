@@ -47,7 +47,7 @@ function Comp_Swiper() {
               <Typography fontSize={'xx-large'}>Hier bieten wir nur unsere besten Produkte an. Sowie griechisches Olivenöl und von uns ausgewähle Weine</Typography>
           </Item>
           <Item sx={{backgroundColor:"primary.dark"}}>
-                <div className="container">
+                <Box className="container" sx={{width:{xs:'100%', lg:'50%', margin:'0 auto'}}}>
                     <Swiper
                         effect={'coverflow'}
                         grabCursor={true}
@@ -218,30 +218,24 @@ function Comp_Swiper() {
                           />
                         </SwiperSlide>
                        
-                        
 
-                        
-                            
                                 <div className="swiper-button-prev slider-arrow" style={{width:'100px'}}>
-                                    <ArrowBackIcon name="arrow-back-outline" sx={{transform:{xs:'scale(1.2)',lg:'scale(3)'}}}></ArrowBackIcon>
+                                    <ArrowBackIcon name="arrow-back-outline" sx={{transform:{xs:'scale(1.2)',lg:'scale(2)'}}}></ArrowBackIcon>
                                 </div>
 
                                 <div className="swiper-button-next slider-arrow" style={{width:'100px'}}>
-                                    <ArrowForwardIcon name="arrow-forward-outline" sx={{transform:{xs:'scale(1.2)',lg:'scale(3)'}}}></ArrowForwardIcon>
+                                    <ArrowForwardIcon name="arrow-forward-outline" sx={{transform:{xs:'scale(1.2)',lg:'scale(2)'}}}></ArrowForwardIcon>
                                 </div>
 
                                 <div className="swiper-pagination">
                                 </div>
-                           
-                        
 
                     </Swiper>
-                </div>
+                </Box>
           </Item>
 
           <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
               <a href="https://shop-hof-und-gut.de/"><Button variant='outlined' sx={{bgcolor:'secondary.main', m:"30px", color:'white', fontSize:'xx-large'}}>Zum Shop</Button></a>
-              <Typography fontSize={'xx-large'} sx={{wordBreak:'break-word'}}>in Zukunft werden wir auch Gewürze und Gewürzmischungen anbieten</Typography>
           </Item>
         </Grid>
 

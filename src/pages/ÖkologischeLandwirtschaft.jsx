@@ -12,18 +12,24 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
 }));
 
 export default function ÖkologischeLandwirtschaft() {
   return (
-    <Box sx={{ flexGrow: 1, mt:'10px'}}>
+    <Box sx={{ flexGrow: 1, mt:'15px'}}>
     <Grid container spacing={2} direction={'row-reverse'}>
                 <Grid xs={12} lg={9}>
+                  <Item sx={{backgroundColor:"primary.dark", mb:'10px'}}>
+                    <Typography fontSize={'xx-large'}>Verkauf von Biofleisch (Rindfleisch und Gänse)</Typography>
+                    <Typography fontSize={'x-large'}>
+                      Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2023 bestellen, solange Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
+                      </Typography>
+                  </Item>
                             <Item sx={{backgroundColor:"primary.dark"}}>
                                 <Typography fontSize={'xx-large'}>
-                                    Ökologische landwirtschaft
+                                    Ökologische Landwirtschaft
                                 </Typography>
                        {         <CardMedia
                                           component="img"

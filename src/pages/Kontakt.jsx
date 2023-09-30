@@ -22,8 +22,8 @@ export default function EmtyGrid() {
     <Box sx={{ flexGrow: 1, mt:'10px'}}>
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark" , minHeight:'750px'}}>
-                <Typography fontSize={'xx-large'} sx={{ m:'30px'}} >
+                <Item sx={{backgroundColor:"primary.dark", padding:'0', paddingBottom:'10px' }}>
+                <Typography fontSize={'xx-large'}>
                     Öffnungszeiten:
                 </Typography>
                 <Typography fontSize={'x-large'}>
@@ -41,14 +41,14 @@ export default function EmtyGrid() {
                     Tel mobil: 0176 70671532
                 </Typography>
 
-                    <Button variant='contained' sx={{bgcolor:'secondary.main', m:"30px"}} >Aktuelle Speisekarte</Button>
+                    <Button variant='contained' sx={{bgcolor:'secondary.main', mr:"30px"}} >Aktuelle Speisekarte</Button>
                     <Button variant='contained' sx={{bgcolor:'secondary.main'}}>Tisch Buchem mit Resmio</Button>
                 </Item>
         </Grid>
 
         <Grid xs={12} lg={8}>
-          <Item sx={{backgroundColor:"primary.dark", minHeight:'750px'}}>
-            <Typography fontSize={'xx-large'} sx={{ m:'10px'}} >So erreichen Sie uns:</Typography> 
+          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
+            <Typography fontSize={'xx-large'} >So erreichen Sie uns:</Typography> 
         
 
               <Grid >
@@ -58,24 +58,11 @@ export default function EmtyGrid() {
                 </Item>
               </Grid>
 
-            <Grid container>
+            <Grid container gap={'10px'} justifyContent={'center'}>
 
-            <Grid lg={4} xs={12}>
-              <Item sx={{backgroundColor:"primary.light", m:'5px'}}>
-                  <Typography>Landwirtschaft: Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography> 
-                  <Typography>Büroadresse: Hauptstr. 321266 Jesteburg</Typography>
-                  <Typography>E-Mail: buchhaltung@hof-und-gut.de</Typography>
-                  <Typography>Tel.: 04183 9759994</Typography>
-                  <Typography>Bankverbindung für die Landwirtschaft:</Typography>
-                  <Typography>IBAN: DE53 2406 0300 0301 0708 00</Typography>
-                  <Typography>BIC: GENODEF1NBU</Typography>
-                  <Typography>Steuer-Nr.: 15/205/20406</Typography> 
-              </Item>
-              </Grid>
-              
 
-              <Grid lg={4} xs={12}>
-                <Item sx={{backgroundColor:"primary.light", m:'5px'}}>
+              <Grid lg={3} xs={12} mb={2}>
+                <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                     <Typography>Reitbetrieb Knott:</Typography>
                     <Typography>Reitgruppeneinteilung Carmen KnottE-Mail:   </Typography>
                     <Typography>ponyreitschule.knott@gmx.de</Typography>
@@ -83,14 +70,36 @@ export default function EmtyGrid() {
                 </Item>
               </Grid>
 
-              <Grid lg={4} xs={12}>
-                <Item sx={{backgroundColor:"primary.light", m:'5px'}}>
-                    <Typography>außerhalb der Marke Hof&Gut Jesteburg</Typography>
+
+              <Grid lg={4} xs={12} mb={2}>
+                <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                     <Typography>Speisen und Übernachten am Hof:</Typography>
-                    <Typography>Inhaber Familie Spaqie-Mail: info@hof-und-gut.de</Typography>
+                    <Typography>Inhaber Familie Spaqi <br></br><br></br>E-Mail: info@hof-und-gut.de</Typography>
                     <Typography>04181 9199500 (mobil 0176 70671532)</Typography>    
                 </Item>
               </Grid>
+
+
+
+
+
+            <Grid lg={4} xs={12} mb={2}>
+              <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
+                  <Typography>Landwirtschaft: Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography> 
+                  <Typography>Büroadresse: Hauptstr. 3 21266 Jesteburg</Typography>
+                  <Typography>E-Mail: buchhaltung@hof-und-gut.de</Typography>
+                  <Typography>Tel.: 04183 9759994</Typography>
+
+              </Item>
+              </Grid>
+              
+
+
+
+
+
+
+
             </Grid>
           </Item>
         </Grid>

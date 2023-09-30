@@ -14,13 +14,14 @@ export default function ActionAreaCard() {
       <h1>Willkommen bei Hof&Gut</h1>
         <CardMedia
           component="img"
-          height="640"
+          height="960"
           image="Banner.gif"
           alt="Bauernhaus"
         />
         <CardContent sx={{ display:{ xs:'none', xl:'block'}}}>
           <Typography variant="body2" color="white" fontSize="x-large" className='SubscriptionText'>
-            Hof&Gut Jesteburg liegt am Rande des Naturparks Lüneburger Heide. Die anspruchsvoll sanierte und modernisierte historische Hofstelle umfasst 85 Hektar und wurde 2007 unter der Bezeichnung Hof&Gut Jesteburg zu neuem Leben erweckt. Unter dem Dach von Hof&Gut Jesteburg finden sich ökologische Landwirtschaft, ein Reitbetrieb, ein Einstellbetrieb, generationenübergreifendes Wohnen sowie Kunst und Kultur. Gastronomie und Gästezimmer am Hof werden betrieben unter der Marke “Speisen am Hof” und “Übernachten am Hof”. Das Ensemble lädt Gäste ein zu Freizeitvergnügen, Genuss, Entschleunigung, Erholung im Schlaf und dem Erleben von kultureller Vielfalt inmitten schöner Natur.Wir bringen alles unter ein (Reet-) Dach  weiter
+            Hof&Gut Jesteburg liegt am Rande des Naturparks Lüneburger Heide. Die anspruchsvoll sanierte und modernisierte historische Hofstelle umfasst 85 Hektar und wurde 2007 unter der Bezeichnung Hof&Gut Jesteburg zu neuem Leben erweckt.
+            <a href="#">weiterlesen </a>
           </Typography>
         </CardContent>
       </CardActionArea>

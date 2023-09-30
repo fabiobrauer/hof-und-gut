@@ -16,7 +16,7 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
 }));
 
@@ -26,11 +26,11 @@ export default function SpeisenAmHof() {
     
       
 
-      <Box sx={{ flexGrow: 1, mt:'10px'}}>
+      <Box sx={{ flexGrow: 1, mt:'15px'}}>
 
         <Comp_SpeisenAmHof></Comp_SpeisenAmHof>
 
-      <Grid container spacing={2} >
+      <Grid container spacing={2} mt={'10px'}>
         <Grid xs={12} lg={3}>
                 <Item sx={{backgroundColor:"primary.dark"}}>
                   <Typography fontSize={'xx-large'}>Speisen am Hof</Typography>
@@ -38,15 +38,15 @@ export default function SpeisenAmHof() {
                     Wir freuen uns immer, Sie in unserem sanierten Bauernhaus aus dem 16. Jahrhundert als Gast empfangen zu dürfen. Ein erfahrenes Küchenteam rund um Frank Schiffner kocht täglich für Sie – ob die bereits bekannten und beliebten Klassiker der Hofküche (auch mit Fleisch von den hofeigenen Rindern) oder neuartige Kreationen mit einem Mix aus Elementen der mediterranen und japanischen Küche, inspiriert von Axel Henkel. Wichtig sind uns dabei die frischen Produkte, mit denen neue Ideen auf der regelmäßig wechselnden Karte umgesetzt werden. Essen soll, davon sind wir überzeugt, generationenübergreifend Spaß machen!
                   </Typography> 
                 </Item>
-                <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
+                <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
                     <Typography fontSize={'x-large'}> Bitte reservieren Sie rechtzeitig einen Tisch, besonders wenn Sie am Wochenende oder zum Abendessen kommen möchten…Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiv sanierter historischer Umgebung feiern und tagen. Wir besprechen gerne Anlass und passende Gerichte und Getränke</Typography>
                 </Item>
         </Grid>
-        <Grid xs={12} lg={6}>
+        <Grid xs={12} lg={6} >
           <Item sx={{backgroundColor:"primary.dark"}}>
             <SpeisenCustomImageList></SpeisenCustomImageList>
           </Item>
-          <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}> 
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}> 
           <CardMedia
                                 component="img"
                                 image="Stube.jpeg"
@@ -56,7 +56,7 @@ export default function SpeisenAmHof() {
           </Item>
         </Grid>
         <Grid xs={12} lg={3}>
-          <Item sx={{backgroundColor:"primary.dark", padding:'30px'}}>
+          <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}> Büffetbeispiel ab 20 Personen</Typography>
             <Typography fontSize={'x-large'}> 
                           Tomatensuppe mit Crème Fraîche, Croûtons und Basilikum
@@ -71,7 +71,7 @@ export default function SpeisenAmHof() {
                           Gern erstellen wir Ihnen individuell ein Buffet oder Menü
             </Typography>
           </Item>
-          <Item sx={{backgroundColor:"primary.dark", mt:'10px', padding:'30px'}}>
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
           <Typography fontSize={'xx-large'}>Menübeispiele ab 20 Personen</Typography>
             <Typography  fontSize={'x-large'}>
                   Menü 1

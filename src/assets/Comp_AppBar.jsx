@@ -25,9 +25,10 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 export default function ProminentAppBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="sticky" sx={{backgroundColor: 'rgb(80, 160, 103)', border:'1px solid black'}}>
+      <AppBar position="sticky" sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border:'1px solid black'}}>
         <StyledToolbar sx={{display:'flex', justifyContent:'space-between', paddingTop:'0'}}>
          <Link to={'/'}>
+
         <Comp_LogoBanner></Comp_LogoBanner>
 
          </Link>
@@ -37,7 +38,7 @@ export default function ProminentAppBar() {
             edge="start"
             color="inherit"
             aria-label="open drawer"
-            sx={{ mr: 2, display:'flex', mt:'90px', backgroundColor: "rgb(0,0,0, 0.1)", borderRadius:'20px'}}>
+            sx={{ mr: 2, display:'flex', mt:'90px'/* , backgroundColor: "rgb(0,0,0, 0.1)" */, borderRadius:'20px'}}>
             <Button variant='Contained' sx={{color:'primary.contrastText', fontSize:'large',  flexDirection:'column',  height:'107px', display: { xs:'none', lg:'flex'}}} href='/'><HomeIcon sx={{fontSize:'3em'}}/>Home</Button>
             <RestaurantUnterkunftMenus></RestaurantUnterkunftMenus>
             <CustomizedMenus></CustomizedMenus>

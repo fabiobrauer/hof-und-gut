@@ -10,7 +10,7 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'light' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
   backgroundColor: 'primary.main',
 }));
@@ -22,7 +22,7 @@ export default function Links() {
         <Grid lg={7} xs={12}>
           <Item sx={{backgroundColor:"primary.dark", m:'5px'}}>
             <Typography fontSize={'x-large'}>
-                        Weitere interessante Links in Jesteburg und Umgebung:
+                        Weitere interessante Links in Jesteburg und Umgebung: <br></br>
                         Kunststätte Bossard <a href="https://www.bossard.de/">https://www.bossard.de/</a><br></br>
                         Fotos von Verena Brockshus-Sprung <a href="https://www.brockshus-sprung.de/">https://www.brockshus-sprung.de/</a><br></br>
                         Kunsthaus Jesteburg <a href="https://www.kunsthaus-jesteburg.de/">https://www.kunsthaus-jesteburg.de/</a><br></br>
@@ -51,12 +51,7 @@ export default function Links() {
 
         <Grid lg={7} xs={12}>
           <Item sx={{backgroundColor:"primary.dark", m:'5px'}}>
-            <CardMedia
-                 component="img"
-                 image="erlebniskochen 1.png"
-                 alt="Erlebniskochen"
-            />
-            <Typography fontSize={'x-large'}>Wir sind Partner von Erlebniskochen & Weinschmecken. Kochkurse und Weinproben mit den Profis. Link: <a href="www.erlebniskochen.de">www.erlebniskochen.de</a> </Typography>
+
           </Item>
         </Grid>
         

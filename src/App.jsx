@@ -22,7 +22,7 @@ const theme = createTheme({
     primary: {
       light: 'rgb(80, 160, 103)',
       main: '#4caf50',
-      dark: 'rgb(80, 140, 103)',
+      dark: 'rgba(80, 140, 103)',
       contrastText: '#fff',
     },
     secondary: {

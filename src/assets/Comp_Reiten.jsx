@@ -11,16 +11,16 @@ const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
   padding: theme.spacing(1),
-  textAlign: 'center',
+  textAlign: 'left',
   color: theme.palette.text.secondary,
 }));
 
 export default function ReitenBasicGrid() {
   return (
     <Box sx={{ flexGrow: 1}}>
-      <Grid container spacing={2} >
-        <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark", minHeight:'650px'}}> 
+      <Grid container spacing={2}>
+        <Grid xs={12} lg={4} display={'flex'} justifyContent={'space-between'} flexDirection={'column'} gap={'15px'}>
+                <Item sx={{backgroundColor:"primary.dark", height:'100%'}}> 
                         <Typography fontSize='xx-large' sx={{m:'10px'}}>
                         Unsere aktuellen Angebote im Reitbetrieb zum Herunterladen
                         </Typography>
@@ -36,36 +36,25 @@ export default function ReitenBasicGrid() {
                                         
                             </Typography>
                 </Item>
+                <Item sx={{backgroundColor:"primary.dark"}}>
+            <Typography fontSize={'xx-large'} m={'10px'}>
+                Reitworkshops
+            </Typography>
+            <Typography fontSize={'x-large'}>
+                Wir bieten in den Ferien Reitworkshops für Kinder ab 6 Jahren an, sowie auch Programme für Kindergeburtstage
+            </Typography>
+          </Item>
         </Grid>
         <Grid xs={12} lg={8}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
+          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0px'}} >
           <CardMedia
                                 component="img"
-                                image="Ponies2.jpg"
-                                height='650'
+                                image="PoniesReiten.jpeg"
                                 alt="Poniereiten"
                                 />
           </Item>
         </Grid>
-        <Grid xs={12} lg={7}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
-          <CardMedia
-                                component="img"
-                                image="PoniesReiten.jpeg"
-                                height='650'
-                                alt="Poniereiten"
-                                /></Item>
-        </Grid>
-        <Grid xs={12} lg={5}>
-          <Item sx={{backgroundColor:"primary.dark", minHeight:'650px'}}>
-            <Typography fontSize={'xx-large'} m={'30px'}>
-                Reitworkshops
-            </Typography>
-            <Typography fontSize={'x-large'}>
-            Wir bieten in den Ferien Reitworkshops für Kinder ab 6 Jahren an, sowie auch Programme für Kindergeburtstage
-            </Typography>
-          </Item>
-        </Grid>
+
       </Grid>
     </Box>
   );

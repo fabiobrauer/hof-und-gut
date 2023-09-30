@@ -16,18 +16,18 @@ import Comp_LogoBanner from './LogoSVG2';
 export default function Footer() {
   return (
     
-    <Box sx={{backgroundColor: "rgb(80, 160, 103)", border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between'}} >
+    <Box sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between'}} >
 
       <Box sx={{display:{xs:'none', lg:'block'}}}>
           <Link to={'/'}><Comp_LogoBanner ></Comp_LogoBanner></Link>
       </Box>
       
 
-  <Box sx={{display:'flex',flexDirection:{xs:'column', lg:'row'} ,alignItems:'center', textAlign:{xs:'center', lg:'left'} , gap:{xs:'50px', lg:'0'}}}>
+  <Box sx={{display:'flex',flexDirection:{xs:'column', lg:'row'} ,alignItems:'center', textAlign:{xs:'center', lg:'left'} , gap:{xs:'50px', lg:'0'}, m:{xs:'0 auto'}}}>
       <Box sx={{justifyItems:'center'}}>
         <Typography fontSize={"xx-large"}>Hof & Gut Jesteburg GmbH & Co. Kg</Typography>
         <Typography fontSize={"x-large"}>Handelsregisternummer: HRB 736947</Typography>
-        <Typography fontSize={"x-large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschuss</a></Typography>
+        <Typography fontSize={"x-large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
         
       </Box>
       <Box>
