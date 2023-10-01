@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Disclaimer() {
   return (
-    <p>**Haftungsausschluss**
+    <p>**Haftungsausschluss**<br></br><br></br>
 
     Die Inhalte dieser Webseite dienen nur zu Informationszwecken und stellen keine Rechtsberatung dar. Wir übernehmen keine Gewähr für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen uns, die sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern von unserer Seite kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.
     

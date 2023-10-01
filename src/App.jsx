@@ -14,6 +14,8 @@ const LazyStellenangebote = React.lazy(() => import('./pages/Stellenangebote'))
 const LazyTeamtrainingUndFirmenevents = React.lazy(() => import('./pages/TeamtrainingUndFirmenevents'))
 const LazyÜbernachtenAmHof = React.lazy(() => import('./pages/ÜbernachtenAmHof'))
 const LazyVeranstaltungenKunstKultur = React.lazy(() => import('./pages/VeranstaltungenKunstKultur'))
+const LazyDisclaimer = React.lazy(() => import('./pages/Disclaimer'))
+const LazyÜberUns = React.lazy(() => import('./pages/ÜberUns'))
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Footer from './assets/Footer'
 import { CssBaseline } from '@mui/material'
@@ -84,6 +86,8 @@ function App() {
         <Route path='TeamtrainingUndFirmenevents' element={<React.Suspense fallback='Loading...'><LazyTeamtrainingUndFirmenevents></LazyTeamtrainingUndFirmenevents></React.Suspense>}></Route>
         <Route path='ÜbernachtenAmHof' element={<React.Suspense fallback='Loading...'><LazyÜbernachtenAmHof></LazyÜbernachtenAmHof></React.Suspense>}></Route>
         <Route path='VeranstaltungenKunstKultur' element={<React.Suspense fallback='Loading...'><LazyVeranstaltungenKunstKultur></LazyVeranstaltungenKunstKultur></React.Suspense>}></Route>
+        <Route path='Disclaimer' element={<React.Suspense fallback='Loading...'><LazyDisclaimer></LazyDisclaimer></React.Suspense>}></Route>
+        <Route path='ÜberUns' element={<React.Suspense fallback='Loading...'><LazyÜberUns></LazyÜberUns></React.Suspense>}></Route>
       </Routes>
       <Footer></Footer>
       </ThemeProvider>

@@ -25,13 +25,13 @@ export default function Footer() {
 
   <Box sx={{display:'flex',flexDirection:{xs:'column', lg:'row'} ,alignItems:'center', textAlign:{xs:'center', lg:'left'} , gap:{xs:'50px', lg:'0'}, m:{xs:'0 auto'}}}>
       <Box sx={{justifyItems:'center'}}>
-        <Typography fontSize={"xx-large"}>Hof & Gut Jesteburg GmbH & Co. Kg</Typography>
+        <Typography fontSize={"xx-large"} sx={{wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg GmbH & Co. Kg</Typography>
         <Typography fontSize={"x-large"}>Handelsregisternummer: HRB 736947</Typography>
         <Typography fontSize={"x-large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
         
       </Box>
       <Box>
-        <Typography fontSize={"xx-large"} sx={{wordWrap:'break-word'}}>Kontaktinformationen</Typography>
+        <Typography fontSize={"x-large"} sx={{fontWeight:'700'}}>Kontaktinformationen</Typography>
         <Typography fontSize={"x-large"}>E-Mail: <a href="mailto:">buchhaltung@hof-und-gut.de</a></Typography>
         <Typography fontSize={"x-large"}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
       </Box>

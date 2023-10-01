@@ -87,6 +87,7 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
+        <Link to={'/ÜberUns'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Über Uns</MenuItem></Link>
         <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Gebäude</MenuItem></Link>
         <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Ökologische Landwirtschaft</MenuItem></Link>
         <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Links</MenuItem></Link>
