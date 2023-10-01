@@ -32,7 +32,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Comp_SpeisenAmHof() {
   return (
-    <Box sx={{ flexGrow: 1, mt:'10px'}}>
+    <Box sx={{ flexGrow: 1, mt:'15px'}}>
       <Grid container spacing={2} >
 
         <Grid xs={12} lg={3} >

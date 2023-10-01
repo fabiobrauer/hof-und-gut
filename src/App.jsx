@@ -51,6 +51,7 @@ const theme = createTheme({
           font-family: Libre Baskerville;
         },
 
+
       `,
     },
   },
@@ -69,8 +70,8 @@ function App() {
     <ThemeProvider theme={theme} >
     <ProminentAppBar></ProminentAppBar>
     <CssBaseline/>
-      <GlobalStyles styles={{  body:{ backgroundColor:'rgb(137, 160, 138)', fontFamily:'Libre Baskerville'} }} />
-      <Routes>
+{      <GlobalStyles styles={{  body:{ backgroundColor:'rgb(137, 160, 138)', fontFamily:'Libre Baskerville'} }} />
+}      <Routes>
         <Route path='/' element={<Homepage></Homepage>}></Route>
         <Route path='Gebäude' element={<React.Suspense fallback='Loading...'><LazyGebäude></LazyGebäude></React.Suspense>}></Route>
         <Route path='Kontakt' element={<React.Suspense fallback='Loading...'><LazyKontakt></LazyKontakt></React.Suspense>}></Route>

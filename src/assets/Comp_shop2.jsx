@@ -42,7 +42,7 @@ function Comp_Swiper() {
       <Grid container spacing={2} >
 
         <Grid xs={12} lg={12}>
-        <Item sx={{backgroundColor:"primary.dark", mb:'10px'}}>
+        <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>
               <Typography fontSize={'xxx-large'} sx={{wordBreak:'break-word'}}>Besuchen sie Unseren online Shop</Typography>
               <Typography fontSize={'xx-large'}>Hier bieten wir nur unsere besten Produkte an. Sowie griechisches Olivenöl und von uns ausgewähle Weine</Typography>
           </Item>
@@ -234,7 +234,7 @@ function Comp_Swiper() {
                 </Box>
           </Item>
 
-          <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px', mb:'10px'}}>
               <a href="https://shop-hof-und-gut.de/"><Button variant='outlined' sx={{bgcolor:'secondary.main', m:"30px", color:'white', fontSize:'xx-large'}}>Zum Shop</Button></a>
           </Item>
         </Grid>
