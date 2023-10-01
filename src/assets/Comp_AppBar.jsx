@@ -24,7 +24,7 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 
 export default function ProminentAppBar() {
   return (
-    <Box sx={{ flexGrow: 1}}>
+    <Box sx={{ flexGrow: 1  }}>
       <AppBar position="sticky" sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border:'1px solid black'}}>
         <StyledToolbar sx={{display:'flex', justifyContent:'space-between', paddingTop:'0'}}>
          <Link to={'/'}>

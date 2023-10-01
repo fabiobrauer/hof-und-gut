@@ -49,11 +49,6 @@ export default function Links() {
           </Item>
         </Grid>
 
-        <Grid lg={7} xs={12}>
-          <Item sx={{backgroundColor:"primary.dark", m:'5px'}}>
-
-          </Item>
-        </Grid>
         
       </Grid>
   )

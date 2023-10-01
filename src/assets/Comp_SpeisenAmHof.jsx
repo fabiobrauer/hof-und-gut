@@ -35,8 +35,8 @@ export default function Comp_SpeisenAmHof() {
     <Box sx={{ flexGrow: 1, mt:'10px'}}>
       <Grid container spacing={2} >
 
-        <Grid xs={12} lg={3}>
-          <Item sx={{backgroundColor:"primary.dark" , minHeight:'800px', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+        <Grid xs={12} lg={3} >
+          <Item sx={{backgroundColor:"primary.dark" , height:'100%', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
                 <Typography fontSize={'xx-large'} sx={{ m:'30px'}} >
                     Öffnungszeiten:
                 </Typography>
@@ -81,11 +81,10 @@ export default function Comp_SpeisenAmHof() {
 
         </Grid>
         
-        <Grid xs={12} lg={6}>
-                <Item sx={{backgroundColor:"primary.dark"}}> 
+        <Grid xs={12} lg={6} >
+                <Item sx={{backgroundColor:"primary.dark", height:'100%'}}> 
                 <CardMedia
                 component="img"
-                height={800}
                 image="T-Bone Steak.jpg"
                 alt="Entrecote"
               />
@@ -93,7 +92,7 @@ export default function Comp_SpeisenAmHof() {
         </Grid>
 
         <Grid xs={12} lg={3}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
+          <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
             <Typography fontSize={'xx-large'} sx={{ m:'10px'}} >Anfahrt</Typography>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.221622002947!2d9.933264077093998!3d53.32138507659057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1bd89bb3a0267%3A0x23876e66af16eac5!2sHof%20%26%20Gut%20Jesteburg!5e0!3m2!1sen!2sde!4v1693483721231!5m2!1sen!2sde" width="100%" height="700px"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </Item>

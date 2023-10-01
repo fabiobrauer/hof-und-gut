@@ -16,6 +16,13 @@ const LazyÜbernachtenAmHof = React.lazy(() => import('./pages/ÜbernachtenAmHof
 const LazyVeranstaltungenKunstKultur = React.lazy(() => import('./pages/VeranstaltungenKunstKultur'))
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Footer from './assets/Footer'
+import { CssBaseline } from '@mui/material'
+import GlobalStyles from '@mui/material/GlobalStyles';
+
+
+
+
+
 
 const theme = createTheme({
   palette: {
@@ -32,10 +39,23 @@ const theme = createTheme({
       ButtonColor: 'rgb(181, 81, 81)',
       contrastText: '#000',
     },
+  },
+  typography:{
+    fontFamily:'Libre Baskerville'
+  },
 
-  
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: `
+        h1 {
+          font-family: Libre Baskerville;
+        },
+
+      `,
+    },
   },
 });
+
 
 
               
@@ -45,8 +65,11 @@ function App() {
 
   return (
     <>
-    <ThemeProvider theme={theme}>
+
+    <ThemeProvider theme={theme} >
     <ProminentAppBar></ProminentAppBar>
+    <CssBaseline/>
+      <GlobalStyles styles={{  body:{ backgroundColor:'rgb(137, 160, 138)', fontFamily:'Libre Baskerville'} }} />
       <Routes>
         <Route path='/' element={<Homepage></Homepage>}></Route>
         <Route path='Gebäude' element={<React.Suspense fallback='Loading...'><LazyGebäude></LazyGebäude></React.Suspense>}></Route>

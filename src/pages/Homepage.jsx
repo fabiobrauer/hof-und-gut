@@ -16,7 +16,7 @@ export default function Homepage() {
 
     <ActionAreaCard></ActionAreaCard>
     
-    <SpeisenAmHof></SpeisenAmHof>
+    <SpeisenAmHof ></SpeisenAmHof>
     <Comp_Swiper></Comp_Swiper>
     <ReitenBasicGrid></ReitenBasicGrid>
     <Hoffest></Hoffest>
