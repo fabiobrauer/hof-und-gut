@@ -1,8 +1,10 @@
+import { Box } from '@mui/material'
 import React from 'react'
 
 export default function ÜberUns() {
   return (
-    <div>
+    
+      <Box sx={{backgroundColor:'primary.dark', width:{xs:'100%',lg:'60%'}, borderRadius:'10px', ml:'15px'}}>
         <p>
             Unter dem Dach von Hof&Gut Jesteburg finden sich ökologische Landwirtschaft,
             ein Reitbetrieb, ein Einstellbetrieb, generationenübergreifendes Wohnen sowie Kunst und Kultur.
@@ -38,6 +40,7 @@ export default function ÜberUns() {
 <br></br>
                 und dem Team von “Speisen und Übernachten am Hof”Familie Spaqi, Frank Schiffner, Kevin Hose und das Küchenteam
         </p>
-    </div>
+        </Box>
+    
   )
 }

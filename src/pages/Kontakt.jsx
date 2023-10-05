@@ -53,8 +53,8 @@ export default function EmtyGrid() {
 
               <Grid >
                 <Item sx={{backgroundColor:"primary.light"}}>
-                      <Typography>Hof & Gut Jesteburg GmbH bildet das Dach für die angesiedelten Betriebe</Typography>
-                      <Typography>Büroadresse: Hauptstr. 321266 Jesteburg</Typography>
+                      <Typography fontSize={'x-large'}>Hof & Gut Jesteburg GmbH bildet das Dach für die angesiedelten Betriebe</Typography>
+                      <Typography fontSize={'x-large'}>Büroadresse: Hauptstr.3 -21266 Jesteburg</Typography>
                 </Item>
               </Grid>
 
@@ -62,20 +62,20 @@ export default function EmtyGrid() {
 
 
               <Grid lg={3} xs={12} mb={2}>
-                <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
-                    <Typography>Reitbetrieb Knott:</Typography>
-                    <Typography>Reitgruppeneinteilung Carmen KnottE-Mail:   </Typography>
-                    <Typography>ponyreitschule.knott@gmx.de</Typography>
-                    <Typography>Tel. 01633796966</Typography>
+                <Item sx={{backgroundColor:"primary.light", height:'100%', wordBreak:'break-word'}}>
+                    <Typography fontSize={'x-large'}>Reitbetrieb Knott:</Typography>
+                    <Typography fontSize={'large'}>Reitgruppeneinteilung Carmen Knott E-Mail: </Typography>
+                    <Typography fontSize={'large'}>ponyreitschule.knott@gmx.de</Typography>
+                    <Typography fontSize={'large'}>Tel. 01633796966</Typography>
                 </Item>
               </Grid>
 
 
               <Grid lg={4} xs={12} mb={2}>
-                <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
-                    <Typography>Speisen und Übernachten am Hof:</Typography>
-                    <Typography>Inhaber Familie Spaqi <br></br><br></br>E-Mail: info@hof-und-gut.de</Typography>
-                    <Typography>04181 9199500 (mobil 0176 70671532)</Typography>    
+                <Item sx={{backgroundColor:"primary.light", height:'100%', wordBreak:'break-word'}}>
+                    <Typography fontSize={'x-large'}>Speisen und Übernachten am Hof:</Typography>
+                    <Typography fontSize={'large'}>Inhaber Familie Spaqi <br></br><br></br>E-Mail: info@hof-und-gut.de</Typography>
+                    <Typography fontSize={'large'}>04181 9199500 (mobil 0176 70671532)</Typography>    
                 </Item>
               </Grid>
 
@@ -85,10 +85,10 @@ export default function EmtyGrid() {
 
             <Grid lg={4} xs={12} mb={2}>
               <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
-                  <Typography>Landwirtschaft: Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography> 
-                  <Typography>Büroadresse: Hauptstr. 3 21266 Jesteburg</Typography>
-                  <Typography>E-Mail: buchhaltung@hof-und-gut.de</Typography>
-                  <Typography>Tel.: 04183 9759994</Typography>
+                  <Typography fontSize={'x-large'}>Landwirtschaft: Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography> 
+                  <Typography fontSize={'large'}>Büroadresse: Hauptstr. 3 21266 Jesteburg</Typography>
+                  <Typography fontSize={'large'}>E-Mail: buchhaltung@hof-und-gut.de</Typography>
+                  <Typography fontSize={'large'}>Tel.: 04183 9759994</Typography>
 
               </Item>
               </Grid>

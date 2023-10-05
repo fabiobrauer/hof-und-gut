@@ -21,7 +21,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function EmtyGrid() {
   return (
-    <Box sx={{ flexGrow: 1, mt:'10px'}}>
+    <Box sx={{ flexGrow: 1, mt:'15px'}}>
       <Grid container spacing={2} >
         <Grid xs={12} lg={6}>
                 <Item sx={{backgroundColor:"primary.dark"}}>
@@ -35,7 +35,7 @@ export default function EmtyGrid() {
                           />
                               <Grid container spacing={2} mt={'10px'}>
                                   <Grid xs={12} lg={6} >
-                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
+                                        <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                             <CardContent>
                                               <Typography fontSize={'xx-large'}>
                                                 Auszubildende/r Koch/in
@@ -50,7 +50,7 @@ export default function EmtyGrid() {
 
 
                                   <Grid xs={12} lg={6}>
-                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
+                                        <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                           <CardContent>
                                             <Typography fontSize={'xx-large'}>
                                               Koch/in oder Küchenhelfer/in
@@ -71,8 +71,8 @@ export default function EmtyGrid() {
         </Grid>
 
 
-        <Grid xs={12} lg={6}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
+        <Grid xs={12} lg={6} >
+          <Item sx={{backgroundColor:"primary.dark", height:'100%'}} >
           <Card sx={{backgroundColor:"primary.dark"}}>
                         <CardActionArea >
                           <CardMedia
@@ -81,9 +81,9 @@ export default function EmtyGrid() {
                             image="Speisen1.jpeg"
                             alt="Cheff Koch und Azubis"
                           />
-                              <Grid container spacing={2} mt={'10px'}>
+                              <Grid container spacing={2} mt={'10px'} >
                                   <Grid xs={12} lg={6} >
-                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
+                                        <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                             <CardContent>
                                               <Typography fontSize={'xx-large'}>
                                               Auszubildende/r im Restaurantfach 
@@ -97,7 +97,7 @@ export default function EmtyGrid() {
 
 
                                   <Grid xs={12} lg={6}>
-                                        <Item sx={{backgroundColor:"primary.light", minHeight:'1300px'}}>
+                                        <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                           <CardContent>
                                             <Typography fontSize={'xx-large'}>
                                               Servicekraft

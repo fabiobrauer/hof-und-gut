@@ -30,7 +30,7 @@ export default function EmtyGrid() {
                       Der berühmte Fotograf Walter Schmitz aus Hamburg hat rund um Hof&Gut Bilder eingefangen und stellt sie im Restaurant Stub’n aus. Anschauen lohnt!
                   </Typography>
             </Item>
-            <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
+            <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
                             <Typography fontSize={'xx-large'}>Hoffest</Typography>
                 <CardMedia
                                 component="img"
@@ -50,7 +50,7 @@ export default function EmtyGrid() {
                   Am 13. Januar 2016 wurde im NDR in der Sendung “Mein Nachmittag” ein kurzer Film über Hof&Gut und schöne Orte in der Umgebung ausgestrahlt. Live im Studio war Chefkoch Frank Schiffner, der ein Lieblingsgericht vorgestellt hat! Hier der Link zur Sendung…die letzten 12 Minuten sind die spannendsten: <a href="https://www.ndr.de/fernsehen/sendungen/mein_nachmittag/Mein-Nachmittag,meinnachmittag12852.html">NDR Mein Nachmitag</a></Typography>
                                 
           </Item>
-              <Item sx={{backgroundColor:"primary.dark" , mt:'10px'}}>
+              <Item sx={{backgroundColor:"primary.dark" , mt:'15px'}}>
               <Typography fontSize={'xx-large'}>Ausstellung von Karola Römermann in den “Künstlerstuben”</Typography>
                 <Typography fontSize={'x-large'}>
                       Karola Römermann stellt derzeit Werke ihres Schaffens aus 4 Jahrzehnten in den Künstlerstuben aus, kommen Sie gerne zum Schauen und Staunen…

@@ -21,20 +21,20 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function EmtyGrid() {
   return (
-    <Box sx={{ flexGrow: 1, mt:'10px'}}>
+    <Box sx={{ flexGrow: 1, mt:'15px'}}>
 
       <ReitenBasicGrid></ReitenBasicGrid>
 
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark"}}>
+                <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
                 <CardMedia
                                 component="img"
                                 image="ponieReiten.jpeg"
                                 alt="Foto Bauernhaus früher"
                                 />
                 </Item>
-                <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
+                <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
                   <Typography fontSize={'xx-large'}>Unser wöchentliches Angebot</Typography>
                     <Typography fontSize={'x-large'}>Fortgeschrittenengruppen <br></br>
                     Longenunterricht<br></br>
@@ -45,7 +45,7 @@ export default function EmtyGrid() {
                       
                     </Typography>
                 </Item>
-            <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
+            <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
               <Typography fontSize={'x-large'}>
               Feldenkrais – Reiten aus der Körpermitte
               Die Feldenkraisarbeit und das Reiten aus der Körpermitte heraus sind effektive Lernmethoden, um Bewegung mit Aufmerksamkeit wahrzunehmen. Man lernt zu fühlen und zu erforschen, verloren geglaubte Bewegungsmöglichkeiten wieder neu zu entdecken.
@@ -54,7 +54,7 @@ export default function EmtyGrid() {
             </Item>
         </Grid>
         <Grid xs={12} lg={4}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
+          <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
           <Typography fontSize={'xx-large'}>Kontakt und Aktuelles</Typography> 
                   <Typography fontSize={'x-large'}>Liebe Reitkinder und liebe Eltern,
                               seit dem Sommer 2021 hat Carmen Knott den Reitbetrieb am Hof von Anne Strufe übernommen. Sie und ihr Team freuen sich auf Euch!<br></br> 
@@ -74,7 +74,7 @@ export default function EmtyGrid() {
                               …und viele große und kleine Helferinnen und Helfer
                     </Typography>
           </Item>
-          <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
               <Typography fontSize={'xx-large'}>Preisliste</Typography>
               <Typography fontSize={'x-large'}>
                   Kinder und Jugendgruppen 85,- €/Monat
@@ -85,20 +85,20 @@ export default function EmtyGrid() {
             </Item>
         </Grid>
         <Grid xs={12} lg={4}>
-          <Item sx={{backgroundColor:"primary.dark"}}>
+          <Item sx={{backgroundColor:"primary.dark" , mt:'10px'}}>
           <CardMedia
                                 component="img"
                                 image="PonieReiten2.jpeg"
-                                alt="Foto Bauernhaus früher"
+                                alt="poniereiten"
                                 />
             </Item>
-            <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
+            <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
               <Typography fontSize={'x-large'}>
                 Wir bieten kompetenten Reitunterricht für Kinder von 6 bis 12 Jahren und für die ganz Kleinen ab 3 Jahren gibt es die sogenannte Ponyspielzeit. Unser Schwerpunkt liegt in der ganzheitlichen Reitausbildung. Für uns sind Pferde mehr als ein Sportgerät. Die Ausbildung erfolgt in kleinen Gruppen auf dem Reitplatz und im Gelände. Der Unterricht findet ganzjährig statt. Wir freuen uns über Euer Interesse und versprechen Euch, dass Ihr viel Freude haben werdet!
               </Typography>
             </Item>
 
-            <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
+            <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
               <Typography fontSize={'x-large'}>
                   Die ganzheitliche Behandlung auf dem Pferderücken
                   In Bewegung sein heißt lebendig sein – körperlich-geistig-seelisch.
@@ -108,7 +108,7 @@ export default function EmtyGrid() {
 
         </Grid>
         <Grid xs={12} lg={12}>
-          <Item sx={{backgroundColor:"primary.dark", mt:'10px'}} >
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
               <ReitenCustomImageList></ReitenCustomImageList>
           </Item>
         </Grid>
