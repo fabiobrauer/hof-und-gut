@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { CardContent } from '@mui/material';
 import FerienwohungCustomImageList from '../assets/Comp_ImageListFerienwohnung';
 import ZimmerCustomImageList from '../assets/Comp_ImageListZimmer';
-
+import {Helmet} from "react-helmet-async";
 
 /* Booking.com Link */
 
@@ -24,6 +24,15 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function EmtyGrid() {
   return (
     <Box sx={{ flexGrow: 1, mt:'15px'}}>
+
+      <Helmet>
+          <title>Übernachten am Hof</title>
+          <meta name="description"  content="Übernachten bei Hof und Gut in Jesteburg"/>
+          <link rel='canonical' href="/ÜbernachtenAmHof"/>
+
+      </Helmet>
+
+
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>

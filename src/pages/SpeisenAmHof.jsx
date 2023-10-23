@@ -7,6 +7,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import SpeisenCustomImageList from '../assets/Comp_ImageListSpeisen';
+import {Helmet} from "react-helmet-async";
 
 
 
@@ -27,6 +28,14 @@ export default function SpeisenAmHof() {
       
 
       <Box sx={{ flexGrow: 1, mt:'15px'}}>
+
+      <Helmet>
+        <title>Speisen am Hof</title>
+        <link rel='canonical' href="/SpeisenAmHof"/>
+        <meta name="description"  content="Süddeutsche Küche in Jesteburg"/>
+        <meta name="description"  content="Restaurant Jesteburg"/>
+
+      </Helmet>
 
         <Comp_SpeisenAmHof></Comp_SpeisenAmHof>
 

@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
+import {Helmet} from "react-helmet-async";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -19,6 +19,14 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function ÖkologischeLandwirtschaft() {
   return (
     <Box sx={{ flexGrow: 1, mt:'15px'}}>
+
+      <Helmet>
+          <title>Ökologische Landwirtschaft Hof&Gut Jesteburg</title>
+          <meta name="description"  content="Alles über unsere Tiere und die Landwirtschaft"/>
+          <link rel='canonical' href="/ÖkologischeLandwirtschaft"/>
+      </Helmet>
+
+
     <Grid container spacing={2} direction={'row-reverse'}>
                 <Grid xs={12} lg={9}>
                   <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>

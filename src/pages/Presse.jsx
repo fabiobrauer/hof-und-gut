@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
+import {Helmet} from "react-helmet-async";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -22,6 +22,14 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Presse() {
   return (
     <Box sx={{ flexGrow: 1, mt:'10px'}}>
+
+      <Helmet>
+          <title>Hof&Gut Presse und Zeitungsartikel</title>
+          <meta name="description"  content="Auftritt von Hof & Gut in der Presse"/>
+          <link rel='canonical' href="/Presse"/>
+      </Helmet>
+
+
       <Grid container spacing={2} justifyContent='center'>
 
                 <Grid xs={12} lg={9}>

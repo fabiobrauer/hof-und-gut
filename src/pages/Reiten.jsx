@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import ReitenBasicGrid from '../assets/Comp_Reiten';
 import ReitenCustomImageList from '../assets/Comp_ImageListReiten';
 import { Button } from '@mui/material';
+import {Helmet} from "react-helmet-async";
 
 
 
@@ -22,7 +23,11 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function EmtyGrid() {
   return (
     <Box sx={{ flexGrow: 1, mt:'15px'}}>
-
+      <Helmet>
+          <title>Reiten bei Carmen Knott</title>
+          <meta name="description"  content="Reiten und Ponniereiten in Jesteburg"/>
+          <link rel='canonical' href="/Reiten"/>
+      </Helmet>
       <ReitenBasicGrid></ReitenBasicGrid>
 
       <Grid container spacing={2} >

@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
-
+import {Helmet} from "react-helmet-async";
 
 
 
@@ -20,6 +20,14 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function EmtyGrid() {
   return (
     <Box sx={{ flexGrow: 1, mt:'10px'}}>
+
+      <Helmet>
+            <title>Anreise und Kontakt zu Hof&Gut Jesteburg</title>
+            <meta name="description"  content="Öffnungszeiten Kontakt Anreise Hof&Gut Jesteburg"/>
+            <link rel='canonical' href="/Kontakt"/>
+      </Helmet>
+
+
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark", padding:'0', paddingBottom:'10px' }}>

@@ -4,6 +4,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import Typography from '@mui/material/Typography';
 import CardMedia from '@mui/material/CardMedia';
+import {Helmet} from "react-helmet-async";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -19,6 +20,13 @@ export default function Links() {
   return (
 
       <Grid container justifyContent={'center'} >
+
+      <Helmet>
+          <title>Links... mit Hof&Gut in Zusammenarbeit</title>
+          <meta name="description"  content="Mit Hof&Gut in Zusammenarbeit"/>
+          <link rel='canonical' href="/Links"/>
+      </Helmet>
+
         <Grid lg={7} xs={12}>
           <Item sx={{backgroundColor:"primary.dark", m:'5px'}}>
             <Typography fontSize={'x-large'}>

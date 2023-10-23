@@ -5,6 +5,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import {Helmet} from "react-helmet-async";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -17,6 +18,14 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function EmtyGrid() {
   return (
     <Box sx={{ flexGrow: 1, mt:'15px'}}>
+
+    <Helmet>
+          <title>Veranstaltungen Kunst und Kultur bei Hof und Gut</title>
+          <meta name="description"  content="Veranstaltungen Kunst und Kultur bei Hof und Gut in Jesteburg"/>
+          <link rel='canonical' href="/VeranstaltungenKunstKultur"/>
+      </Helmet>
+
+
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark"}}>

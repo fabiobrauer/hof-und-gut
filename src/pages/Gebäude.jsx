@@ -9,6 +9,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
+import {Helmet} from "react-helmet-async";
+
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -21,6 +23,12 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Gebäude() {
   return (
     <Grid container mt={'10px'}>
+
+      <Helmet>
+          <title>Gebäude bei Hof & Gut Jesteburg</title>
+          <meta name="description"  content="Renoviertes Bauernhaus umgebaute Scheune und zukünftige Projekte"/>
+          <link rel='canonical' href="/Gebäude"/>
+      </Helmet>
 
         <Grid lg={7} xs={12} sx={{padding:'10px'}}>
               <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>

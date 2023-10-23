@@ -9,6 +9,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import '../index.css'
+import {Helmet} from "react-helmet-async";
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -22,6 +23,13 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function EmtyGrid() {
   return (
     <Box sx={{ flexGrow: 1, mt:'15px'}}>
+
+      <Helmet>
+        <title>Stellenangebote bei Hof und Gut in Jesteburg</title>
+        <meta name="description"  content="Arbeitsplätze bei Hof und Gut in Jesteburg"/>
+        <link rel='canonical' href="/Stellenangebote"/>
+      </Helmet>
+
       <Grid container spacing={2} >
         <Grid xs={12} lg={6}>
                 <Item sx={{backgroundColor:"primary.dark"}}>
