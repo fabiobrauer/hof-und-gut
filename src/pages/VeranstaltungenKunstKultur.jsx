@@ -23,7 +23,6 @@ export default function EmtyGrid() {
           <title>Veranstaltungen Kunst und Kultur bei Hof und Gut</title>
           <meta name="description"  content="Veranstaltungen Kunst und Kultur bei Hof und Gut in Jesteburg"/>
           <link rel='canonical' href="/VeranstaltungenKunstKultur"/>
-          <meta name="fragment" content="!"/>
       </Helmet>
 
 

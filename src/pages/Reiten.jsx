@@ -27,7 +27,6 @@ export default function EmtyGrid() {
           <title>Reiten bei Carmen Knott</title>
           <meta name="description"  content="Reiten und Ponniereiten in Jesteburg"/>
           <link rel='canonical' href="/Reiten"/>
-          <meta name="fragment" content="!"/>
       </Helmet>
       <ReitenBasicGrid></ReitenBasicGrid>
 

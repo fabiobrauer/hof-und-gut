@@ -29,7 +29,7 @@ export default function EmtyGrid() {
           <title>Übernachten am Hof</title>
           <meta name="description"  content="Übernachten bei Hof und Gut in Jesteburg"/>
           <link rel='canonical' href="/ÜbernachtenAmHof"/>
-          <meta name="fragment" content="!"/>
+
       </Helmet>
 
 

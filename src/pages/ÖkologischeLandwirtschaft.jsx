@@ -24,7 +24,6 @@ export default function ÖkologischeLandwirtschaft() {
           <title>Ökologische Landwirtschaft Hof&Gut Jesteburg</title>
           <meta name="description"  content="Alles über unsere Tiere und die Landwirtschaft"/>
           <link rel='canonical' href="/ÖkologischeLandwirtschaft"/>
-          <meta name="fragment" content="!"/>
       </Helmet>
 
 

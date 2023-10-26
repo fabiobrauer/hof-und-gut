@@ -25,7 +25,6 @@ export default function Links() {
           <title>Links... mit Hof&Gut in Zusammenarbeit</title>
           <meta name="description"  content="Mit Hof&Gut in Zusammenarbeit"/>
           <link rel='canonical' href="/Links"/>
-          <meta name="fragment" content="!"/>
       </Helmet>
 
         <Grid lg={7} xs={12}>

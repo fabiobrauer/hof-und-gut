@@ -27,7 +27,6 @@ export default function Presse() {
           <title>Hof&Gut Presse und Zeitungsartikel</title>
           <meta name="description"  content="Auftritt von Hof & Gut in der Presse"/>
           <link rel='canonical' href="/Presse"/>
-          <meta name="fragment" content="!"/>
       </Helmet>
 
 

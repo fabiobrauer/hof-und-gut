@@ -5,7 +5,6 @@ import './index.css'
 import { BrowserRouter } from "react-router-dom"
 import { HelmetProvider } from 'react-helmet-async'
 
-app.use(require('prerender-node').set('prerenderToken', '0V26uOAkyMQlNjscItFf'));
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
