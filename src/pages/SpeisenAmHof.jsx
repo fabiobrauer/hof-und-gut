@@ -34,7 +34,7 @@ export default function SpeisenAmHof() {
         <link rel='canonical' href="/SpeisenAmHof"/>
         <meta name="description"  content="Süddeutsche Küche in Jesteburg"/>
         <meta name="description"  content="Restaurant Jesteburg"/>
-
+        <meta name="fragment" content="!"/>
       </Helmet>
 
         <Comp_SpeisenAmHof></Comp_SpeisenAmHof>

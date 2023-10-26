@@ -10,6 +10,7 @@ export default function ÜberUns() {
           <title>Über Hof&Gut Jesteburg</title>
           <meta name="description"  content="Wissenswertes über Hof und Gut Jesteburg"/>
           <link rel='canonical' href="/ÜberUns"/>
+          <meta name="fragment" content="!"/>
       </Helmet>
         
         <p>

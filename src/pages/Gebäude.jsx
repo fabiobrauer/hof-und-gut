@@ -28,6 +28,7 @@ export default function Gebäude() {
           <title>Gebäude bei Hof & Gut Jesteburg</title>
           <meta name="description"  content="Renoviertes Bauernhaus umgebaute Scheune und zukünftige Projekte"/>
           <link rel='canonical' href="/Gebäude"/>
+          <meta name="fragment" content="!"/>
       </Helmet>
 
         <Grid lg={7} xs={12} sx={{padding:'10px'}}>

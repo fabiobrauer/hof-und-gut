@@ -22,9 +22,11 @@ export default function EmtyGrid() {
     <Box sx={{ flexGrow: 1, mt:'10px'}}>
 
       <Helmet>
+
             <title>Anreise und Kontakt zu Hof&Gut Jesteburg</title>
             <meta name="description"  content="Öffnungszeiten Kontakt Anreise Hof&Gut Jesteburg"/>
             <link rel='canonical' href="/Kontakt"/>
+            <meta name="fragment" content="!"/>
       </Helmet>
 
 
