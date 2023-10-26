@@ -16,6 +16,7 @@
     "@mui/icons-material": "^5.14.6",
     "@mui/material": "^5.14.6",
     "framer-motion": "^10.16.4",
+    "prerender-node": "^3.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",

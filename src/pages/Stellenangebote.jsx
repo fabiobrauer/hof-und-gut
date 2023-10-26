@@ -28,6 +28,7 @@ export default function EmtyGrid() {
         <title>Stellenangebote bei Hof und Gut in Jesteburg</title>
         <meta name="description"  content="Arbeitsplätze bei Hof und Gut in Jesteburg"/>
         <link rel='canonical' href="/Stellenangebote"/>
+        <meta name="fragment" content="!"/>
       </Helmet>
 
       <Grid container spacing={2} >

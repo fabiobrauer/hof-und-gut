@@ -23,6 +23,7 @@ export default function EmtyGrid() {
 
       <Helmet>
             <title>Anreise und Kontakt zu Hof&Gut Jesteburg</title>
+            <meta name="fragment" content="!"/>
             <meta name="description"  content="Öffnungszeiten Kontakt Anreise Hof&Gut Jesteburg"/>
             <link rel='canonical' href="/Kontakt"/>
       </Helmet>

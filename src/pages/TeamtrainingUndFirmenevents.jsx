@@ -23,6 +23,7 @@ export default function EmtyGrid() {
           <title>Teamtraining und Firmenevents bei Hof&Gut in Jesteburg</title>
           <meta name="description"  content="Teamtraining und Firmenevents bei Hof&Gut in der Nordheide"/>
           <link rel='canonical' href="/TeamtrainingUndFirmenevents"/>
+          <meta name="fragment" content="!"/>
       </Helmet>
 
 
