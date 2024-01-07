@@ -55,8 +55,12 @@ export default function Comp_SpeisenAmHof() {
                     Tel mobil: 0176 70671532
                 </Typography>
 
-                    <a href='Empfehlung-+-Speisekarte.pdf' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:"30px"}} >Aktuelle Speisekarte</Button></a>
-                    <script 
+                    <a href='Empfehlung-+-Speisekarte.pdf' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Aktuelle Speisekarte</Button></a>
+                    <a href="WeinkarteWinter.pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Weinkarte Winter</Button></a>
+                    <a href="Bier-Soft-und-Heißgetränke (1).pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Getränke</Button></a>
+                    <a href="Apertifs-Longdrinks (1).pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Longdrinks</Button></a>
+                    
+                    <script
                     type="text/javascript" 
                     data-resmio-button="hof-gut-jesteburg" 
                     data-resmio-fontsize="14px" 
