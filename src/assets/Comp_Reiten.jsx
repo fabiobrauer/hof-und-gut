@@ -29,7 +29,7 @@ export default function ReitenBasicGrid() {
                         </Typography>
                             <Typography fontSize='x-large'>
                                       <a href="Tages.Ponyferien.Information.AKTUELL1.pdf">Tages.Ponyferien</a> <br></br>
-                                        <a href="Jahresprogramm-05.2023.pdf">Jahresprogramm 05.2023</a> <br></br>
+                                        <a href="Jahresprogramm-2024.aktuell.pdf">Jahresprogramm 2024</a> <br></br>
                                         <a href="Reitschulvertrag01.23 (1).pdf">Reitschulvertrag01.23</a> <br></br>
                                        <a href="Info.Ponygeburtstagsfeiern (1).pdf">Ponygeburtstagsfeier.pdf</a><br></br>
                                        {/* <a href="">Anmeldung Pony Sommer 23</a>  */}

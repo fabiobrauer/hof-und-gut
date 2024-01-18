@@ -90,7 +90,7 @@ export default function ReitenMenus() {
         open={open}
         onClose={handleClose}
       >
-        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', borderBottom:'1px solid'}}>Reit Angebot</MenuItem></Link>
+        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', borderBottom:'1px solid'}}>Reitangebot</MenuItem></Link>
         <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between'}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(2)', ml:'50px'}}/></MenuItem></Link>
       </StyledMenu>
     </Box>

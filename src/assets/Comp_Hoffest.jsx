@@ -24,7 +24,7 @@ export default function Hoffest() {
                 <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
                     <Typography fontSize={'xx-large'}>Hoffest</Typography>
                     <Typography sx={{fontSize:'x-large'}}>
-                    Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. <span style={{fontStyle:'Bold'}}>Das nächste Oktoberfest findet am 2. und 3. Oktober 2023 statt.</span> Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:
+                    Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. <span style={{fontStyle:'Bold'}}>Das nächste Hoffest findet am 30.04.2024 und 01.05.2024 statt.</span> Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:
                     </Typography>
                     <Button><a href="https://youtu.be/UELE6Nx0z3E">Youtube Hoffest</a></Button>
                 </Item>

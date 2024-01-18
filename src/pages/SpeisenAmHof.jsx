@@ -68,24 +68,25 @@ export default function SpeisenAmHof() {
           <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}> Büffetbeispiel ab 20 Personen</Typography>
             <Typography fontSize={'x-large'}> 
-                          Tomatensuppe mit Crème Fraîche, Croûtons und Basilikum
-                          Hof & Gut Anti-Pasti
-                          Rote Bete-Carpaccio
-                          Blattsalate mit Hausdressing
-                          Schweinefilet vom Bio-Schwein auf Rotwein-Thymianzwetschgen
-                          Gefüllte Spitzpaprika mit Gemüse-Couscous und Chili-Limonen-Joghurt
-                          Kartoffelgratin
-                          Reis
-                          Crème Brulée mit Waldbeerenkompott
+                          Tomatensuppe mit Crème Fraîche 
+                          Croûtons und Basilikum <br></br>
+                          Hof & Gut Anti-Pasti <br></br>
+                          Rote Bete-Carpaccio <br></br>
+                          Blattsalate mit Hausdressing <br></br>
+                          Schweinefilet vom Bio-Schwein auf Rotwein-Thymianzwetschgen <br></br>
+                          Gefüllte Spitzpaprika mit Gemüse-Couscous und Chili-Limonen-Joghurt <br></br>
+                          Kartoffelgratin <br></br>
+                          Reis <br></br>
+                          Crème Brulée mit Waldbeerenkompott <br></br><br></br>
                           Gern erstellen wir Ihnen individuell ein Buffet oder Menü
             </Typography>
           </Item>
           <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
           <Typography fontSize={'xx-large'}>Menübeispiele ab 20 Personen</Typography>
             <Typography  fontSize={'x-large'}>
-                  Menü 1
+                  Menü 1<br></br>
                   Karotten-Ingwer-Suppe***<br></br>Zanderfilet auf tomatisiertem Rahmsauerkraut mit Hofkartoffeln***<br></br>Schokoladenmousse mit Himbeer-Chilisauce
-                  Menü 2
+                  <br></br><br></br>Menü 2<br></br>
                   Rote Bete–Carpaccio mit Trüffel-Limonendressing und Basilikumparmesan***<br></br>Kalbsvoltini gefüllt mit Scampi-Aprikosenfarce auf Balsamico-Linsengemüsemit Koriander und gerösteten Pinienkernen***<br></br>Käsebrett mit Weintrauben
                   Gerne stellen wir Ihnen ein individuelles Menü zusammen
             </Typography>
