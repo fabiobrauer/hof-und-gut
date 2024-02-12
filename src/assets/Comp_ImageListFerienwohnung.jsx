@@ -53,7 +53,22 @@ export default function FerienwohungCustomImageList() {
 
 const itemData = [
   {
-    img: 'Ferienwohung.jpg',
+    img: 'Ferienwohnung1.jpg',
+    title: 'Fotes Ferienwohnung Fehlen',
+    featured: 'true'
+  },
+  {
+    img: 'Ferienwohnung2.jpg',
+    title: 'Fotes Ferienwohnung Fehlen',
+    featured: 'true'
+  },
+  {
+    img: 'Ferienwohnung3.jpg',
+    title: 'Fotes Ferienwohnung Fehlen',
+    featured: 'true'
+  },
+  {
+    img: 'Ferienwohnung4.jpg',
     title: 'Fotes Ferienwohnung Fehlen',
     featured: 'true'
   },
