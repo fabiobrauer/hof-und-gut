@@ -42,13 +42,13 @@ export default function Footer() {
             <a href="https://www.instagram.com/hofundgutjesteburg/">
             <Box sx={{textAlign:'center', width:'150px'}}>          
               <InstagramIcon sx={{fontSize:'xxx-large'}}></InstagramIcon>
-              <Typography fontSize={"x-large"}>Instagram</Typography>
+              <Typography >Instagram</Typography>
             </Box>
             </a>
             <a href="https://www.facebook.com/hofundgut/">
             <Box sx={{textAlign:'center', width:'150px'}}>  
               <FacebookIcon sx={{fontSize:'xxx-large'}}></FacebookIcon>
-              <Typography fontSize={"x-large"}>Facebook</Typography>
+              <Typography >Facebook</Typography>
             </Box>
             </a>
           </Box>  
@@ -58,13 +58,13 @@ export default function Footer() {
             <a href="https://www.booking.com/hotel/de/hof-und-gut-jesteburg.de.html?label=gen173rf-1FCA0oO0IVaG9mLXVuZC1ndXQtamVzdGVidXJnSAdYA2g7iAEBmAEHuAEXyAEM2AEB6AEB-AECiAIBogIQc2VhcmNoLmJyYXZlLmNvbagCA7gC8easqAbAAgHSAiQwMWY2NGNiOC03MzY4LTQ5MzQtOTU4ZS0xMzRkMjEwM2RkODfYAgXgAgE&sid=1aa700cd70c9fe81fd137467d6ea43b7">
             <Box sx={{textAlign:'center', width:'150px'}}>
               <NightShelterIcon sx={{fontSize:'xxx-large'}}></NightShelterIcon>
-              <Typography fontSize={"x-large"}>Booking.com</Typography>
+              <Typography >Booking.com</Typography>
             </Box>  
             </a>        
             <a href="https://shop-hof-und-gut.de/">
             <Box sx={{textAlign:'center', width:'150px'}}>
               <ShoppingBagIcon sx={{fontSize:'xxx-large'}}></ShoppingBagIcon>
-              <Typography fontSize={"x-large"}>Shopify</Typography>
+              <Typography >Onlineshop</Typography>
             </Box>
             </a>
           </Box>  

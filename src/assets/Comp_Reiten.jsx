@@ -5,6 +5,8 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import { red } from '@mui/material/colors';
+import { Button } from '@mui/material';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -34,7 +36,8 @@ export default function ReitenBasicGrid() {
                                        <a href="Info.Ponygeburtstagsfeiern (1).pdf">Ponygeburtstagsfeier.pdf</a><br></br>
                                        {/* <a href="">Anmeldung Pony Sommer 23</a>  */}
                                         
-                            </Typography>
+                            </Typography>    
+                              <a href="https://ponyreitschuleknot.wixsite.com/ponyreitschule-carme"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px', fontSize:"large"}} >zur ponyreitschuleknot Webseite</Button></a>
                 </Item>
                 <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'} m={'10px'}>
