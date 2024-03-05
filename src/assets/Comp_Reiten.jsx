@@ -26,7 +26,7 @@ export default function ReitenBasicGrid() {
                         <Typography fontSize='xx-large' sx={{m:'10px'}}>
                         Unsere aktuellen Angebote im Reitbetrieb zum Herunterladen
                         </Typography>
-                        <Typography  fontSize='x-large'> 
+                        <Typography  fontSize='large'> 
                             Hier findet Ihr alle Angebote der Reitschule, einfach anklicken:
                         </Typography>
                             <Typography fontSize='x-large'>
@@ -40,10 +40,10 @@ export default function ReitenBasicGrid() {
                               <a href="https://ponyreitschuleknot.wixsite.com/ponyreitschule-carme"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px', fontSize:"large"}} >zur ponyreitschuleknot Webseite</Button></a>
                 </Item>
                 <Item sx={{backgroundColor:"primary.dark"}}>
-            <Typography fontSize={'xx-large'} m={'10px'}>
+            <Typography fontSize={'xx-large'} m={'5px'}>
                 Reitworkshops
             </Typography>
-            <Typography fontSize={'x-large'}>
+            <Typography fontSize={'large'}>
                 Wir bieten in den Ferien Reitworkshops für Kinder ab 6 Jahren an, sowie auch Programme für Kindergeburtstage
             </Typography>
           </Item>

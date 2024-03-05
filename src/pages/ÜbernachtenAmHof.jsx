@@ -37,10 +37,10 @@ export default function EmtyGrid() {
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
                   <Typography fontSize={'xx-large'}>Erholung im Schlaf unterm Reetdach!</Typography> 
-                  <Typography fontSize={'x-large'}>Alle Zimmer sind mit einem Fernseher ausgestattet, aber noch schöner ist der Blick aus dem Fenster! Internetzugang über Hotspot ist kostenlos verfügbar. 
+                  <Typography fontSize={'large'}>Alle Zimmer sind mit einem Fernseher ausgestattet, aber noch schöner ist der Blick aus dem Fenster! Internetzugang über Hotspot ist kostenlos verfügbar. 
                             Anreise täglich ab 16 Uhr, am Wochenende ab 14 Uhr möglich. Bei früher oder später Anreise nach 22 Uhr bitte anrufen unter 04181 9199500 oder mobil 0176 070671532.
                   </Typography>
-                  <Typography fontSize={'x-large'}>Das Team von Hof & Gut wünscht eine geruhsame Nacht unterm Reetdach und ländliche Träume!
+                  <Typography fontSize={'large'}>Das Team von Hof & Gut wünscht eine geruhsame Nacht unterm Reetdach und ländliche Träume!
                               Reservierungen per E-Mail an info@hof-und-gut.de
                               Preise gültig ab 1. März 2023. Änderungen vorbehalten.
                   </Typography> 
@@ -75,7 +75,7 @@ export default function EmtyGrid() {
 
             
             <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
-                <Typography fontSize={'x-large'}>
+                <Typography fontSize={'large'}>
                   Die Zimmer sollten am Abreisetag bis 11 Uhr geräumt sein. Handtücher zum Austausch bitte auf den Boden. Und natürlich dabei immer an die schöne Natur um uns herum denken…
                 </Typography>
             </Item>
@@ -88,7 +88,7 @@ export default function EmtyGrid() {
                               <Typography fontSize={'xx-large'}>
                                 Hof-Frühstück
                               </Typography>
-                              <Typography fontSize={'x-large'}>
+                              <Typography fontSize={'large'}>
                                 Das Frühstück wird für unsere Hausgäste von <br></br>8 – 10:00 Uhr serviert.<br></br> Das Frühstück kostet 14.50 € p. P,<br></br> Kinderfrühstück (3 – 7 Jahre) 8, 00 € p.P.<br></br><br></br> und es gibt Wurst, Käse, Bio-Ei, Konfitüre, Brotkorb, Kaffee und Tee nach Wunsch!
                               </Typography>
 
