@@ -50,7 +50,7 @@ export default function EmtyGrid() {
         <Grid xs={12} lg={4} display={'flex'} flexDirection={'column'} justifyContent={'space-between'} gap={'10px'}>
           <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}>Preise</Typography>
-            <Typography fontSize={'x-large'}>
+            <Typography fontSize={'large'}>
                         DZ 110 €<br></br>
                         EZ 95 €<br></br>
                         Apartment für 2 Personen 150 €<br></br>
