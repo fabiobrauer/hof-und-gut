@@ -51,9 +51,11 @@ export default function EmtyGrid() {
           <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}>Preise</Typography>
             <Typography fontSize={'x-large'}>
-                        DZ 90 €<br></br>
-                        EZ 78 €<br></br>
-                        Ferienwohnung ab 125 €<br></br>
+                        DZ 110 €<br></br>
+                        EZ 95 €<br></br>
+                        Apartment für 2 Personen 150 €<br></br>
+                        Apartment für 3 Personen 175 €<br></br>
+                        Apartment für 4 Personen 200 €<br></br>
                         Zustellbett für ein Kind 25 €<br></br>
               </Typography>
           </Item>
