@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+:root {
+  --BgColor: rgb(137, 160, 138);
+  --BrightGreen: rgb(80, 140, 103);
+  --TextColor: rgb(255, 255, 255);
+  --ButtonColor: rgb(181, 81, 81);
+  background-color: var(--BgColor)
+}
+
+*{
+  color: var(--TextColor);
+}
+
+
+html {
+  scroll-behavior: smooth;
+  overflow-x:hidden;
+}
+
+
+
+
+::-webkit-scrollbar-thumb {
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+.swiper-button-prev::after{
+  display: none;
+}
+.swiper-button-next::after{
+  display: none;
+}

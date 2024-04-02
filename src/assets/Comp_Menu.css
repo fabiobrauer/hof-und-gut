@@ -1,0 +1,19 @@
+
+.Link {
+    text-decoration: none;
+}
+
+.Link li{
+    line-height: 35px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .Link li{
+        line-height: 35px;
+        font-size: xx-large;
+    }
+
+}
+
