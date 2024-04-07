@@ -55,7 +55,7 @@ export default function Comp_SpeisenAmHof() {
                     Tel mobil: 0176 70671532
                 </Typography>
 
-                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte_084827b0-ab7e-4b26-a88b-de6a0571b305.pdf?v=1712508085' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Aktuelle Speisekarte</Button></a>
+                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1712508159' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Aktuelle Speisekarte</Button></a>
                     <a href="WeinkarteWinter.pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Weinkarte Winter</Button></a>
                     <a href="Bier-Soft-und-Heißgetränke (1).pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Getränke</Button></a>
                     <a href="Apertifs-Longdrinks (1).pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Longdrinks</Button></a>
