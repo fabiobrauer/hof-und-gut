@@ -50,10 +50,19 @@ export default function EmtyGrid() {
         <Grid xs={12} lg={4} display={'flex'} flexDirection={'column'} justifyContent={'space-between'} gap={'10px'}>
           <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}>Preise</Typography>
+<<<<<<< HEAD
             <Typography fontSize={'x-large'}>
                         DZ 90 €<br></br>
                         EZ 78 €<br></br>
                         Ferienwohnung ab 125 €<br></br>
+=======
+            <Typography fontSize={'large'}>
+                        DZ 110 €<br></br>
+                        EZ 95 €<br></br>
+                        Apartment für 2 Personen 150 €<br></br>
+                        Apartment für 3 Personen 175 €<br></br>
+                        Apartment für 4 Personen 200 €<br></br>
+>>>>>>> 45199c435a1e23e17d5c05bb30ae7eb6cd3575c1
                         Zustellbett für ein Kind 25 €<br></br>
               </Typography>
           </Item>
