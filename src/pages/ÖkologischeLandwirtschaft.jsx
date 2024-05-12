@@ -42,7 +42,7 @@ export default function ÖkologischeLandwirtschaft() {
                                 </Typography>
                        {         <CardMedia
                                           component="img"
-                                          height={520}
+                                          height={"520"}
                                           image="Diewackerenvier.jpg"
                                           alt="Vier Kälber"
                                 /> }
