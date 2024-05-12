@@ -43,8 +43,8 @@ function Comp_Swiper() {
 
         <Grid xs={12} lg={12}>
         <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>
-              <Typography sx={{wordBreak:'break-word',fontSize:{xs:"x-large", lg:"xx-large"}}}>Besuchen Sie unseren Onlineshop</Typography>
-              <Typography sx={{fontSize:{xs:"large", lg:"x-large"}}}>Hier bieten wir nur unsere besten Produkte an, sowie griechisches Olivenöl, Produkte aus unserer Landwirtschaft und von uns ausgewähle Weine</Typography>
+              <Typography sx={{wordBreak:'break-word',fontSize:{xs:"x-large", lg:"x-large"}}}>Besuchen Sie unseren Onlineshop</Typography>
+              <Typography sx={{fontSize:{xs:"large", lg:"large"}}}>Hier bieten wir nur unsere besten Produkte an, sowie griechisches Olivenöl, Produkte aus unserer Landwirtschaft und von uns ausgewähle Weine</Typography>
           </Item>
           <Item sx={{backgroundColor:"primary.dark"}}>
                 <Box className="container" sx={{width:{xs:'100%', lg:'50%', margin:'0 auto'}}}>
@@ -251,7 +251,7 @@ function Comp_Swiper() {
           </Item>
 
           <Item sx={{backgroundColor:"primary.dark", mt:'15px', mb:'10px'}}>
-              <a href="https://shop-hof-und-gut.de/"><Button variant='outlined' sx={{bgcolor:'secondary.main', m:"30px", color:'white', fontSize:'xx-large'}}>Zum Shop</Button></a>
+              <a href="https://shop-hof-und-gut.de/"><Button variant='outlined' sx={{bgcolor:'secondary.main', m:"30px", color:'white', fontSize:'x-large'}}>Zum Shop</Button></a>
           </Item>
         </Grid>
 

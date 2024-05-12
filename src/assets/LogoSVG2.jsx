@@ -3,7 +3,7 @@ import SvgIcon from '@mui/material/SvgIcon';
 
 export default function Comp_LogoBanner() {
   return (
-    <SvgIcon sx={{ width:{xs:'75%', lg:'80%'},  height:{xs:'75%', lg:'100%'}}}>
+    <SvgIcon sx={{ width:{xs:'100px', lg:'60%'},  height:{xs:'75%', lg:'80%'}}}>
 
 <svg 
 id="Ebene_1" 

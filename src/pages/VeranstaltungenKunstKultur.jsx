@@ -28,9 +28,9 @@ export default function EmtyGrid() {
 
 
       <Grid container spacing={2} >
-        <Grid xs={12} lg={4}>
+        <Grid xs={12} lg={6}>
                 <Item sx={{backgroundColor:"primary.dark"}}>
-                <Typography fontSize={'xx-large'}>Fotografien von Walter Schmitz</Typography>
+                <Typography fontSize={'x-large'}>Fotografien von Walter Schmitz</Typography>
                 <CardMedia
                                 component="img"
                                 image="SchmitzFoto.jpg"
@@ -41,7 +41,7 @@ export default function EmtyGrid() {
                   </Typography>
             </Item>
             <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
-                            <Typography fontSize={'xx-large'}>Hoffest</Typography>
+                            <Typography fontSize={'x-large'}>Hoffest</Typography>
                 <CardMedia
                                 component="img"
                                 image="20230501_123221.jpg"
@@ -52,24 +52,21 @@ export default function EmtyGrid() {
                   </Typography>
                           </Item>
         </Grid>
-        <Grid xs={12} lg={4}>  
+        <Grid xs={12} lg={6}>  
           <Item sx={{backgroundColor:"primary.dark"}}>
                                 
-                <Typography fontSize={'xx-large'}>Hof&Gut im Fernsehen</Typography>
+                <Typography fontSize={'x-large'}>Hof&Gut im Fernsehen</Typography>
                 <Typography fontSize={'large'}>
                   Am 13. Januar 2016 wurde im NDR in der Sendung “Mein Nachmittag” ein kurzer Film über Hof&Gut und schöne Orte in der Umgebung ausgestrahlt. Live im Studio war Chefkoch Frank Schiffner, der ein Lieblingsgericht vorgestellt hat! Hier der Link zur Sendung…die letzten 12 Minuten sind die spannendsten: <a href="https://www.ndr.de/fernsehen/sendungen/mein_nachmittag/Mein-Nachmittag,meinnachmittag12852.html">NDR Mein Nachmitag</a></Typography>
                                 
           </Item>
               <Item sx={{backgroundColor:"primary.dark" , mt:'15px'}}>
-              <Typography fontSize={'xx-large'}>Ausstellung von Karola Römermann in den “Künstlerstuben”</Typography>
+              <Typography fontSize={'x-large'}>Ausstellung von Karola Römermann in den “Künstlerstuben”</Typography>
                 <Typography fontSize={'large'}>
                       Karola Römermann stellt derzeit Werke ihres Schaffens aus 4 Jahrzehnten in den Künstlerstuben aus, kommen Sie gerne zum Schauen und Staunen…
                 </Typography>
-              </Item>
-        </Grid>
-
-        <Grid xs={12} lg={4}>              
-                            <Item sx={{backgroundColor:"primary.dark"}}>
+              </Item>                            
+              <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
                             <Typography fontSize={'large'}>Kinder spielen…Klassik: “Alcina” von Georg Friedrich Händel auf Hof&Gut! Vier tolle Aufführungen im Juli 2015…Fortsetzung folgt…</Typography>
                 <CardMedia
                                 component="img"
@@ -79,9 +76,9 @@ export default function EmtyGrid() {
                               <Typography fontSize={'large'}>Musik im Allgemeinen und klassische Musik im Besonderen kann uns dort berühren, wo Worte nicht ankommen. Wir halten inne und erleben, dass da etwas ist, das unsere Seele anspricht. Jedes Kind sollte im besten Falle die Möglichkeit bekommen, einmal oder öfter “Klassik selber zu machen”. Genau das können Sie mit diesem fantastischen Projekt von Cornelia Salje erleben. Alle Informationen finden Sie unter: <a href="https://www.kinder-spielen-klassik.de/">https://www.kinder-spielen-klassik.de/</a>.</Typography>
                           
                           </Item>
+        </Grid>
 
 
-          </Grid>
 
 
       </Grid>
