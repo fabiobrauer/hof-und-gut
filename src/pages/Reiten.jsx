@@ -30,6 +30,11 @@ export default function EmtyGrid() {
           <meta name="fragment" content="!"/>
       </Helmet>
       <ReitenBasicGrid></ReitenBasicGrid>
+        <Grid xs={12} lg={12}>
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
+              <ReitenCustomImageList></ReitenCustomImageList>
+          </Item>
+        </Grid>
 
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
@@ -41,7 +46,7 @@ export default function EmtyGrid() {
                                 />
                 </Item>
                 <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-                  <Typography fontSize={'xx-large'}>Unser wöchentliches Angebot</Typography>
+                  <Typography fontSize={'x-large'}>Unser wöchentliches Angebot</Typography>
                     <Typography fontSize={'large'}>Fortgeschrittenengruppen <br></br>
                     Longenunterricht<br></br>
                       Reitanfängergruppen ab dem 5. Lebensjahr<br></br>
@@ -61,7 +66,7 @@ export default function EmtyGrid() {
         </Grid>
         <Grid xs={12} lg={4}>
           <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
-          <Typography fontSize={'xx-large'}>Kontakt und Aktuelles</Typography> 
+          <Typography fontSize={'x-large'}>Kontakt und Aktuelles</Typography> 
                   <Typography fontSize={'large'}>Liebe Reitkinder und liebe Eltern,
                               seit dem Sommer 2021 hat Carmen Knott den Reitbetrieb am Hof von Anne Strufe übernommen. Sie und ihr Team freuen sich auf Euch!<br></br> 
                               Alle Informationen zum Angebot sowie den aktuellen Vertrag findet Ihr im separaten Kasten, einfach draufklicken.
@@ -81,7 +86,7 @@ export default function EmtyGrid() {
                     </Typography>
           </Item>
           <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-              <Typography fontSize={'xx-large'}>Preisliste</Typography>
+              <Typography fontSize={'x-large'}>Preisliste</Typography>
               <Typography fontSize={'large'}>
                   Kinder und Jugendgruppen 85,- €/Monat
                   <br></br><br></br>Einzelstunde Kinder (30 Min.) inkl. Vorbereitung Pony 30€ <br></br><br></br>Einzelstunde Kinder (60 Min.) inkl. Vorbereitung Pony 55 €<br></br><br></br>Einzelstunde Erwachsene (30 Min.) inkl. Schulpferd 40 €<br></br><br></br>Einzelstunde Erwachsene (45 Min.) inkl. Schulpferd 55 €<br></br><br></br>
@@ -112,11 +117,6 @@ export default function EmtyGrid() {
               </Typography>
             </Item>
 
-        </Grid>
-        <Grid xs={12} lg={12}>
-          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-              <ReitenCustomImageList></ReitenCustomImageList>
-          </Item>
         </Grid>
 
 

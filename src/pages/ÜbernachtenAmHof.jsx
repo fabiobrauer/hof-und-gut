@@ -36,7 +36,7 @@ export default function EmtyGrid() {
       <Grid container spacing={2} >
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
-                  <Typography fontSize={'xx-large'}>Erholung im Schlaf unterm Reetdach!</Typography> 
+                  <Typography fontSize={'x-large'}>Erholung im Schlaf unterm Reetdach!</Typography> 
                   <Typography fontSize={'large'}>Alle Zimmer sind mit einem Fernseher ausgestattet, aber noch schöner ist der Blick aus dem Fenster! Internetzugang über Hotspot ist kostenlos verfügbar. 
                             Anreise täglich ab 16 Uhr, am Wochenende ab 14 Uhr möglich. Bei früher oder später Anreise nach 22 Uhr bitte anrufen unter 04181 9199500 oder mobil 0176 070671532.
                   </Typography>
@@ -50,12 +50,6 @@ export default function EmtyGrid() {
         <Grid xs={12} lg={4} display={'flex'} flexDirection={'column'} justifyContent={'space-between'} gap={'10px'}>
           <Item sx={{backgroundColor:"primary.dark"}}>
             <Typography fontSize={'xx-large'}>Preise</Typography>
-<<<<<<< HEAD
-            <Typography fontSize={'x-large'}>
-                        DZ 90 €<br></br>
-                        EZ 78 €<br></br>
-                        Ferienwohnung ab 125 €<br></br>
-=======
             <Typography fontSize={'large'}>
                         DZ 110 €<br></br>
                         EZ 95 €<br></br>
@@ -94,7 +88,7 @@ export default function EmtyGrid() {
 
                 <Grid xs={12} lg={4}>
                     <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
-                              <Typography fontSize={'xx-large'}>
+                              <Typography fontSize={'x-large'}>
                                 Hof-Frühstück
                               </Typography>
                               <Typography fontSize={'large'}>
@@ -112,7 +106,7 @@ export default function EmtyGrid() {
 
             <Grid xs={12} lg={6}>
               <Item sx={{backgroundColor:"primary.dark"}}>
-                <Typography fontSize={'xx-large'}>Ferienwohnung</Typography>
+                <Typography fontSize={'x-large'}>Ferienwohnung</Typography>
 
                 <FerienwohungCustomImageList></FerienwohungCustomImageList>
               </Item>
@@ -121,7 +115,7 @@ export default function EmtyGrid() {
 
             <Grid xs={12} lg={6}>
               <Item sx={{backgroundColor:"primary.dark"}}>
-              <Typography fontSize={'xx-large'}>Zimmer</Typography>
+              <Typography fontSize={'x-large'}>Zimmer</Typography>
 
 
                 <ZimmerCustomImageList></ZimmerCustomImageList>

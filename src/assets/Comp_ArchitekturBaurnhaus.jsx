@@ -29,18 +29,18 @@ export default function ArchitkturBauernhaus() {
       <Grid container spacing={2} >
 
         <Grid xs={12} lg={7}>
-          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
-            <Typography fontSize={'xx-large'} fontFamily={'Libre Baskerbille'}>
+          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'10'}}>
+            <Typography fontSize={'x-large'} fontFamily={'Libre Baskerbille'}>
                 Architektur
             </Typography>
-            <Typography fontSize='x-large' fontFamily={'Libre Baskerbille'}> 
+            <Typography fontSize='large' fontFamily={'Libre Baskerbille'}> 
             Hof&Gut ist ausgewählter Ort 2012 der Architektenkammer Niedersachsen.
             Gute Architektur ist nicht nur eine Frage des Preises, sondern insbesondere der Phantasie und des Könnens der Architekten, die Wünsche und Anforderungen ihrer Bauherren optimal umzusetzen. Architekturqualität lohnt sich überall und an jedem Ort. Daher freut es uns umso mehr, dass Hof&Gut als ausgewählter Ort nominiert wurde.
           </Typography>
           </Item>
         </Grid>
         <Grid xs={12} lg={5}>
-          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
+          <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'10'}}>
                                 <CardMedia
                                 component="img"
                                 image="20230720_115731_resized.jpg"
