@@ -94,7 +94,6 @@ export default function MobileMenu() {
       >
 
         <Link to={'/'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Startseite<HomeIcon sx={{transform:'scale(2)', color:'white'}}/></MenuItem></Link>
-<<<<<<< HEAD
         <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Speisen Am Hof <RestaurantIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
         <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Übernachten Am Hof <LocalHotelIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
         <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}> Reit Angebot<SvgIconChildren sx={{transform:'scale(2)'}}/></MenuItem></Link>
@@ -105,18 +104,6 @@ export default function MobileMenu() {
         <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Links</MenuItem></Link>
         <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Presse</MenuItem></Link>
         <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Teamtraining Und Firmenevents</MenuItem></Link>
-=======
-        <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Speisen am Hof <RestaurantIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
-        <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Übernachten am Hof <LocalHotelIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
-        <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Reitangebot<SvgIconChildren sx={{transform:'scale(2)'}}/></MenuItem></Link>
-        <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}} >Stellenangebote</MenuItem></Link>
-        <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
-        <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Gebäude</MenuItem></Link>
-        <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Ökologische Landwirtschaft</MenuItem></Link>
-        <Link to={'/Links'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Links</MenuItem></Link>
-        <Link to={'/Presse'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Presse</MenuItem></Link>
-        <Link to={'/TeamtrainingUndFirmenevents'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid', fontSize:{xs:'large'}}}>Teamtraining und Firmenevents</MenuItem></Link>
->>>>>>> 45199c435a1e23e17d5c05bb30ae7eb6cd3575c1
         <Link to={'/VeranstaltungenKunstKultur'} className='Link'><MenuItem onClick={handleClose} sx={{fontSize:{xs:'large'}}}>Veranstaltungen Kunst & Kultur</MenuItem></Link>
 
 
