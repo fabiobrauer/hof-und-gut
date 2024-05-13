@@ -34,7 +34,6 @@ export default function ÖkologischeLandwirtschaft() {
                     <Typography fontSize={'xx-large'}>Verkauf von Rindfleisch aus Biologischer Haltung (Rindfleisch und Gänse)</Typography>
                     <Typography fontSize={'large'}>
                       Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 15- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
->>>>>>> 45199c435a1e23e17d5c05bb30ae7eb6cd3575c1
                       </Typography>
                   </Item>
                             <Item sx={{backgroundColor:"primary.dark"}}>
