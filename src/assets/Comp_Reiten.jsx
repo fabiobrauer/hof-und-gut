@@ -39,7 +39,7 @@ export default function ReitenBasicGrid() {
                                               
                                   </Typography>
                             </div>  
-                              <a href="https://ponyreitschuleknot.wixsite.com/ponyreitschule-carme"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px', fontSize:"large"}} >zur ponyreitschuleknot Webseite</Button></a>
+                              <a href="https://ponyreitschuleknot.wixsite.com/pony-club"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px', fontSize:"large"}} >zur ponyreitschuleknot Webseite</Button></a>
                             <div>
                               <Typography fontSize={'x-large'} m={'5px'}>
                                   Reitworkshops
@@ -47,6 +47,10 @@ export default function ReitenBasicGrid() {
                               <Typography fontSize={'large'}>
                                   Wir bieten in den Ferien Reitworkshops für Kinder ab 6 Jahren an, sowie auch Programme für Kindergeburtstage
                               </Typography>
+                              <Typography fontSize={'large'}>
+                                Weitere Angebote für Kinder
+                              </Typography>
+                              <a href="https://ponyreitschuleknot.wixsite.com/pony-club/book-online"><Button variant='contained'sx={{backgroundColor:'secondary.main', mt:'10px', fontSize:"large"}} >hier buchen</Button></a>
                             </div>
                   </Item>
         </Grid>

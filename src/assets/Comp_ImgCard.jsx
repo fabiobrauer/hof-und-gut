@@ -20,8 +20,8 @@ export default function ActionAreaCard() {
         <CardMedia
           component="img"
           height="500"
-          image="Banner2.gif"
-          alt="Bauernhaus"
+          image="BannerGifNeu.gif"
+          alt="gif"
         />
         <CardContent sx={{ display:{ xs:'none', xl:'block'}}}>
           
