@@ -22,7 +22,7 @@ export default function ReitenBasicGrid() {
     <Box sx={{ flexGrow: 1}}>
       <Grid container spacing={2}>
         <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark", height:'100%', display:'flex', flexDirection:"column", justifyContent:"space-evenly"}}> 
+                <Item sx={{backgroundColor:"primary.dark", height:'100%', display:'flex', flexDirection:"column", justifyContent:"center", textAlign:"center"}}> 
                             <div>
                               <Typography fontSize='x-large' sx={{m:'10px'}}>
                               Unsere aktuellen Angebote im Reitbetrieb zum Herunterladen
