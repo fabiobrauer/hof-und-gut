@@ -19,7 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function ReitenBasicGrid() {
   return (
-    <Box sx={{ flexGrow: 1}}>
+    <Box sx={{ flexGrow: 1, marginTop:"5px"}}>
       <Grid container spacing={2}>
         <Grid xs={12} lg={4}>
                 <Item sx={{backgroundColor:"primary.dark", height:'100%', display:'flex', flexDirection:"column", justifyContent:"center", textAlign:"center"}}> 
