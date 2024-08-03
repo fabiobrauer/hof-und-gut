@@ -211,6 +211,7 @@ code strong {
 #container {
 	margin: 0 auto;
 	padding: 0;
+	width: 90%;
 }
 
 	#header {
@@ -229,9 +230,10 @@ code strong {
 	}
 
 	#grid-wrapper {
-		margin: 0;
-		padding: 0;
-		padding-top: 1000px; /* Prevent flicker in grid area. Check header.php. */
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+	
 	}
 
 	#single-wrapper {
