@@ -48,17 +48,16 @@ export default function Comp_SpeisenAmHof() {
                 <Typography sx={{ fontSize: 'large'}} >
                     Kontakt:
                     <br></br>
-                    E-Mail: info@hof-und-gut.de
+                    <a href="mailto:info@hof-und-gut.de">E-Mail: info@hof-und-gut.de</a>
+                    
                     <br></br>
-                    Tel: 04181 9199500
+                    <a href="tel:04181 9199500">Tel: 04181 9199500</a>
                     <br></br>
-                    Tel mobil: 0176 70671532
+                    <a href="tel:0176 70671532">Tel mobil: 0176 70671532</a>
+                    
                 </Typography>
 
-                    <a href='https://www.hof-und-gut.de/wp-content/uploads/2013/12/Aktuelle-Speisekarte22.pdf' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Aktuelle Speisekarte</Button></a>
-                    <a href="WeinkarteWinter.pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Weinkarte</Button></a>
-                    <a href="Bier-Soft-und-Heißgetränke (1).pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Getränke</Button></a>
-                    <a href="Apertifs-Longdrinks (1).pdf"><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Longdrinks</Button></a>
+                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1722672391' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Aktuelle Speisekarte</Button></a>
                     
                     <script
                     type="text/javascript" 
