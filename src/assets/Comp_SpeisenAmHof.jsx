@@ -40,12 +40,12 @@ export default function Comp_SpeisenAmHof() {
                 <Typography fontSize={'xx-large'} sx={{ m:'30px'}} >
                     Öffnungszeiten:
                 </Typography>
-                <Typography fontSize={'large'}>
+                <Typography fontSize={'xs'}>
                     Montag - Freitag: 17:00 - 22:00 Uhr (warme Küche)
                     <br></br>
                   Samstag, Sonntag und Feiertag: 12:00 - 22:00 Uhr (warme Küche)
                 </Typography>
-                <Typography sx={{ fontSize: 'large'}} >
+                <Typography sx={{ fontSize: 'xs'}} >
                     Kontakt:
                     <br></br>
                     <a href="mailto:info@hof-und-gut.de">E-Mail: info@hof-und-gut.de</a>
@@ -55,9 +55,9 @@ export default function Comp_SpeisenAmHof() {
                     <br></br>
                     <a href="tel:0176 70671532">Tel mobil: 0176 70671532</a>
                     
-                </Typography>
+                </Typography >
 
-                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1722672391' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'2px;'}} >Aktuelle Speisekarte</Button></a>
+                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1722672391' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>
                     
                     <script
                     type="text/javascript" 

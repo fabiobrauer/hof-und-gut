@@ -47,7 +47,8 @@ export default function EmtyGrid() {
                 </Item>
                 <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
                   <Typography fontSize={'x-large'}>Unser wöchentliches Angebot</Typography>
-                    <Typography fontSize={'large'}>Fortgeschrittenengruppen <br></br>
+                    <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
+                    Fortgeschrittenengruppen <br></br>
                     Longenunterricht<br></br>
                       Reitanfängergruppen ab dem 5. Lebensjahr<br></br>
                       Ponykindergarten regelmäßig samstags und sonntags<br></br>
@@ -57,7 +58,7 @@ export default function EmtyGrid() {
                     </Typography>
                 </Item>
             <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-              <Typography fontSize={'large'}>
+              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
               Feldenkrais – Reiten aus der Körpermitte
               Die Feldenkraisarbeit und das Reiten aus der Körpermitte heraus sind effektive Lernmethoden, um Bewegung mit Aufmerksamkeit wahrzunehmen. Man lernt zu fühlen und zu erforschen, verloren geglaubte Bewegungsmöglichkeiten wieder neu zu entdecken.
               Ein verbessertes Körpergefühl zwischen Mensch und Pferd kann zu mehr Ruhe und Harmonie führen. Sie und Ihr Pferd fühlen sich wohl und gewinnen dabei mehr Lebensfreude.
@@ -67,7 +68,7 @@ export default function EmtyGrid() {
         <Grid xs={12} lg={4}>
           <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
           <Typography fontSize={'x-large'}>Kontakt und Aktuelles</Typography> 
-                  <Typography fontSize={'large'}>Liebe Reitkinder und liebe Eltern,
+                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Liebe Reitkinder und liebe Eltern,
                               seit dem Sommer 2021 hat Carmen Knott den Reitbetrieb am Hof von Anne Strufe übernommen. Sie und ihr Team freuen sich auf Euch!<br></br> 
                               Alle Informationen zum Angebot sowie den aktuellen Vertrag findet Ihr im separaten Kasten, einfach draufklicken.
                               <br></br>Carmen Knott: 
@@ -87,7 +88,7 @@ export default function EmtyGrid() {
           </Item>
           <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
               <Typography fontSize={'x-large'}>Preisliste</Typography>
-              <Typography fontSize={'large'}>
+              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                   Kinder und Jugendgruppen 85,- €/Monat
                   <br></br><br></br>Einzelstunde Kinder (30 Min.) inkl. Vorbereitung Pony 30€ <br></br><br></br>Einzelstunde Kinder (60 Min.) inkl. Vorbereitung Pony 55 €<br></br><br></br>Einzelstunde Erwachsene (30 Min.) inkl. Schulpferd 40 €<br></br><br></br>Einzelstunde Erwachsene (45 Min.) inkl. Schulpferd 55 €<br></br><br></br>
                   Alle Preise inkl. MwSt.Irrtümer und Änderungen vorbehalten.
@@ -104,13 +105,13 @@ export default function EmtyGrid() {
                                 />
             </Item>
             <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-              <Typography fontSize={'large'}>
+              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                 Wir bieten kompetenten Reitunterricht für Kinder von 6 bis 12 Jahren und für die ganz Kleinen ab 3 Jahren gibt es die sogenannte Ponyspielzeit. Unser Schwerpunkt liegt in der ganzheitlichen Reitausbildung. Für uns sind Pferde mehr als ein Sportgerät. Die Ausbildung erfolgt in kleinen Gruppen auf dem Reitplatz und im Gelände. Der Unterricht findet ganzjährig statt. Wir freuen uns über Euer Interesse und versprechen Euch, dass Ihr viel Freude haben werdet!
               </Typography>
             </Item>
 
             <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-              <Typography fontSize={'large'}>
+              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                   Die ganzheitliche Behandlung auf dem Pferderücken
                   In Bewegung sein heißt lebendig sein – körperlich-geistig-seelisch.
                   Motorische Störungen und körperliche Erkrankungen können gelindert und harmonisiert werden. Kinder erleben eine Bewegungsfreiheit auf vier Beinen. Das Selbstbewusstsein wird gestärkt.

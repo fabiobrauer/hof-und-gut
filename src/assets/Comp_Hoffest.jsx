@@ -39,7 +39,7 @@ export default function Hoffest() {
                     <Typography sx={{fontSize:{xs:'small', xl:"large"}}}>
                     Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. <span style={{fontStyle:'Bold'}}>Das nächste Hoffest findet am 30.04.2024 und 01.05.2024 statt.</span> Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:
                     </Typography>
-                    <Button><a href="https://youtu.be/UELE6Nx0z3E">Youtube Hoffest</a></Button>
+                    <Button sx={{fontSize:{xs:'small', xl:"small"}}}><a href="https://youtu.be/UELE6Nx0z3E">Youtube Hoffest</a></Button>
                 </Item>
         </Grid>
 
