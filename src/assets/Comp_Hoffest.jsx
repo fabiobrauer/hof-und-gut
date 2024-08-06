@@ -23,7 +23,7 @@ export default function Hoffest() {
         
          <Grid xs={12} lg={4}>
           <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'10'}}>
-{                      <Typography fontSize={'x-large'}>Hoffest 2023</Typography>
+{                      <Typography fontSize={'x-large'}>Hoffest</Typography>
 }                      <CardMedia 
                         component="img"
                         image="20230501_123221.jpg"

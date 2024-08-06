@@ -32,7 +32,7 @@ export default function Footer() {
       </Box>
       <Box>
         <Typography fontSize={"large"} sx={{fontWeight:'700'}}>Kontaktinformationen</Typography>
-        <Typography fontSize={"large"}>E-Mail: <a href="mailto:">buchhaltung@hof-und-gut.de</a></Typography>
+        <Typography fontSize={"large"}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
         <Typography fontSize={"large"}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
       </Box>
 
