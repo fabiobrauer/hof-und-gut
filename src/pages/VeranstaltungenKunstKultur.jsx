@@ -62,7 +62,7 @@ export default function EmtyGrid() {
           </Item>
               <Item sx={{backgroundColor:"primary.dark" , mt:'15px'}}>
               <Typography fontSize={'x-large'}>Ausstellung von Karola Römermann in den “Künstlerstuben”</Typography>
-                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                       Karola Römermann stellt derzeit Werke ihres Schaffens aus 4 Jahrzehnten in den Künstlerstuben aus, kommen Sie gerne zum Schauen und Staunen…
                 </Typography>
               </Item>                            

@@ -40,12 +40,12 @@ export default function Comp_SpeisenAmHof() {
                 <Typography fontSize={'xx-large'} sx={{ m:'30px'}} >
                     Öffnungszeiten:
                 </Typography>
-                <Typography fontSize={'xs'}>
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                     Montag - Freitag: 17:00 - 22:00 Uhr (warme Küche)
                     <br></br>
                   Samstag, Sonntag und Feiertag: 12:00 - 22:00 Uhr (warme Küche)
                 </Typography>
-                <Typography sx={{ fontSize: 'xs'}} >
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                     Kontakt:
                     <br></br>
                     <a href="mailto:info@hof-und-gut.de">E-Mail: info@hof-und-gut.de</a>

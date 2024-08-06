@@ -33,31 +33,23 @@ export default function Presse() {
 
       <Grid container spacing={2} justifyContent='center'>
 
-                <Grid xs={11} lg={9}>
-                    <Item sx={{backgroundColor:"primary.dark"}}>
+                <Grid xs={12} lg={9}>
+                    <Item sx={{backgroundColor:"primary.dark", marginBottom: '10px' }}>
                       <CardMedia
                         component="img"
                         image="Zeitung4.png"
                         alt="Zeitungsartikel"/> 
-                    </Item>
-                </Grid>
-
-              <Grid xs={11} lg={4}>
-                  <Item sx={{backgroundColor:"primary.dark"}}>
+                    </Item>                  
+                    <Item sx={{backgroundColor:"primary.dark"}}>
                         <CardMedia
                         component="img"
                         height={'770px'}
                         image="Zeitung1.jpeg"
                         alt="Foto Bauernhaus früher"/>
                   </Item>
-              </Grid>
+                </Grid>
 
-
-
-
-
-
-            <Grid xs={11} lg={4} >
+            <Grid xs={12} lg={5} >
               <Item sx={{backgroundColor:"primary.dark"}}>
                           <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                               Hof & Gut im Hamburger Abendblatt
@@ -68,9 +60,9 @@ export default function Presse() {
             </Grid>
 
 
-                <Grid xs={11} lg={4}>
+                <Grid xs={12} lg={4}>
 
-                  <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
+{/*                   <Item sx={{backgroundColor:"primary.dark"}}>
                             <Typography>Land und Forst: “Über 400 Jahre alt und gut gedämmt”
                                 Und hier geht es zm Link: LUF07022013
                             </Typography>
@@ -93,8 +85,8 @@ export default function Presse() {
                                 Wohn-Scheune Itzenbüttel
                                 Wohn-Scheune Itzenbüttel(download PDF)
                             </Typography>
-                  </Item>
-                  <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
+                  </Item> */}
+                  <Item sx={{backgroundColor:"primary.dark"}}>
                   <CardMedia
                         component="img"
                         image="schleppjagt.jpeg"

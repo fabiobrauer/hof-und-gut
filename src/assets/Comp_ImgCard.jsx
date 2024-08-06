@@ -30,13 +30,13 @@ export default function ActionAreaCard() {
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
                     id="panel1a-header"
-                  ><Typography  fontSize="large">
+                  ><Typography  sx={{fontSize:{xs:'small', lg:"xs"}}}>
                       Hof&Gut Jesteburg liegt am Rande des Naturparks Lüneburger Heide. Die anspruchsvoll sanierte und modernisierte historische Hofstelle umfasst 85 Hektar und wurde 2007 unter der Bezeichnung Hof&Gut Jesteburg zu neuem Leben erweckt.
                       
                   </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
-                    <Typography fontSize="large">
+                    <Typography sx={{fontSize:{xs:'small', lg:"xs"}}}>
                     Unter dem Dach von Hof&Gut Jesteburg finden sich ökologische Landwirtschaft, ein Reitbetrieb, ein Einstellbetrieb, 
                     generationenübergreifendes Wohnen sowie Kunst und Kultur. Gastronomie und Gästezimmer am Hof werden betrieben unter 
                     der Marke “Speisen am Hof” und “Übernachten am Hof”. Das Ensemble lädt Gäste ein zu Freizeitvergnügen, Genuss, 

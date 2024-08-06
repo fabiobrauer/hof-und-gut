@@ -33,7 +33,7 @@ export default function ArchitkturBauernhaus() {
             <Typography fontSize={'x-large'} >
                 Architektur
             </Typography>
-            <Typography sx={{fontSize:{xs:'small', xl:"large"}}}> 
+            <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}> 
             Hof&Gut ist ausgewählter Ort 2012 der Architektenkammer Niedersachsen.
             Gute Architektur ist nicht nur eine Frage des Preises, sondern insbesondere der Phantasie und des Könnens der Architekten, die Wünsche und Anforderungen ihrer Bauherren optimal umzusetzen. Architekturqualität lohnt sich überall und an jedem Ort. Daher freut es uns umso mehr, dass Hof&Gut als ausgewählter Ort nominiert wurde.
           </Typography>

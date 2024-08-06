@@ -76,7 +76,7 @@ export default function CustomizedMenus() {
         sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px', backgroundColor:'transparent'}}
 
       >
-        <AgricultureIcon sx={{fontSize: "4em"}} /> Hof & Gut und Landwirtschat 
+        <AgricultureIcon sx={{fontSize: "4em"}} /> Hof & Gut Landwirtschat 
       </Button>
       <StyledMenu
         id="demo-customized-menu"
