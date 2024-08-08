@@ -25,7 +25,7 @@ export default function Footer() {
 
   <Box sx={{display:'flex',flexDirection:{xs:'column', lg:'row'} ,alignItems:'center', textAlign:{xs:'center', lg:'left'} , gap:{xs:'50px', lg:'50'}, m:{xs:'0 auto'}}}>
       <Box sx={{justifyItems:'center'}}>
-        <Typography fontSize={"large"} sx={{wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg GmbH & Co. Kg</Typography>
+        <Typography fontSize={"large"} sx={{wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography>
         <Typography fontSize={"large"}>Handelsregisternummer: HRB 736947</Typography>
         <Typography fontSize={"large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
         

@@ -44,7 +44,7 @@ export default function Gebäude() {
 
             <Grid lg={5} xs={12} sx={{padding:'10px'}}>
               <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
-                  <Typography fontSize={'x-large'} >Das Bauernhaus Früher</Typography>
+                  <Typography fontSize={'x-large'} >Das Bauernhaus früher</Typography>
                   <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Die Hofstelle Itzenbütteler Sood 13 (Harmsbur) gehört zu den Hofstellen in Itzenbüttel, die auf das Mittelalter zurückgehen. Die Ursprünge des Hauptgebäudes liegen nach neusten Erkenntnissen im 16. Jahrhundert.
                     Anfang der 1990-er Jahre wurden große Teile des Reet-Dachs des Hofgebäudes erneuert. In den Jahren 2003/2004 wurde das Bauernhaus mit Unterstützung von Mitteln aus der Dorferneuerung und aus dem ETLR-Fonds grundlegend konstruktiv als ortsbildprägendes Gebäude saniert. Kleinere Sanierungsmaßnahmen erfolgten im Rahmen des Anschlusses an die Kanalisation.</Typography>
               </Item>
@@ -54,7 +54,7 @@ export default function Gebäude() {
         
         <Grid lg={5} xs={12}  sx={{padding:'10px'}}>
           <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
-            <Typography fontSize={'x-large'} >Das Bauernhaus Heute</Typography>
+            <Typography fontSize={'x-large'} >Das Bauernhaus heute</Typography>
             <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Im Jahr 2010 wurde das alte Bauernhaus auch im Inneren denkmalgerecht saniert und das historische Ständerwerk wiederhergestellt. Hofseitig und zur Straße hin erhielt das Gebäude neue Sprossenfenster und Gauben, die nun auch das Obergeschoss mit Licht versorgen. Eindrucksvoll lässt sich nun im Gastraum und auch im Küchenbereich das historische und teilweise wieder hergestellte Ständerwerk besichtigen. Bei der Renovierung wurden ausschließlich Eichen aus dem eigenen Itzenbütteler Wald verwendet. Durch ihre helle Farbe lassen sich die “neuen” Hölzer gut von den historischen unterscheiden.</Typography>
 
           </Item>

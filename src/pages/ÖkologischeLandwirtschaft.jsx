@@ -30,13 +30,15 @@ export default function ÖkologischeLandwirtschaft() {
 
     <Grid container spacing={2} direction={'row-reverse'}>
                 <Grid xs={12} lg={9}>
-                  <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>
-                    <Typography fontSize={'x-large'}>Verkauf von Rindfleisch aus ökologischer Haltung (Rindfleisch und Gänse)</Typography>
-                    <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
-                      Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
-                      </Typography>
-                  </Item>
-                            <Item sx={{backgroundColor:"primary.dark"}}>
+
+                    <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>
+                      <Typography fontSize={'x-large'}>Verkauf von Rindfleisch aus ökologischer Haltung (Rindfleisch und Gänse)</Typography>
+                      <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
+                        Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
+                        </Typography>
+                    </Item>
+
+                    <Item sx={{backgroundColor:"primary.dark"}}>
                                 <Typography fontSize={'x-large'}>
                                     Ökologische Landwirtschaft
                                 </Typography>
@@ -46,20 +48,16 @@ export default function ÖkologischeLandwirtschaft() {
                                           image="Diewackerenvier.jpg"
                                           alt="Vier Kälber"
                                 /> }
-                            </Item>
+                    </Item>
 
-
-                          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}> 
+                    <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}> 
                           <CardMedia 
                             component="img"
                             image="hofplan 1.png"
                             alt="Hofplan"/>
-                          </Item>
-                          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
-                      <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
-                        Philosophie:<br></br>
-                          Unser Ziel ist es, mit Hof&Gut einen Kreislauf (wieder)herzustellen, der Menschen in Lohn und Brot bringt und alle Tiere des Hofes ernährt. Außerdem soll sich die historische Hofstelle zu einem Ort der Begegnung entwickeln, an dem Kinder und Erwachsene als Gäste gerne verweilen, miteinander ihre Freizeit verbringen und einen historischen Bauernhof erleben. Die Hofstelle umfaßt eine Gesamtfläche von 85 Hektar, je hälftig Forst- und Ackerflächen. Die Ackerflächen werden seit 2007 biologisch bewirtschaftet und jährlich vom Ökokontrollverein in Karlsruhe zertifiziert. Die zum Hof gehörenden Rinder stehen durch die extensiven Grünflächen auf eigener Futtergrundlage.</Typography>
                     </Item>
+
+
                 </Grid>
 
 
@@ -74,6 +72,22 @@ export default function ÖkologischeLandwirtschaft() {
               <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>        
                 <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Hier investiert Europa in die ländlichen Gebiete mit „Agrarumwelt- und Klimaschutzmaßnahmen”. Mit diesen Maßnahmen werden landwirtschaftliche Betriebe bei der Erhaltung und Verbesserung der Umweltsituation unterstützt. Ziel ist eine nachhaltige und ressourcenschonende Bewirtschaftung in Bezug auf Artenvielfalt, Boden, Wasser und den Schutz des Klimas. siehe auch: www.eler.niedersachsen.de</Typography>
               </Item>
+
+              <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
+                      <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
+                        <b>Philosophie</b><br></br>
+                        Unser Ziel ist es, mit Hof&Gut einen Kreislauf (wieder)herzustellen, der Menschen in Lohn und Brot bringt und alle Tiere des Hofes ernährt. Außerdem soll sich die historische Hofstelle zu einem Ort der Begegnung entwickeln, an dem Kinder und Erwachsene als Gäste gerne verweilen, miteinander ihre Freizeit verbringen und einen historischen Bauernhof erleben. Die Hofstelle umfasst eine Gesamtfläche von 85 Hektar, je hälftig Forst- und Ackerflächen. Die Ackerflächen werden seit 2007 biologisch bewirtschaftet und jährlich von der Gesellschaft für Ressourcenschutz mbH (GfRS) aus Göttingen zertifiziert. Die zum Hof gehörenden Rinder stehen durch die extensiven Grünflächen auf eigener Futtergrundlage.
+                    </Typography>
+                    </Item>
+
+                    <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
+                      <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
+                      Unsere Daten für die ökologische Bewirtschaftung:<br></br>
+                      Hof & Gut Jesteburg Agrar GmbH &Co KG<br></br>
+                      Betriebsnummer: 276033530200088<br></br>
+                      ÖkokontrollNr. DE-NI-039-08263-
+                    </Typography>
+                    </Item>
             </Grid>
 
     </Grid>
