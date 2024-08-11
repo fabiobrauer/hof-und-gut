@@ -11,6 +11,7 @@ import { Button } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import MobileMenu from './Comp_MobileMenu';
 import Comp_LogoBanner from './LogoSVG2';
+import LogoViereckSVG from './LogoViereckSVG';
 
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
@@ -29,7 +30,8 @@ export default function ProminentAppBar() {
         <StyledToolbar sx={{display:'flex', justifyContent:'space-between', paddingTop:'0'}}>
          <Link to={'/'}>
 
-        <Comp_LogoBanner></Comp_LogoBanner>
+{/*         <Comp_LogoBanner></Comp_LogoBanner> */}
+        <LogoViereckSVG></LogoViereckSVG>
 
          </Link>
 

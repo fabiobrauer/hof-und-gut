@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {Helmet} from "react-helmet-async";
+import LandwiBanner from '../assets/Comp_LandwiBanner';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -19,6 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function ÖkologischeLandwirtschaft() {
   return (
     <Box sx={{ flexGrow: 1, mt:'15px'}}>
+      <LandwiBanner></LandwiBanner>
 
       <Helmet>
           <title>Ökologische Landwirtschaft Hof&Gut Jesteburg</title>
@@ -30,23 +32,34 @@ export default function ÖkologischeLandwirtschaft() {
 
     <Grid container spacing={2} direction={'row-reverse'}>
                 <Grid xs={12} lg={9}>
-
-                    <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>
+{/* Neunen Reiter dafür Bauen */}
+{/*                     <Item sx={{backgroundColor:"primary.dark", mb:'15px'}}>
                       <Typography fontSize={'x-large'}>Verkauf von Rindfleisch aus ökologischer Haltung (Rindfleisch und Gänse)</Typography>
                       <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                         Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
                         </Typography>
-                    </Item>
+                    </Item> */}
 
-                    <Item sx={{backgroundColor:"primary.dark"}}>
+                    <Item sx={{backgroundColor:"primary.dark", display:{xs:'none', md:'block'}}}>
                                 <Typography fontSize={'x-large'}>
                                     Ökologische Landwirtschaft
                                 </Typography>
                        {         <CardMedia
                                           component="img"
                                           height="520"
-                                          image="Diewackerenvier.jpg"
-                                          alt="Vier Kälber"
+                                          image="KüheNeu.jpeg"
+                                          alt="Kühe"
+                                /> }
+                    </Item>
+                    <Item sx={{backgroundColor:"primary.dark", display:{xs:'block', md:'none'}}}>
+                                <Typography fontSize={'x-large'}>
+                                    Ökologische Landwirtschaft
+                                </Typography>
+                       {         <CardMedia
+                                          component="img"
+                                          height="520"
+                                          image="KüheNeu_Mobil.jpg"
+                                          alt="Kühe"
                                 /> }
                     </Item>
 

@@ -10,6 +10,7 @@ import SvgIconChildren from './SVGIcon';
 import { SvgIcon } from '@mui/material';
 import DirectionsIcon from '@mui/icons-material/Directions';
 import { Box } from '@mui/material';
+import BedroomBabyOutlinedIcon from '@mui/icons-material/BedroomBabyOutlined';
 
 
 
@@ -76,10 +77,10 @@ export default function ReitenMenus() {
         variant="contained"
         disableElevation
         onClick={handleClick}
-        sx={{display:'flex', flexDirection:'column', paddingTop:'30px', justifyContent:'space-between', width:'200px', height:'107px', backgroundColor:'transparent'}}
+        sx={{display:'flex', flexDirection:'column', width:'200px', height:'107px', backgroundColor:'transparent'}}
       >
 
-        <SvgIconChildren />Reiten
+        <BedroomBabyOutlinedIcon sx={{fontSize: "4em"}}/>Reiten
       </Button>
       <StyledMenu
         id="demo-customized-menu"

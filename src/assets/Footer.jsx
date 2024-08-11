@@ -7,6 +7,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import { Box } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Comp_LogoBanner from './LogoSVG2';
+import LogoViereckSVG from './LogoViereckSVG'
 
 
 
@@ -19,7 +20,7 @@ export default function Footer() {
     <Box sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between'}} >
 
       <Box sx={{display:{xs:'none', lg:'block'}}}>
-          <Link to={'/'}><Comp_LogoBanner ></Comp_LogoBanner></Link>
+          <Link to={'/'}><LogoViereckSVG></LogoViereckSVG></Link>
       </Box>
       
 
