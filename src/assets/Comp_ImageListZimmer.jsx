@@ -70,11 +70,11 @@ const itemData = [
     img: 'ZImmer1_1.jpg',
     title: 'Zimmer1',
   },
-  {
+/*   {
     img: 'Zimmer1_3.jpg',
     title: 'Zimmer1',
     featured: 'true'
-  },
+  }, */
   {
     img: 'Zimmer2.jpg',
     title: 'Zimmer2',
@@ -90,11 +90,11 @@ const itemData = [
     img: 'Zimmer2_3.jpg',
     title: 'Zimmer2',
   },  
-  {
+/*   {
     img: 'Zimmer2_2.jpg',
     title: 'Zimmer2 Ausblick',
     featured: 'true'
-  },
+  }, */
   {
     img: 'Zimmer3.jpg',
     title: 'Zimmer3',

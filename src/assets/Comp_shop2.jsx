@@ -99,13 +99,13 @@ function Comp_Swiper() {
                             alt="MOET Champagner"
                           />
                         </SwiperSlide>
-                        <SwiperSlide>
+{/*                         <SwiperSlide>
                         <CardMedia sx={{width:"250px", height:"450px", borderRadius:'2em', margin:'0 auto'}}
                             component="img"
                             image="ProduktBild-114.jpg"
                             alt="Mirival Weißwein"
                           />
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                         <SwiperSlide>
                         <a href="https://shop-hof-und-gut.de/collections/prosecco-champagner/products/schmidt-secco-weiss">
                           <CardMedia sx={{width:"250px", height:"450px", borderRadius:'2em', margin:'0 auto'}}
@@ -146,14 +146,14 @@ function Comp_Swiper() {
                             alt="Metzger blanc de Noir"
                           /></a>
                         </SwiperSlide>
-                        <SwiperSlide>
+{/*                         <SwiperSlide>
                           <a href="https://shop-hof-und-gut.de/collections/weine/products/gruner-veltiner-pfaffl">
                         <CardMedia sx={{width:"250px", height:"450px", borderRadius:'2em', margin:'0 auto'}}
                             component="img"
                             image="ProduktBild-128.jpg"
                             alt="Grüner Veltliner Pfaffl"
                           /></a>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                         <SwiperSlide>
                           <a href="https://shop-hof-und-gut.de/collections/weine/products/hartmann-sauvignon-blanc">
                         <CardMedia sx={{width:"250px", height:"450px", borderRadius:'2em', margin:'0 auto'}}
@@ -178,14 +178,14 @@ function Comp_Swiper() {
                             alt="Hofgeflüster Weißwein"
                           /></a>
                         </SwiperSlide>
-                        <SwiperSlide>
+{/*                         <SwiperSlide>
                           <a href="https://shop-hof-und-gut.de/collections/weine/products/sophie-helene-rose">
                         <CardMedia sx={{width:"250px", height:"450px", borderRadius:'2em', margin:'0 auto'}}
                             component="img"
                             image="ProduktBild-139.jpg"
                             alt="Sophie Helene Rose"
                           /></a>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                         <SwiperSlide>
                           <a href="https://shop-hof-und-gut.de/collections/weine/products/fonterutoli-mazzei-2019">
                         <CardMedia sx={{width:"250px", height:"450px", borderRadius:'2em', margin:'0 auto'}}

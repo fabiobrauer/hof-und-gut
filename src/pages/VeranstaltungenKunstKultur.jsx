@@ -41,16 +41,16 @@ export default function EmtyGrid() {
                   </Typography>
             </Item>
             <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
-                            <Typography fontSize={'x-large'}>Hoffest</Typography>
+                <Typography fontSize={'x-large'}>Hoffest</Typography>
                 <CardMedia
                                 component="img"
                                 image="20230501_123221.jpg"
                                 alt="Firmen Event"
                                 />
                   <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >
-                  Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Oktoberfest findet am 2. und 3. Oktober 2023 statt. Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube: <a href="https://youtu.be/UELE6Nx0z3E">https://youtu.be/UELE6Nx0z3E</a>                  
+                  Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Hoffest findet am <b>3. Oktober 2024</b> statt und am <b>2. Oktober ab 19 Uhr</b> ist Oktoberfest mit Fassanstich, Blaskapelle und DJ. Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:                    
                   </Typography>
-                          </Item>
+            </Item>
         </Grid>
         <Grid xs={12} lg={6}>  
           <Item sx={{backgroundColor:"primary.dark"}}>

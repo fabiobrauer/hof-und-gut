@@ -31,18 +31,22 @@ export default function Gebäude() {
           <meta name="fragment" content="!"/>
       </Helmet>
 
-        <Grid xs={12} lg={7}  sx={{padding:'10px'}}>
-              <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
+        <Grid xs={12} lg={4}  sx={{padding:'10px'}}>
+              <Item sx={{backgroundColor:"primary.dark"/* , height:'100%' */}}>
                               <CardMedia
                                     component="img"
                                     image="60842f03bdc80b89a1408476bdd76460.jpeg"
                                     alt="Foto Bauernhaus früher"
-                                    height={'500'}
+/*                                     height={'500'} */
+                                    sx={{
+                                      objectFit: 'cover', // Oder 'contain', 'fill', je nach gewünschtem Effekt
+                                      objectPosition: 'bottom', // Ändert die Position des Bildes innerhalb des Containers
+                                    }}
                                     />
               </Item>
           </Grid>
 
-            <Grid lg={5} xs={12} sx={{padding:'10px'}}>
+            <Grid  xs={12} lg={8} sx={{padding:'10px'}}>
               <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
                   <Typography fontSize={'x-large'} >Das Bauernhaus früher</Typography>
                   <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Die Hofstelle Itzenbütteler Sood 13 (Harmsbur) gehört zu den Hofstellen in Itzenbüttel, die auf das Mittelalter zurückgehen. Die Ursprünge des Hauptgebäudes liegen nach neusten Erkenntnissen im 16. Jahrhundert.
