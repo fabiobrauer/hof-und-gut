@@ -13,7 +13,7 @@ import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LocalHotelIcon from '@mui/icons-material/LocalHotel';
 import HailIcon from '@mui/icons-material/Hail';
 import HomeIcon from '@mui/icons-material/Home';
-
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -96,6 +96,7 @@ export default function MobileMenu() {
         <Link to={'/'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Startseite<HomeIcon sx={{transform:'scale(2)', color:'white'}}/></MenuItem></Link>
         <Link to={'/SpeisenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between', fontSize:{xs:'large', borderBottom:'1px solid'}}}>Speisen am Hof <RestaurantIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
         <Link to={'/ÜbernachtenAmHof'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Übernachten am Hof <LocalHotelIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>
+        <Link to={'/Hofladen'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid',display:'flex', justifyContent:'space-between'}}>Kleiner Hofladen <ShoppingBasketIcon sx={{transform:'scale(2)'}}></ShoppingBasketIcon></MenuItem></Link>
         <Link to={'/Reiten'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Reitangebot<SvgIconChildren sx={{transform:'scale(2)'}}/></MenuItem></Link>
         <Link to={'/Stellenangebote'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}} >Stellenangebote</MenuItem></Link>
         <Link to={'/Kontakt'} className='Link'><MenuItem onClick={handleClose} sx={{display:'flex', justifyContent:'space-between',fontSize:{xs:'large', borderBottom:'1px solid'}}}>Kontakt / Anfahrt<DirectionsIcon sx={{transform:'scale(2)'}}/></MenuItem></Link>

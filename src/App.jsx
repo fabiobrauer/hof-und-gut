@@ -16,6 +16,7 @@ const LazyÜbernachtenAmHof = React.lazy(() => import('./pages/ÜbernachtenAmHof
 const LazyVeranstaltungenKunstKultur = React.lazy(() => import('./pages/VeranstaltungenKunstKultur'))
 const LazyDisclaimer = React.lazy(() => import('./pages/Disclaimer'))
 const LazyÜberUns = React.lazy(() => import('./pages/ÜberUns'))
+const LazyHofladen = React.lazy(() => import('./pages/Hofladen'))
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Footer from './assets/Footer'
 import { CssBaseline } from '@mui/material'
@@ -88,6 +89,7 @@ function App() {
         <Route path='VeranstaltungenKunstKultur' element={<React.Suspense fallback='Loading...'><LazyVeranstaltungenKunstKultur></LazyVeranstaltungenKunstKultur></React.Suspense>}></Route>
         <Route path='Disclaimer' element={<React.Suspense fallback='Loading...'><LazyDisclaimer></LazyDisclaimer></React.Suspense>}></Route>
         <Route path='ÜberUns' element={<React.Suspense fallback='Loading...'><LazyÜberUns></LazyÜberUns></React.Suspense>}></Route>
+        <Route path='Hofladen' element={<React.Suspense fallback='Loading...'><LazyHofladen></LazyHofladen></React.Suspense>}></Route>
       </Routes>
       <Footer></Footer>
       </ThemeProvider>
