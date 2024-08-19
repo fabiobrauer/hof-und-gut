@@ -49,11 +49,11 @@ export default function EmtyGrid() {
           <Item sx={{backgroundColor:"primary.dark"}}>
                                 
                 <Typography fontSize={'x-large'}>Teamtraining und Firmenevents</Typography>
-                <Typography fontSize={'large'}>Events für jede Kragenweite.Hof & Gut ist und bleibt das Thema der Hofstelle Itzenbüttler Sod.Leckere, regionale Gerichte in der gemütlichen Atmosphäre des Restaurants Stub‘n, Erfrischungen im Biergarten und die Hoffeste haben diesen Ort zu einem Gehimtipp in Sachen Gastlichkeit gemacht und erfreuen sich großer Beliebtheit.Aber darauf ruhen wir uns nicht aus!Ab sofort bieten wir Ihnen ausgefallene Events. Natürlich in gewohnt hoher Qualität.Veranstaltungspakete mit gutem Essen und ausgesuchten Aktionen (Genuss & Gut), Teamtrainings für Firmen, Vereine und Schulen (Team & Gut) und auf Sie passend zugeschnittene Team-Sport-Events (Aktiv & Gut).Alle Angebote stimmen wir natürlich individuell auf Ihre Bedürfnisse ab.Bei uns gibt es weder im Restaurant, noch bei Veranstaltungen etwas von der Stange!</Typography>
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Events für jede Kragenweite.Hof & Gut ist und bleibt das Thema der Hofstelle Itzenbüttler Sod.Leckere, regionale Gerichte in der gemütlichen Atmosphäre des Restaurants Stub‘n, Erfrischungen im Biergarten und die Hoffeste haben diesen Ort zu einem Gehimtipp in Sachen Gastlichkeit gemacht und erfreuen sich großer Beliebtheit.Aber darauf ruhen wir uns nicht aus!Ab sofort bieten wir Ihnen ausgefallene Events. Natürlich in gewohnt hoher Qualität.Veranstaltungspakete mit gutem Essen und ausgesuchten Aktionen (Genuss & Gut), Teamtrainings für Firmen, Vereine und Schulen (Team & Gut) und auf Sie passend zugeschnittene Team-Sport-Events (Aktiv & Gut).Alle Angebote stimmen wir natürlich individuell auf Ihre Bedürfnisse ab.Bei uns gibt es weder im Restaurant, noch bei Veranstaltungen etwas von der Stange!</Typography>
                                 
           </Item>
               <Item sx={{backgroundColor:"primary.dark" , mt:'10px'}}>
-                <Typography fontSize={'large'}>
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >
                           Sie haben Interesse? Möchten mehr Informationen? Fragen sich, ob wir auch für Ihre Veranstaltung die richtigen Ideen haben?
                           Hof & Gut Jesteburg GmbH Itzenbütteler Sod 13-1521266 Jesteburg OT Itzenbüttel
                           Rufen Sie uns an!Mona Rickert 0157-8560 0194 Marc Wollrab 0157-8677 1150 Büro Hof & Gut 04181-2170 714

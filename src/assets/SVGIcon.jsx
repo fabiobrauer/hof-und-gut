@@ -6,7 +6,7 @@ export default function SvgIconChildren() {
     <SvgIcon >
 <svg    
         
-        transform="scale(2)"
+        sx={{fontSize: "4em"}}
         fill="#fff"
         strokeWidth= "0px" id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" 
         viewBox="0 0 4995 5009">

@@ -43,18 +43,18 @@ export default function SpeisenAmHof() {
         <Grid xs={12} lg={6}>
                 <Item sx={{backgroundColor:"primary.dark"}}>
                   <Typography fontSize={'x-large'}>Speisen am Hof</Typography>
-                  <Typography fontSize={'large'}> 
+                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}> 
                     Wir freuen uns immer, Sie in unserem sanierten Bauernhaus aus dem 16. Jahrhundert als Gast empfangen zu dürfen. Ein erfahrenes Küchenteam rund um Frank Schiffner kocht täglich für Sie – ob die bereits bekannten und beliebten Klassiker der Hofküche (auch mit Fleisch von den hofeigenen Rindern) oder neuartige Kreationen mit einem Mix aus Elementen der mediterranen und japanischen Küche, inspiriert von Axel Henkel. Wichtig sind uns dabei die frischen Produkte, mit denen neue Ideen auf der regelmäßig wechselnden Karte umgesetzt werden. Essen soll, davon sind wir überzeugt, generationenübergreifend Spaß machen!
                   </Typography> 
                 </Item>
-                <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
-                    <Typography fontSize={'large'}> Bitte reservieren Sie rechtzeitig einen Tisch, besonders wenn Sie am Wochenende oder zum Abendessen kommen möchten…Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiv sanierter historischer Umgebung feiern und tagen. Wir besprechen gerne Anlass und passende Gerichte und Getränke</Typography>
+                <Item sx={{backgroundColor:"primary.dark", mt:'15px', mb:'15px'}}>
+                    <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}> Bitte reservieren Sie rechtzeitig einen Tisch, besonders wenn Sie am Wochenende oder zum Abendessen kommen möchten…Sie können auch auf unserer Diele mit bis zu 75 Personen in attraktiv sanierter historischer Umgebung feiern und tagen. Wir besprechen gerne Anlass und passende Gerichte und Getränke</Typography>
                 </Item>
 
                               <Grid xs={12} lg={3}>
                         <Item sx={{backgroundColor:"primary.dark"}}>
                           <Typography fontSize={'x-large'}> Büffetbeispiel ab 20 Personen</Typography>
-                          <Typography fontSize={'large'}> 
+                          <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}> 
                                         Tomatensuppe mit Crème Fraîche 
                                         Croûtons und Basilikum <br></br>
                                         Hof & Gut Anti-Pasti <br></br>
@@ -70,7 +70,7 @@ export default function SpeisenAmHof() {
                         </Item>
                         <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
                         <Typography fontSize={'x-large'}>Menübeispiele ab 20 Personen</Typography>
-                          <Typography  fontSize={'large'}>
+                          <Typography  sx={{fontSize:{xs:'small', xl:"xs"}}}>
                                 Menü 1<br></br>
                                 Karotten-Ingwer-Suppe***<br></br>Zanderfilet auf tomatisiertem Rahmsauerkraut mit Hofkartoffeln***<br></br>Schokoladenmousse mit Himbeer-Chilisauce
                                 <br></br><br></br>Menü 2<br></br>

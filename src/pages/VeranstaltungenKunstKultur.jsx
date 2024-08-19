@@ -36,44 +36,44 @@ export default function EmtyGrid() {
                                 image="SchmitzFoto.jpg"
                                 alt="Firmen Event"
                                 />
-                  <Typography fontSize={'large'}>
+                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >
                       Der berühmte Fotograf Walter Schmitz aus Hamburg hat rund um Hof&Gut Bilder eingefangen und stellt sie im Restaurant Stub’n aus. Anschauen lohnt!
                   </Typography>
             </Item>
             <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
-                            <Typography fontSize={'x-large'}>Hoffest</Typography>
+                <Typography fontSize={'x-large'}>Hoffest</Typography>
                 <CardMedia
                                 component="img"
                                 image="20230501_123221.jpg"
                                 alt="Firmen Event"
                                 />
-                  <Typography fontSize={'large'}>
-                  Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Oktoberfest findet am 2. und 3. Oktober 2023 statt. Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube: <a href="https://youtu.be/UELE6Nx0z3E">https://youtu.be/UELE6Nx0z3E</a>                  
+                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >
+                  Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Hoffest findet am <b>3. Oktober 2024</b> statt und am <b>2. Oktober ab 19 Uhr</b> ist Oktoberfest mit Fassanstich, Blaskapelle und DJ. Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:                    
                   </Typography>
-                          </Item>
+            </Item>
         </Grid>
         <Grid xs={12} lg={6}>  
           <Item sx={{backgroundColor:"primary.dark"}}>
                                 
                 <Typography fontSize={'x-large'}>Hof&Gut im Fernsehen</Typography>
-                <Typography fontSize={'large'}>
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >
                   Am 13. Januar 2016 wurde im NDR in der Sendung “Mein Nachmittag” ein kurzer Film über Hof&Gut und schöne Orte in der Umgebung ausgestrahlt. Live im Studio war Chefkoch Frank Schiffner, der ein Lieblingsgericht vorgestellt hat! Hier der Link zur Sendung…die letzten 12 Minuten sind die spannendsten: <a href="https://www.ndr.de/fernsehen/sendungen/mein_nachmittag/Mein-Nachmittag,meinnachmittag12852.html">NDR Mein Nachmitag</a></Typography>
                                 
           </Item>
               <Item sx={{backgroundColor:"primary.dark" , mt:'15px'}}>
               <Typography fontSize={'x-large'}>Ausstellung von Karola Römermann in den “Künstlerstuben”</Typography>
-                <Typography fontSize={'large'}>
+                <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                       Karola Römermann stellt derzeit Werke ihres Schaffens aus 4 Jahrzehnten in den Künstlerstuben aus, kommen Sie gerne zum Schauen und Staunen…
                 </Typography>
               </Item>                            
               <Item sx={{backgroundColor:"primary.dark", mt:'15px'}}>
-                            <Typography fontSize={'large'}>Kinder spielen…Klassik: “Alcina” von Georg Friedrich Händel auf Hof&Gut! Vier tolle Aufführungen im Juli 2015…Fortsetzung folgt…</Typography>
+                            <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Kinder spielen…Klassik: “Alcina” von Georg Friedrich Händel auf Hof&Gut! Vier tolle Aufführungen im Juli 2015…Fortsetzung folgt…</Typography>
                 <CardMedia
                                 component="img"
                                 image="Kinder.png"
                                 alt="Firmen Event"
                                 />
-                              <Typography fontSize={'large'}>Musik im Allgemeinen und klassische Musik im Besonderen kann uns dort berühren, wo Worte nicht ankommen. Wir halten inne und erleben, dass da etwas ist, das unsere Seele anspricht. Jedes Kind sollte im besten Falle die Möglichkeit bekommen, einmal oder öfter “Klassik selber zu machen”. Genau das können Sie mit diesem fantastischen Projekt von Cornelia Salje erleben. Alle Informationen finden Sie unter: <a href="https://www.kinder-spielen-klassik.de/">https://www.kinder-spielen-klassik.de/</a>.</Typography>
+                              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Musik im Allgemeinen und klassische Musik im Besonderen kann uns dort berühren, wo Worte nicht ankommen. Wir halten inne und erleben, dass da etwas ist, das unsere Seele anspricht. Jedes Kind sollte im besten Falle die Möglichkeit bekommen, einmal oder öfter “Klassik selber zu machen”. Genau das können Sie mit diesem fantastischen Projekt von Cornelia Salje erleben. Alle Informationen finden Sie unter: <a href="https://www.kinder-spielen-klassik.de/">https://www.kinder-spielen-klassik.de/</a>.</Typography>
                           
                           </Item>
         </Grid>

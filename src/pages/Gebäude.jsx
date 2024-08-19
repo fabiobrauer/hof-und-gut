@@ -31,21 +31,25 @@ export default function Gebäude() {
           <meta name="fragment" content="!"/>
       </Helmet>
 
-        <Grid xs={12} lg={7}  sx={{padding:'10px'}}>
-              <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
+        <Grid xs={12} lg={4}  sx={{padding:'10px'}}>
+              <Item sx={{backgroundColor:"primary.dark"/* , height:'100%' */}}>
                               <CardMedia
                                     component="img"
                                     image="60842f03bdc80b89a1408476bdd76460.jpeg"
                                     alt="Foto Bauernhaus früher"
-                                    height={'500'}
+/*                                     height={'500'} */
+                                    sx={{
+                                      objectFit: 'cover', // Oder 'contain', 'fill', je nach gewünschtem Effekt
+                                      objectPosition: 'bottom', // Ändert die Position des Bildes innerhalb des Containers
+                                    }}
                                     />
               </Item>
           </Grid>
 
-            <Grid lg={5} xs={12} sx={{padding:'10px'}}>
+            <Grid  xs={12} lg={8} sx={{padding:'10px'}}>
               <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
-                  <Typography fontSize={'x-large'} >Das Bauernhaus Früher</Typography>
-                  <Typography fontSize={'large'} >Die Hofstelle Itzenbütteler Sood 13 (Harmsbur) gehört zu den Hofstellen in Itzenbüttel, die auf das Mittelalter zurückgehen. Die Ursprünge des Hauptgebäudes liegen nach neusten Erkenntnissen im 16. Jahrhundert.
+                  <Typography fontSize={'x-large'} >Das Bauernhaus früher</Typography>
+                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Die Hofstelle Itzenbütteler Sood 13 (Harmsbur) gehört zu den Hofstellen in Itzenbüttel, die auf das Mittelalter zurückgehen. Die Ursprünge des Hauptgebäudes liegen nach neusten Erkenntnissen im 16. Jahrhundert.
                     Anfang der 1990-er Jahre wurden große Teile des Reet-Dachs des Hofgebäudes erneuert. In den Jahren 2003/2004 wurde das Bauernhaus mit Unterstützung von Mitteln aus der Dorferneuerung und aus dem ETLR-Fonds grundlegend konstruktiv als ortsbildprägendes Gebäude saniert. Kleinere Sanierungsmaßnahmen erfolgten im Rahmen des Anschlusses an die Kanalisation.</Typography>
               </Item>
             </Grid>
@@ -54,8 +58,8 @@ export default function Gebäude() {
         
         <Grid lg={5} xs={12}  sx={{padding:'10px'}}>
           <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
-            <Typography fontSize={'x-large'} >Das Bauernhaus Heute</Typography>
-            <Typography fontSize={'large'} >Im Jahr 2010 wurde das alte Bauernhaus auch im Inneren denkmalgerecht saniert und das historische Ständerwerk wiederhergestellt. Hofseitig und zur Straße hin erhielt das Gebäude neue Sprossenfenster und Gauben, die nun auch das Obergeschoss mit Licht versorgen. Eindrucksvoll lässt sich nun im Gastraum und auch im Küchenbereich das historische und teilweise wieder hergestellte Ständerwerk besichtigen. Bei der Renovierung wurden ausschließlich Eichen aus dem eigenen Itzenbütteler Wald verwendet. Durch ihre helle Farbe lassen sich die “neuen” Hölzer gut von den historischen unterscheiden.</Typography>
+            <Typography fontSize={'x-large'} >Das Bauernhaus heute</Typography>
+            <Typography sx={{fontSize:{xs:'small', xl:"xs"}}} >Im Jahr 2010 wurde das alte Bauernhaus auch im Inneren denkmalgerecht saniert und das historische Ständerwerk wiederhergestellt. Hofseitig und zur Straße hin erhielt das Gebäude neue Sprossenfenster und Gauben, die nun auch das Obergeschoss mit Licht versorgen. Eindrucksvoll lässt sich nun im Gastraum und auch im Küchenbereich das historische und teilweise wieder hergestellte Ständerwerk besichtigen. Bei der Renovierung wurden ausschließlich Eichen aus dem eigenen Itzenbütteler Wald verwendet. Durch ihre helle Farbe lassen sich die “neuen” Hölzer gut von den historischen unterscheiden.</Typography>
 
           </Item>
         </Grid>
@@ -83,7 +87,7 @@ export default function Gebäude() {
                       aria-controls="panel1a-content"
                       id="panel1a-header"
                     >
-                      <Typography fontSize={'large'}>
+                      <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                         Hintergrund des Projekts Konversion Scheune (Umsetzung 2005/2006) war die Suche nach einer Nutzung,
                         welche die Erhaltung der (teilweise bereits abgängigen) Substanz im Ensemble ermöglicht und 
                         gleichzeitig im Einklang steht mit einer nachhaltigen Entwicklung der Hofstelle.Konzept:- 
@@ -93,7 +97,7 @@ export default function Gebäude() {
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                      <Typography fontSize={'large'}>
+                      <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                           - Das ökologische Konzept wird ergänzt durch 
                           eine Solarthermie- und eine Photovoltaikanlage auf der Dachfläche.- Die Erschließung des Gebäudes 
                           erfolgt über einen Lichthof, gleichzeitig Treppenraum und Ort der Begegnung.- 50.000 historische 
@@ -116,7 +120,7 @@ export default function Gebäude() {
                                         height='650'
                                         alt="Foto Bauernhaus 2010"
                                         />
-                    <Typography fontSize={'large'}>
+                    <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                       Dies ist unser “Kinderhaus”, in dem die Reitkinder sich vor und nach dem Unterricht aufhalten können.
                     </Typography>
               </Item>

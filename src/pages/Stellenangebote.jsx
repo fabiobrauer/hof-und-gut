@@ -49,7 +49,7 @@ export default function EmtyGrid() {
                                               <Typography fontSize={'xx-large'}>
                                                 Auszubildende/r Koch/in
                                               </Typography>
-                                              <Typography fontSize={'x-large'}>
+                                              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                                               Auszubildender zum Koch gesucht!
                                               Wir suchen zum nächstmöglichen Zeitpunkt einen Kochauszubildenden. Bisher haben wir auf Hof&Gut bereits zwei Kochauszubildende sehr erfolgreich zur Prüfung geführt. Ab sofort suchen wir einen motivierten neuen Auszubildenden, der das Kochhandwerk lernen möchte. Wie immer freuen wir uns über schriftliche Bewerbungen an <br></br><br></br>info@hof-und-gut.de. <br></br><br></br>Bitte auch weitersagen….
                                               </Typography>
@@ -64,7 +64,7 @@ export default function EmtyGrid() {
                                             <Typography fontSize={'xx-large'}>
                                               Koch/in oder Küchenhelfer/in
                                             </Typography>
-                                            <Typography fontSize={'x-large'}>
+                                            <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                                             Küchenhilfe/ Koch in Voll- oder Teilzeit gesucht
                                             Wir suchen motivierte Köche oder Kücheninterressierte sowie Spüler (Voll- oder Teilzeit). Unser Restaurant ist unter der Woche ab 17 Uhr geöffnet und am Wochenende durchgehend ab 12 Uhr. Wichtig sind bei uns Teamfähigkeit und Freude an der Arbeit. Ein professionelles Team erwartet Sie. Bewerbungen bitte schriftlich, am besten per Mail, an <br></br><br></br>info@hof-und-gut.de.<br></br> <br></br>Bitte auch weitersagen….
                                             </Typography>
@@ -97,7 +97,7 @@ export default function EmtyGrid() {
                                               <Typography fontSize={'xx-large'}>
                                               Auszubildende/r im Restaurantfach 
                                               </Typography>
-                                              <Typography fontSize={'x-large'}>
+                                              <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                                               Wir suchen zum nächstmöglichen Zeitpunkt eine/n Auszubildende/n im Restaurantfach. Wichtig sind bei uns Teamfähigkeit und Freude an der Arbeit. Ein professionelles Service-Team erwartet Euch. Bewerbungen bitte schriftlich, am besten per Mail, an <br></br><br></br>info@hof-und-gut.de.<br></br><br></br>Bitte auch weitersagen….
                                               </Typography>
                                             </CardContent>
@@ -111,7 +111,7 @@ export default function EmtyGrid() {
                                             <Typography fontSize={'xx-large'}>
                                               Servicekraft
                                             </Typography>
-                                            <Typography fontSize={'x-large'}>
+                                            <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                                             Servicekräfte in Voll- oder Teilzeit gesucht
                                             Wir suchen motivierte Kräfte im Service (Voll- oder Teilzeit). Unser Restaurant ist unter der Woche ab 17 Uhr geöffnet und am Wochenende durchgehend ab 12 Uhr. Wichtig sind bei uns Teamfähigkeit und Freude an der Arbeit. Ein professionelles Service-Team erwartet Sie. Bewerbungen bitte schriftlich, am besten per Mail, an <br></br><br></br>info@hof-und-gut.de.<br></br><br></br>Bitte auch weitersagen….
                                             </Typography>

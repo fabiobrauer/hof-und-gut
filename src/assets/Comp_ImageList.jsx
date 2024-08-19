@@ -54,6 +54,14 @@ export default function CustomImageList() {
 
 const itemData = [
   {
+    img: 'wohngebäude3.jpeg',
+    title: 'Vorderseite',
+  },
+  {
+    img: 'Wohngebäude4.jpeg',
+    title: 'Hofperspektive',
+  },
+  {
     img: 'Wohngebäude1.jpeg',
     title: 'Mehrfamilienhaus',
     Architekt: 'Axel Brauer',
@@ -61,14 +69,6 @@ const itemData = [
   {
     img: 'Bauernhaus3.jpeg',
     title: 'Bauernhaus',
-  },
-  {
-    img: 'wohngebäude3.jpeg',
-    title: 'Vorderseite',
-  },
-  {
-    img: 'Wohngebäude4.jpeg',
-    title: 'Hofperspektive',
   },
   {
     img: 'beiNacht.jpg',

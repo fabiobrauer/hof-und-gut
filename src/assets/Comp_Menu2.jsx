@@ -9,6 +9,7 @@ import './Comp_Menu.css'
 import DirectionsIcon from '@mui/icons-material/Directions';
 import { Box } from '@mui/material';
 import AgricultureIcon from '@mui/icons-material/Agriculture';
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 
 const StyledMenu = styled((props) => (
   <Menu
@@ -76,7 +77,7 @@ export default function CustomizedMenus() {
         sx={{display:'flex', flexDirection:'column', justifyContent:'space-between', width:'200px', height:'107px', backgroundColor:'transparent'}}
 
       >
-        <AgricultureIcon sx={{fontSize: "4em"}} /> Hof & Gut und Landwirtschat 
+        <AgricultureIcon sx={{fontSize: "4em"}} /> Hof & Gut Landwirtschaft 
       </Button>
       <StyledMenu
         id="demo-customized-menu"
@@ -87,6 +88,7 @@ export default function CustomizedMenus() {
         open={open}
         onClose={handleClose}
       >
+        <Link to={'/Hofladen'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid',display:'flex', justifyContent:'space-between'}}>Kleiner Hofladen <ShoppingBasketIcon sx={{transform:'scale(2)'}}></ShoppingBasketIcon></MenuItem></Link>
         <Link to={'/ÜberUns'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Über Uns</MenuItem></Link>
         <Link to={'/Gebäude'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Gebäude</MenuItem></Link>
         <Link to={'/ÖkologischeLandwirtschaft'} className='Link'><MenuItem onClick={handleClose} sx={{borderBottom:'1px solid'}}>Ökologische Landwirtschaft</MenuItem></Link>

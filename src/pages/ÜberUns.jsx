@@ -5,14 +5,14 @@ import {Helmet} from "react-helmet-async";
 export default function ÜberUns() {
   return (
     
-      <Box sx={{backgroundColor:'primary.dark', width:{xs:'100%',lg:'60%'}, borderRadius:'10px', ml:'15px'}}>
+      <Box sx={{backgroundColor:'primary.dark', width:{xs:'100%',lg:'60%'}, borderRadius:'10px', margin:'0 auto'}}>
         <Helmet>
           <title>Über Hof&Gut Jesteburg</title>
           <meta name="description"  content="Wissenswertes über Hof und Gut Jesteburg"/>
           <link rel='canonical' href="/ÜberUns"/>
           <meta name="fragment" content="!"/>
       </Helmet>
-        
+         <h2 >Über uns</h2>
         <p>
             Unter dem Dach von Hof&Gut Jesteburg finden sich ökologische Landwirtschaft,
             ein Reitbetrieb, ein Einstellbetrieb, generationenübergreifendes Wohnen sowie Kunst und Kultur.

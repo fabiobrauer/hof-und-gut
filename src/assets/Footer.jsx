@@ -7,6 +7,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import { Box } from '@mui/material';
 import Typography from '@mui/material/Typography';
 import Comp_LogoBanner from './LogoSVG2';
+import LogoViereckSVG from './LogoViereckSVG'
 
 
 
@@ -19,20 +20,20 @@ export default function Footer() {
     <Box sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between'}} >
 
       <Box sx={{display:{xs:'none', lg:'block'}}}>
-          <Link to={'/'}><Comp_LogoBanner ></Comp_LogoBanner></Link>
+          <Link to={'/'}><LogoViereckSVG></LogoViereckSVG></Link>
       </Box>
       
 
   <Box sx={{display:'flex',flexDirection:{xs:'column', lg:'row'} ,alignItems:'center', textAlign:{xs:'center', lg:'left'} , gap:{xs:'50px', lg:'50'}, m:{xs:'0 auto'}}}>
       <Box sx={{justifyItems:'center'}}>
-        <Typography fontSize={"large"} sx={{wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg GmbH & Co. Kg</Typography>
+        <Typography fontSize={"large"} sx={{wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography>
         <Typography fontSize={"large"}>Handelsregisternummer: HRB 736947</Typography>
         <Typography fontSize={"large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
         
       </Box>
       <Box>
         <Typography fontSize={"large"} sx={{fontWeight:'700'}}>Kontaktinformationen</Typography>
-        <Typography fontSize={"large"}>E-Mail: <a href="mailto:">buchhaltung@hof-und-gut.de</a></Typography>
+        <Typography fontSize={"large"}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
         <Typography fontSize={"large"}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
       </Box>
 

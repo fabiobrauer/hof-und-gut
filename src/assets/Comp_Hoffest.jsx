@@ -23,7 +23,7 @@ export default function Hoffest() {
         
          <Grid xs={12} lg={4}>
           <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'10'}}>
-{                      <Typography fontSize={'x-large'}>Hoffest 2023</Typography>
+{                      <Typography fontSize={'x-large'}>Hoffest</Typography>
 }                      <CardMedia 
                         component="img"
                         image="20230501_123221.jpg"
@@ -36,26 +36,36 @@ export default function Hoffest() {
         <Grid xs={12} lg={4} >
                 <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'0'}}>
                     <Typography fontSize={'x-large'}>Hoffest</Typography>
-                    <Typography sx={{fontSize:{xs:'large', xl:"large"}}}>
-                    Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. <span style={{fontStyle:'Bold'}}>Das nächste Hoffest findet am 30.04.2024 und 01.05.2024 statt.</span> Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:
+                    <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
+                    Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Hoffest findet am <b>3. Oktober 2024</b> statt und am <b>2. Oktober ab 19 Uhr</b> ist Oktoberfest mit Fassanstich, Blaskapelle und DJ. Um Euch einen Eindruck von unserem Hoffest und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf youtube:                    
                     </Typography>
-                    <Button><a href="https://youtu.be/UELE6Nx0z3E">Youtube Hoffest</a></Button>
+                    <Button sx={{fontSize:{xs:'small', xl:"small"}}}><a href="https://youtu.be/UELE6Nx0z3E">Youtube Hoffest</a></Button>
                 </Item>
         </Grid>
 
         <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark", height:'100%', padding:'10'}}>
-                    <Typography fontSize={'x-large'} >
-                        Ökologische Landwirtschaft
-                    </Typography>
-                    <CardMedia
-                              component="img"
-                              image="Diewackerenvier.jpg"
-                              alt="Vier Kälber"
-                              width={"100%"}
-
-                    /> 
-                </Item>
+        <Item sx={{backgroundColor:"primary.dark", display:{xs:'none', md:'block'}}}>
+                                <Typography fontSize={'x-large'}>
+                                    Ökologische Landwirtschaft
+                                </Typography>
+                       {         <CardMedia
+                                          component="img"
+                                          height="520"
+                                          image="KüheNeu.jpeg"
+                                          alt="Kühe"
+                                /> }
+                    </Item>
+                    <Item sx={{backgroundColor:"primary.dark", display:{xs:'block', md:'none'}}}>
+                                <Typography fontSize={'x-large'}>
+                                    Ökologische Landwirtschaft
+                                </Typography>
+                       {         <CardMedia
+                                          component="img"
+                                          height="520"
+                                          image="KüheNeu_Mobil.jpg"
+                                          alt="Kühe"
+                                /> }
+                    </Item>
           </Grid>
 
       </Grid>
