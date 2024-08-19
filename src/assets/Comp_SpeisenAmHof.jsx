@@ -57,7 +57,9 @@ export default function Comp_SpeisenAmHof() {
                     
                 </Typography >
 
-                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1722672391' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>
+
+
+                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1724086530' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>
                     
                     <script
                     type="text/javascript" 
