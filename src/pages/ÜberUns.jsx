@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import {Helmet} from "react-helmet-async";
+import Typography from '@mui/material/Typography';
 
 export default function ÜberUns() {
   return (
@@ -12,8 +13,8 @@ export default function ÜberUns() {
           <link rel='canonical' href="/ÜberUns"/>
           <meta name="fragment" content="!"/>
       </Helmet>
-         <h2 >Über uns</h2>
-        <p>
+        <Typography fontSize={'x-large'} mt={'10px'}>Über uns</Typography>
+        <Typography sx={{fontSize:'small'}}>
             Unter dem Dach von Hof&Gut Jesteburg finden sich ökologische Landwirtschaft,
             ein Reitbetrieb, ein Einstellbetrieb, generationenübergreifendes Wohnen sowie Kunst und Kultur.
              Gastronomie und Gästezimmer am Hof werden betrieben unter der Marke “Speisen am Hof”
@@ -46,8 +47,8 @@ export default function ÜberUns() {
                 <br></br>
 <br></br>
 <br></br>
-                und dem Team von “Speisen und Übernachten am Hof”Familie Spaqi, Frank Schiffner, Kevin Hose und das Küchenteam
-        </p>
+                und dem Team von “Speisen und Übernachten am Hof”Familie Spaqi, Frank Schiffner und das Küchenteam
+        </Typography>
         </Box>
     
   )

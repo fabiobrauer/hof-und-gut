@@ -31,8 +31,8 @@ export default function EmtyGrid() {
 
 
       <Grid container spacing={2} >
-        <Grid xs={12} lg={4} >
-                <Item sx={{backgroundColor:"primary.dark", padding:'0', paddingBottom:'10px'}}>
+        <Grid xs={12} lg={4} display={'flex'}>
+                <Item sx={{backgroundColor:"primary.dark", padding:'0', paddingBottom:'10px', flexGrow:'1'}}>
                 <Typography fontSize={'xx-large'}>
                     Öffnungszeiten:
                 </Typography>
@@ -51,8 +51,30 @@ export default function EmtyGrid() {
                     Tel mobil: 0176 70671532
                 </Typography>
 
-                    <Button variant='contained' sx={{bgcolor:'secondary.main', m:"20px"}} >Aktuelle Speisekarte</Button>
-                    <Button variant='contained' sx={{bgcolor:'secondary.main'}}>Tisch Buchem mit Resmio</Button>
+                <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1724086530' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>
+                    
+                    <script
+                    type="text/javascript" 
+                    data-resmio-button="hof-gut-jesteburg" 
+                    data-resmio-fontsize="14px" 
+                    data-resmio-fontcolor="%23FFFFFF" 
+                    data-resmio-buttontext="Jetzt%20reservieren" 
+                    data-resmio-bordercolor="%23FFFFFF" 
+                    data-resmio-borderwidth="0" 
+                    data-resmio-buttoncolor="%23c41500" 
+                    data-resmio-buttonshadow="true" 
+                    data-resmio-widget-color="%23555555" 
+                    data-resmio-widget-width="275" 
+                    data-resmio-widget-height="400" 
+                    data-resmio-widget-fontsize="14px" 
+                    data-resmio-widget-facebooklogin="true" 
+                    data-resmio-widget-backgroundcolor="%23ffffff" 
+                    data-resmio-widget-commentsdisabled="false" 
+                    data-resmio-widget-newslettersignup="true" 
+                    data-resmio-widget-linkbackgroundcolor="%23c40e07"> 
+                    </script >
+
+                <Typography>falls "jetzt reservieren" nicht erscheint bitte neu laden</Typography>
                 </Item>
         </Grid>
 

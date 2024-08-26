@@ -28,8 +28,6 @@ export default function Hofladen() {
           <meta name="fragment" content="!"/>
       </Helmet>
       <Grid container mt={'10px'}>
-
-
             <Grid xs={12} lg={4} sx={{p:'10px'}}>
                     <Item sx={{backgroundColor:"primary.dark"/* , height:'100%' */}}>
                                     <CardMedia
@@ -71,11 +69,16 @@ export default function Hofladen() {
                                             />
                     </Item>
                 </Grid> 
-                
-                
-                
-  
-        <Grid xs={12} lg={6} sx={{p:'10px'}}>
+
+                <Grid xs={12} lg={4} sx={{p:'10px', display:'flex'}}>                    
+                      <Item sx={{backgroundColor:"primary.dark", flexGrow:'1'}}>
+                          <Typography fontSize={'large'}>Verkauf von Rindfleisch aus ökologischer Haltung (Rindfleisch und Gänse)</Typography>
+                          <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
+                            Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
+                            </Typography>
+                        </Item>
+                    </Grid>   
+        <Grid xs={12} lg={4} sx={{p:'10px'}}>
                     <Item sx={{backgroundColor:"primary.dark"}}>
                                     <CardMedia
                                             component="img"
@@ -92,7 +95,7 @@ export default function Hofladen() {
                     </Item>
                 </Grid>  
 
-                <Grid xs={12} lg={6} sx={{p:'10px'}}>
+                <Grid xs={12} lg={4} sx={{p:'10px'}}>
                     <Item sx={{backgroundColor:"primary.dark"}}>
                                     <CardMedia
                                             component="img"
@@ -107,8 +110,11 @@ export default function Hofladen() {
                                             }}
                                             />
                     </Item>
-                </Grid>   
-                <Grid xs={12} lg={12} sx={{p:'10px'}}><Comp_Swiper></Comp_Swiper></Grid>
+                </Grid>
+
+              <Grid xs={12} lg={12} sx={{pr:'10px', pl:'10px'}}> 
+                  <Comp_Swiper></Comp_Swiper>
+              </Grid>
                  
 
 

@@ -31,11 +31,11 @@ export default function Footer() {
         
       </Box>
       <Box sx={{padding:'50px'}}>
-        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Kontaktinformationen Restaurant</Typography>
+        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Restaurant & Übernachtung</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:04181 9199500">04181 9199500</a> </Typography>
    
-        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Kontaktinformationen Büro</Typography>
+        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Büro</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
       </Box>

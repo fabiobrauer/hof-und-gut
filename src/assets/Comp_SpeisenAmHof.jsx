@@ -36,7 +36,7 @@ export default function Comp_SpeisenAmHof() {
       <Grid container spacing={2} >
 
         <Grid xs={12} lg={3} >
-          <Item sx={{backgroundColor:"primary.dark" , height:'100%', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+          <Item sx={{backgroundColor:"primary.dark" , height:'100%', display:'flex', flexDirection:'column', alignItems:'center'}}>
                 <Typography fontSize={'xx-large'} sx={{ m:'30px'}} >
                     Öffnungszeiten:
                 </Typography>
@@ -45,6 +45,7 @@ export default function Comp_SpeisenAmHof() {
                     <br></br>
                   Samstag, Sonntag und Feiertag: 12:00 - 22:00 Uhr (warme Küche)
                 </Typography>
+                <Box>
                 <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                     Kontakt:
                     <br></br>
@@ -56,10 +57,10 @@ export default function Comp_SpeisenAmHof() {
                     <a href="tel:0176 70671532">Tel mobil: 0176 70671532</a>
                     
                 </Typography >
-
-
-
-                    <a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1724086530' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>
+                </Box>
+                
+<Box>
+<a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/Aktuelle_Speisekarte.pdf?v=1724086530' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>
                     
                     <script
                     type="text/javascript" 
@@ -81,6 +82,8 @@ export default function Comp_SpeisenAmHof() {
                     data-resmio-widget-newslettersignup="true" 
                     data-resmio-widget-linkbackgroundcolor="%23c40e07"> 
                     </script >
+</Box>
+<Typography sx={{fontSize:'small'}}>falls "jetzt reservieren" nicht erscheint bitte neu laden</Typography>
 
           </Item>
 
@@ -92,6 +95,11 @@ export default function Comp_SpeisenAmHof() {
                 component="img"
                 image="Entrecôte.jpg"
                 alt="Entrecote"
+                sx={{ 
+                  height: '100%', 
+                  width: '100%', 
+                  objectFit: 'cover' 
+                }}
               />
                 </Item>
         </Grid>
@@ -99,7 +107,7 @@ export default function Comp_SpeisenAmHof() {
         <Grid xs={12} lg={3}>
           <Item sx={{backgroundColor:"primary.dark", height:'100%'}}>
             <Typography fontSize={'xx-large'} sx={{ m:'10px'}} >Anfahrt</Typography>
-            <iframe title='Navigiere zu Hof&Gut Jesteburg' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.221622002947!2d9.933264077093998!3d53.32138507659057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1bd89bb3a0267%3A0x23876e66af16eac5!2sHof%20%26%20Gut%20Jesteburg!5e0!3m2!1sen!2sde!4v1693483721231!5m2!1sen!2sde" width="100%" height="500px"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe title='Navigiere zu Hof&Gut Jesteburg' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2383.221622002947!2d9.933264077093998!3d53.32138507659057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1bd89bb3a0267%3A0x23876e66af16eac5!2sHof%20%26%20Gut%20Jesteburg!5e0!3m2!1sen!2sde!4v1693483721231!5m2!1sen!2sde" width="100%" height="400px"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </Item>
         </Grid>
 

@@ -65,8 +65,8 @@ export default function EmtyGrid() {
               </Typography>
             </Item>
         </Grid>
-        <Grid xs={12} lg={4}>
-          <Item sx={{backgroundColor:"primary.dark", mt:'10px'}}>
+        <Grid xs={12} lg={4} sx={{display:'flex', flexDirection:'column'}}>
+          <Item sx={{backgroundColor:"primary.dark", mt:'10px', flexGrow:'1'}}>
           <Typography fontSize={'x-large'}>Kontakt und Aktuelles</Typography> 
                   <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Liebe Reitkinder und liebe Eltern,
                               seit dem Sommer 2021 hat Carmen Knott den Reitbetrieb am Hof von Anne Strufe übernommen. Sie und ihr Team freuen sich auf Euch!<br></br> 
@@ -86,7 +86,7 @@ export default function EmtyGrid() {
                               …und viele große und kleine Helferinnen und Helfer
                     </Typography>
           </Item>
-          <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
+          <Item sx={{backgroundColor:"primary.dark", mt:'15px', flexGrow:'1'}} >
               <Typography fontSize={'x-large'}>Preisliste</Typography>
               <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                   Kinder und Jugendgruppen 85,- €/Monat
@@ -96,7 +96,7 @@ export default function EmtyGrid() {
               </Typography>
             </Item>
         </Grid>
-        <Grid xs={12} lg={4}>
+        <Grid xs={12} lg={4} display={'flex'} flexDirection={'column'}>
           <Item sx={{backgroundColor:"primary.dark" , mt:'10px'}}>
           <CardMedia
                                 component="img"
@@ -104,13 +104,13 @@ export default function EmtyGrid() {
                                 alt="poniereiten"
                                 />
             </Item>
-            <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
+            <Item sx={{backgroundColor:"primary.dark", mt:'15px', flexGrow:'1'}} >
               <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                 Wir bieten kompetenten Reitunterricht für Kinder von 6 bis 12 Jahren und für die ganz Kleinen ab 3 Jahren gibt es die sogenannte Ponyspielzeit. Unser Schwerpunkt liegt in der ganzheitlichen Reitausbildung. Für uns sind Pferde mehr als ein Sportgerät. Die Ausbildung erfolgt in kleinen Gruppen auf dem Reitplatz und im Gelände. Der Unterricht findet ganzjährig statt. Wir freuen uns über Euer Interesse und versprechen Euch, dass Ihr viel Freude haben werdet!
               </Typography>
             </Item>
 
-            <Item sx={{backgroundColor:"primary.dark", mt:'15px'}} >
+            <Item sx={{backgroundColor:"primary.dark", mt:'15px', flexGrow:'1'}}>
               <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
                   Die ganzheitliche Behandlung auf dem Pferderücken
                   In Bewegung sein heißt lebendig sein – körperlich-geistig-seelisch.

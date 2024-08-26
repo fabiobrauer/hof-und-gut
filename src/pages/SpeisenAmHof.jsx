@@ -37,7 +37,7 @@ export default function SpeisenAmHof() {
         <meta name="fragment" content="!"/>
       </Helmet>
 
-        <Comp_SpeisenAmHof></Comp_SpeisenAmHof>
+      <Comp_SpeisenAmHof></Comp_SpeisenAmHof>
 
       <Grid container spacing={2} mt={'10px'}>
         <Grid xs={12} lg={6}>

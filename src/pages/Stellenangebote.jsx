@@ -42,11 +42,13 @@ export default function EmtyGrid() {
                             image="Köche.png"
                             alt="Cheff Koch und Azubis"
                           />
-                              <Grid container spacing={2} mt={'10px'}>
+                          </CardActionArea>
+                        </Card>
+                      <Grid container spacing={2} mt={'10px'}>
                                   <Grid xs={12} lg={6} >
                                         <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                             <CardContent>
-                                              <Typography fontSize={'xx-large'}>
+                                              <Typography fontSize={'large'}>
                                                 Auszubildende/r Koch/in
                                               </Typography>
                                               <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
@@ -61,7 +63,7 @@ export default function EmtyGrid() {
                                   <Grid xs={12} lg={6}>
                                         <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                           <CardContent>
-                                            <Typography fontSize={'xx-large'}>
+                                            <Typography fontSize={'large'}>
                                               Koch/in oder Küchenhelfer/in
                                             </Typography>
                                             <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
@@ -71,30 +73,27 @@ export default function EmtyGrid() {
                                           </CardContent>
                                       </Item>
                                   </Grid>
-                              </Grid>
-
-                        </CardActionArea>
-                      </Card>
+                      </Grid>
                 </Item>
-
         </Grid>
 
-
-        <Grid xs={12} lg={6} >
-          <Item sx={{backgroundColor:"primary.dark", height:'100%'}} >
-          <Card sx={{backgroundColor:"primary.dark"}}>
+        <Grid xs={12} lg={6} sx={{display:'flex'}}>                
+          <Item sx={{backgroundColor:"primary.dark", display:'flex', flexDirection:'column', flexGrow:'1'}}>
+                      <Card sx={{backgroundColor:"primary.dark"}}>
                         <CardActionArea >
                           <CardMedia
                             component="img"
                             height="540"
                             image="Speisen1.jpeg"
-                            alt="Cheff Koch und Azubis"
+                            alt="Dinner"
                           />
-                              <Grid container spacing={2} mt={'10px'} >
+                        </CardActionArea>
+                      </Card>
+                      <Grid container spacing={2} mt={'10px'} sx={{flexGrow:'1'}}>
                                   <Grid xs={12} lg={6} >
                                         <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                             <CardContent>
-                                              <Typography fontSize={'xx-large'}>
+                                            <Typography fontSize={'large'}>
                                               Auszubildende/r im Restaurantfach 
                                               </Typography>
                                               <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
@@ -108,7 +107,7 @@ export default function EmtyGrid() {
                                   <Grid xs={12} lg={6}>
                                         <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                                           <CardContent>
-                                            <Typography fontSize={'xx-large'}>
+                                          <Typography fontSize={'large'}>
                                               Servicekraft
                                             </Typography>
                                             <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>
@@ -118,11 +117,9 @@ export default function EmtyGrid() {
                                           </CardContent>
                                       </Item>
                                   </Grid>
-                              </Grid>
+                      </Grid>
+                </Item>
 
-                        </CardActionArea>
-                      </Card>
-          </Item>
         </Grid>
 
       </Grid>
