@@ -29,6 +29,7 @@ export default function Hoffest() {
                         image="20230501_123221.jpg"
                         alt="Hoffest"
                         width={"100%"}
+                        height={"520"}
                     />           
           </Item>
         </Grid>
