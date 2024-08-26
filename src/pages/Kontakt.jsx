@@ -31,8 +31,8 @@ export default function EmtyGrid() {
 
 
       <Grid container spacing={2} >
-        <Grid xs={12} lg={4}>
-                <Item sx={{backgroundColor:"primary.dark", padding:'0', paddingBottom:'10px' }}>
+        <Grid xs={12} lg={4} >
+                <Item sx={{backgroundColor:"primary.dark", padding:'0', paddingBottom:'10px'}}>
                 <Typography fontSize={'xx-large'}>
                     Öffnungszeiten:
                 </Typography>
@@ -96,7 +96,7 @@ export default function EmtyGrid() {
             <Grid lg={4} xs={12} mb={2}>
               <Item sx={{backgroundColor:"primary.light", height:'100%'}}>
                   <Typography sx={{fontSize:{xs:'xs', xl:"large"}}}>Landwirtschaft: Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography> 
-                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Büroadresse: Hauptstr. 3 21266 Jesteburg</Typography>
+                  <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Büroadresse: Itzenbütteler Sod 15, 21266 Jesteburg</Typography>
                   <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: buchhaltung@hof-und-gut.de</Typography>
                   <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: 04183 9759994</Typography>
 

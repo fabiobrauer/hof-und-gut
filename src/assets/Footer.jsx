@@ -17,27 +17,30 @@ import LogoViereckSVG from './LogoViereckSVG'
 export default function Footer() {
   return (
     
-    <Box sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between'}} >
+    <Box sx={{backgroundColor: 'rgb(7, 190, 138, 0.2)', border: "1px solid black", mt: "10px", display:'flex', justifyContent:'space-between', flexDirection:{xs:'column', lg:'row'}, textAlign:{xs:'center', lg:'left'}}} >
 
-      <Box sx={{display:{xs:'none', lg:'block'}}}>
+      <Box sx={{display:{xs:'none', xl:'block'}, marginLeft:'20px'}}>
           <Link to={'/'}><LogoViereckSVG></LogoViereckSVG></Link>
       </Box>
       
-
-  <Box sx={{display:'flex',flexDirection:{xs:'column', lg:'row'} ,alignItems:'center', textAlign:{xs:'center', lg:'left'} , gap:{xs:'50px', lg:'50'}, m:{xs:'0 auto'}}}>
-      <Box sx={{justifyItems:'center'}}>
-        <Typography fontSize={"large"} sx={{wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography>
-        <Typography fontSize={"large"}>Handelsregisternummer: HRB 736947</Typography>
-        <Typography fontSize={"large"}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
+      
+      <Box sx={{justifyItems:'center', padding:'50px'}}>
+        <Typography sx={{fontSize:'md', wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Handelsregisternummer: HRB 736947</Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
         
       </Box>
-      <Box>
-        <Typography fontSize={"large"} sx={{fontWeight:'700'}}>Kontaktinformationen</Typography>
-        <Typography fontSize={"large"}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
-        <Typography fontSize={"large"}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
+      <Box sx={{padding:'50px'}}>
+        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Kontaktinformationen Restaurant</Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:04181 9199500">04181 9199500</a> </Typography>
+   
+        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Kontaktinformationen Büro</Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
       </Box>
 
-        <Box sx={{display:'flex', flexDirection:'column' }}>
+        <Box sx={{display:'flex', flexDirection:'column',padding:'50px' }}>
 
           <Box sx={{display:'flex', margin:'0 auto'}}>
             <a href="https://www.instagram.com/hofundgutjesteburg/">
@@ -70,7 +73,7 @@ export default function Footer() {
             </a>
           </Box>  
 
-       </Box>
+
     </Box>
 
 
