@@ -50,7 +50,7 @@ export default function Hoffest() {
             <Button 
               variant="contained" 
               color="secondary"
-              sx={{ mt: '10px' }}
+              sx={{ mt: '10px', color:'white' }}
               component="a"
               href="https://youtu.be/UELE6Nx0z3E"
             >

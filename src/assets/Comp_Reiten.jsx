@@ -21,7 +21,7 @@ export default function ReitenBasicGrid() {
       <Grid container spacing={2}>
         {/* Left section with download links */}
         <Grid xs={12} lg={4}>
-          <Item sx={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <Item sx={{ height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center',backgroundColor:"primary.dark"  }}>
             <Typography fontSize="x-large" sx={{ m: '10px' }}>
               Unsere aktuellen Angebote im Reitbetrieb zum Herunterladen
             </Typography>
@@ -63,7 +63,7 @@ export default function ReitenBasicGrid() {
 
         {/* Right section with image */}
         <Grid xs={12} lg={8}>
-          <Item sx={{ height: '100%' }}>
+          <Item sx={{ height: '100%' , backgroundColor:"primary.dark" }}>
             <a href="https://ponyreitschuleknot.wixsite.com/ponyreitschule-carme">
               <CardMedia component="img" image="PoniesReiten.jpeg" alt="Kinder beim Poniereiten auf dem Hof" />
             </a>
