@@ -25,7 +25,7 @@ export default function Footer() {
       
       
       <Box sx={{justifyItems:'center', padding:'50px'}}>
-        <Typography sx={{fontSize:'md', wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg Agrar GmbH & Co. KG</Typography>
+        <Typography sx={{fontSize:'md', wordWrap:'break-word',fontWeight:'700'}}>Hof & Gut Jesteburg GmbH</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Handelsregisternummer: HRB 736947</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}><a href="/Disclaimer" style={{wordWrap:'break-word'}}>Haftungsausschluss</a></Typography>
         
@@ -35,9 +35,9 @@ export default function Footer() {
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:04181 9199500">04181 9199500</a> </Typography>
    
-        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Büro</Typography>
+ {/*        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Büro</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
-        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:+49 4183 9759994">04183 9759994</a> </Typography> */}
       </Box>
 
         <Box sx={{display:'flex', flexDirection:'column',padding:'50px' }}>
