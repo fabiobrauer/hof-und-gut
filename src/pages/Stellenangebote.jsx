@@ -43,7 +43,7 @@ export default function EmtyGrid() {
             </Card>
             <Grid container spacing={2} mt="10px">
               <Grid xs={12} lg={6}>
-                <Item sx={{ backgroundColor: "primary.light", height: '100%' }}>
+                <Item sx={{ backgroundColor: "primary.light", height: '100%', minHeight:'400px'  }}>
                   <CardContent>
                     <Typography fontSize="large">
                       Auszubildende/r Koch/in
@@ -56,7 +56,7 @@ export default function EmtyGrid() {
               </Grid>
 
               <Grid xs={12} lg={6}>
-                <Item sx={{ backgroundColor: "primary.light", height: '100%' }}>
+                <Item sx={{ backgroundColor: "primary.light", height: '100%', minHeight:'400px'  }}>
                   <CardContent>
                     <Typography fontSize="large">
                       Koch/in oder Küchenhelfer/in
@@ -83,22 +83,22 @@ export default function EmtyGrid() {
                 />
               </CardActionArea>
             </Card>
-            <Grid container spacing={2} mt="10px">
-              <Grid xs={12} lg={6}>
-                <Item sx={{ backgroundColor: "primary.light", height: '100%' }}>
+            <Grid container spacing={2} mt="10px" >
+              <Grid xs={12} lg={6} >
+                <Item sx={{ backgroundColor: "primary.light", height: '100%', minHeight:'400px' }}>
                   <CardContent>
                     <Typography fontSize="large">
                       Auszubildende/r im Restaurantfach
                     </Typography>
                     <Typography sx={{ fontSize: { xs: 'small', xl: "xs" } }}>
-                      Wir suchen zum nächstmöglichen Zeitpunkt eine/n Auszubildende/n im Restaurantfach. Wichtig sind bei uns Teamfähigkeit und Freude an der Arbeit. Ein professionelles Service-Team erwartet Euch. Bewerbungen bitte schriftlich, am besten per Mail, an <br /><br />info@hof-und-gut.de.<br /><br />Bitte auch weitersagen…
+                      Wir suchen zum nächstmöglichen Zeitpunkt eine/n Auszubildende/n im Restaurantfach. Wichtig sind bei uns Teamfähigkeit und Freude an der Arbeit. Ein professionelles Service-Team erwartet Euch. Bewerbungen bitte schriftlich, am besten per Mail, an <br /><br /><br /><br />info@hof-und-gut.de.<br /><br />Bitte auch weitersagen…
                     </Typography>
                   </CardContent>
                 </Item>
               </Grid>
 
               <Grid xs={12} lg={6}>
-                <Item sx={{ backgroundColor: "primary.light", height: '100%' }}>
+                <Item sx={{ backgroundColor: "primary.light", height: '100%' , minHeight:'400px' }}>
                   <CardContent>
                     <Typography fontSize="large">
                       Servicekraft
