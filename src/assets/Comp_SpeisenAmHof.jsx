@@ -85,9 +85,7 @@ export default function Comp_SpeisenAmHof() {
 <Typography sx={{fontSize:'small'}}>falls "jetzt reservieren" nicht erscheint bitte neu laden</Typography>
 
           </Item>
-
         </Grid>
-        
         <Grid xs={12} lg={6} >
                 <Item sx={{backgroundColor:"primary.dark", height:'100%'}}> 
                 <CardMedia
