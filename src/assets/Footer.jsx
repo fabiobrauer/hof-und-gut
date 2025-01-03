@@ -34,6 +34,7 @@ export default function Footer() {
         <Typography sx={{fontSize:'md',fontWeight:'700'}}>Restaurant & Übernachtung</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Tel.: <a href="tel:04181 9199500">04181 9199500</a> </Typography>
+        <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>Mobil: <a href="tel: 0176 70671532"> 0176 70671532</a> </Typography>
    
  {/*        <Typography sx={{fontSize:'md',fontWeight:'700'}}>Büro</Typography>
         <Typography sx={{fontSize:{xs:'small', xl:"xs"}}}>E-Mail: <a href="mailto:">info@hof-und-gut.de</a></Typography>
