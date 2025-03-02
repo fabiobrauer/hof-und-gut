@@ -60,7 +60,7 @@ export default function Comp_SpeisenAmHof() {
                 </Box>
                 
 <Box>
-<a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-6.pdf?v=1735919750' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>                    
+<a href='https://cdn.shopify.com/s/files/1/0756/4568/2002/files/HuG_Karte-7_2.pdf?v=1740935225' /* download={'Speisekarte07.09.2023.pdf'} */><Button variant='contained' sx={{bgcolor:'secondary.main', m:'15px;'}} >Aktuelle Speisekarte</Button></a>                    
                     <script
                     type="text/javascript" 
                     data-resmio-button="hof-gut-jesteburg" 
