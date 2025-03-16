@@ -43,8 +43,8 @@ export default function Hoffest() {
             </Typography>
             <Typography sx={{ fontSize: { xs: 'small', xl: 'medium' } }}>
               Am 1. Mai und am 3. Oktober feiern wir Hoffest. Am Vorabend wird getanzt, entweder in den Mai oder im Oktober zünftig 
-              mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Hoffest findet am <b>3. Oktober 2024</b> statt und am 
-              <b>2. Oktober ab 19 Uhr</b> ist Oktoberfest mit Fassanstich, Blaskapelle und DJ. Um Euch einen Eindruck von unserem Hoffest 
+              mit Dirndl und Lederhos’n ins Oktoberfest. Das nächste Hoffest findet am <b>1. Mai 2025</b> statt und am 
+              <b> 30. April ab 19 Uhr</b> ist Tanz in den Mai mit DJ und Co. Um Euch einen Eindruck von unserem Hoffest 
               und etwas Vorfreude darauf zu verschaffen, hier ein kleiner Film auf YouTube:
             </Typography>
             <Button 
