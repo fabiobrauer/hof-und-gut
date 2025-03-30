@@ -97,7 +97,7 @@ export default function ÖkologischeLandwirtschaft() {
               Unsere Daten für die ökologische Bewirtschaftung:<br />
               Hof & Gut Jesteburg Agrar GmbH &Co KG<br />
               Betriebsnummer: 276033530200088<br />
-              ÖkokontrollNr. DE-NI-039-08263-
+              Kontrollstelle GfRS DE-NI- 039
             </Typography>
           </Item>
         </Grid>

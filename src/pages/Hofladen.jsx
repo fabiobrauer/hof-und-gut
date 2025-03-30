@@ -72,10 +72,10 @@ export default function Hofladen() {
         <Grid xs={12} lg={4} sx={{ p: '10px', display: 'flex' }}>
           <Item sx={{ backgroundColor: 'primary.dark', flexGrow: 1 }}>
             <Typography fontSize="large">
-              Verkauf von Rindfleisch aus ökologischer Haltung (Rindfleisch und Gänse)
+              Verkauf von Rindfleisch aus eigener Aufzucht und Haltung (Rindfleisch und Gänse)
             </Typography>
             <Typography sx={{ fontSize: { xs: 'small', xl: 'xs' } }}>
-              Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange der Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter info@hof-und-gut.de, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
+              Wir verkaufen in regelmäßigen Abständen Rindfleisch aus eigener Produktion. Es kann jeweils in 10- oder 20-kg-Paketen erworben werden (Preis 170,- bzw. 320,- Euro). Enthalten sind immer Rouladen, Hack, Braten, Gulasch, Beinscheibe, Suppenfleisch und Steaks. Außerdem können Sie bereits jetzt eine Weihnachtsgans 2024 bestellen, solange der Vorrat reicht! Bitte melden Sie sich bei Interesse gerne unter <a href='mailto:info@hof-und-gut.de'>info@hof-und-gut.de</a>, damit wir ein Paket Fleisch oder eine Gans für Sie reservieren!
             </Typography>
           </Item>
         </Grid>
